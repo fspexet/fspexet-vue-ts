@@ -1,15 +1,17 @@
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  height: 100%;
-}
-#main  {
+html, body, #app, #main{ min-height:100%; margin:0; }
+
+#main {
     width: 100%;
-//    background-image: url('http://papers.co/wallpaper/papers.co-aq83-nature-anime-art-sea-art-33-iphone6-wallpaper.jpg');
-    background-size: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+footer>h1{
+    margin:0;
 }
 .toplink {
     display: inline-block;
