@@ -9,7 +9,7 @@
     <router-link id="logo" to="/">
       <img id="logo-image" src="@/assets/logo.png">
     </router-link>
-    <router-link class="toplink" to>
+    <router-link class="toplink" to="/about-us">
       <h1>Om oss</h1>
     </router-link>
     <router-link class="toplink" to>
