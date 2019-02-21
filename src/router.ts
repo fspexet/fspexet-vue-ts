@@ -14,7 +14,7 @@ export default new Router({
       children: [
         {
           path: 'biljetter',
-          component: () => import('@/components/HelloWorld.vue'),
+          component: () => import('@/components/Tickets.vue'),
         },
         {
           path:'about-us',
@@ -30,6 +30,15 @@ export default new Router({
              },
           ],
         },
+        {
+          path: 'meny',
+          component: () => import('@/components/Menu.vue'),
+        },
+        {
+          path: 'kontakt',
+          component: () => import('@/components/Contact.vue'),
+        },
+
       ],
     },
   ],

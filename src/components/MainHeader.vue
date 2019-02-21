@@ -12,7 +12,7 @@
     <router-link class="toplink" to="/about-us">
       <h1>Om oss</h1>
     </router-link>
-    <router-link class="toplink" to>
+    <router-link class="toplink" to="/kontakt">
       <h1>Kontakt</h1>
     </router-link>
   </div>
