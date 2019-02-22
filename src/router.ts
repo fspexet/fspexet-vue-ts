@@ -13,7 +13,7 @@ export default new Router({
       component: Main,
       children: [
         {
-          path: 'biljetter',
+          path: 'tickets',
           component: () => import('@/components/Tickets.vue'),
         },
         {
@@ -31,11 +31,11 @@ export default new Router({
           ],
         },
         {
-          path: 'meny',
+          path: 'menu',
           component: () => import('@/components/Menu.vue'),
         },
         {
-          path: 'kontakt',
+          path: 'contact',
           component: () => import('@/components/Contact.vue'),
         },
 
