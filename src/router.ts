@@ -27,7 +27,7 @@ export default new Router({
             {
                 path:'groups',
                 component: () => import('@/components/Groups.vue'),
-             },
+            },
           ],
         },
         {
@@ -38,7 +38,6 @@ export default new Router({
           path: 'contact',
           component: () => import('@/components/Contact.vue'),
         },
-
       ],
     },
   ],
