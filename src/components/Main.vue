@@ -2,6 +2,9 @@
   <div id="main">
     <main-header/>
     <router-view></router-view>
+    <div class="contents">
+      <h1>Nyheter</h1>
+    </div>
     <main-footer/>
   </div>
 </template>
@@ -21,23 +24,17 @@ export default {
 </script>
 
 <style>
-  #contents{
+  .contents{
     background-color: gray;
     align-self: center;
-    margin: 5px;
+    margin:1%;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
   }
-
   body{
     background-color: black
   }
-  a:link,a:visited{
-    text-decoration: none;
-  }
-
   h1,h2,h3,p{
     color: white;   
   }
-  
 </style>

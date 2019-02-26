@@ -1,5 +1,5 @@
 <template>
-<div id="contents">
+<div class="contents">
         <h1> Biljetter </h1>
 
         <h2>Pris</h2>

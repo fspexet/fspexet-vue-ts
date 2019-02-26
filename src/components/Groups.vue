@@ -4,10 +4,11 @@
         <p class="bparagraph"> Lorem ipsum dolar lel </p> 
             <h2>Styret</h2>
             <p> 
-            Styret är de som ansvarar för att det överhuvudtaget blir ett F-spex. De sitter i otaliga lunchmöten för att planera, boka, styra, och se till att spexet fungerar och är roligt.
+            Styret är de som ansvarar för att det överhuvudtaget blir ett F-spex. 
+            De sitter i otaliga lunchmöten för att planera, boka, styra, och se till att spexet fungerar och är roligt.
             </p>
 
-                <h3> Orförande</h3>
+                <h3> Ordförande</h3>
                 <p>
                 För att hålla koll på allt och alla, även styret, krävs någon på toppen. Ordförande (också kallad Tant) leder styrets arbete.
                 </p>
