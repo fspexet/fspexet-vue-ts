@@ -17,16 +17,16 @@ export default new Router({
           component: () => import('@/components/Tickets.vue'),
         },
         {
-          path:'about-us',
+          path: 'about-us',
           component: () => import('@/components/AboutUs.vue'),
           children: [
-              {
-                path: '',
-                component: () => import('@/components/AboutUsDefault.vue'),
-              },
             {
-                path:'groups',
-                component: () => import('@/components/Groups.vue'),
+              path: '',
+              component: () => import('@/components/AboutUsDefault.vue'),
+            },
+            {
+              path: 'groups',
+              component: () => import('@/components/Groups.vue'),
             },
           ],
         },

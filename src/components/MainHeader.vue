@@ -1,5 +1,5 @@
 <template>
-<header>
+  <header>
     <div id="top">
       <router-link class="toplink" to="/tickets">
         <h1>Biljetter</h1>
@@ -21,15 +21,15 @@
 </template>
 
 <style scoped>
-  header{
-    width:max-content;
-    background-color: red;  
-    margin: 5px auto;
-  }
-    h1{
-    color: white;
-  }
-    a{
-    text-decoration: none;
-  }
+header {
+  width: max-content;
+  background-color: red;
+  margin: 5px auto;
+}
+h1 {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
 </style>
