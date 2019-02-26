@@ -2,9 +2,6 @@
   <div id="main">
     <main-header/>
     <router-view></router-view>
-    <div class="contents">
-      <h1>Nyheter</h1>
-    </div>
     <main-footer/>
   </div>
 </template>
@@ -24,6 +21,15 @@ export default {
 </script>
 
 <style>
+html{
+  position:relative; 
+  min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+  margin:0;
+  padding:0;
+}
   .contents{
     background-color: gray;
     align-self: center;
