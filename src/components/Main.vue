@@ -41,10 +41,7 @@ body {
 body {
   background-color: black;
 }
-h1,
-h2,
-h3,
-p {
+h1,h2,h3,p,ul{
   color: white;
 }
 </style>

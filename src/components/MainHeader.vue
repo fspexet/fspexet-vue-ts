@@ -23,13 +23,13 @@
 <style scoped>
 header {
   width: max-content;
-  background-color: red;
-  margin: 5px auto;
+  background-color: black;
+  margin: 10px auto;
 }
 h1 {
   color: white;
 }
-a {
+a{
   text-decoration: none;
 }
 </style>
