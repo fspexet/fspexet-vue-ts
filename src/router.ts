@@ -13,9 +13,32 @@ export default new Router({
       component: Main,
       children: [
         {
-          path: 'biljetter',
-          component: () => import('@/components/HelloWorld.vue'),
+          path: 'tickets',
+          component: () => import('@/components/Tickets.vue'),
         },
+        {
+          path:'about-us',
+          component: () => import('@/components/AboutUs.vue'),
+          children: [
+              {
+                path: '',
+                component: () => import('@/components/AboutUsDefault.vue'),
+              },
+            {
+                path:'groups',
+                component: () => import('@/components/Groups.vue'),
+             },
+          ],
+        },
+        {
+          path: 'menu',
+          component: () => import('@/components/Menu.vue'),
+        },
+        {
+          path: 'contact',
+          component: () => import('@/components/Contact.vue'),
+        },
+
       ],
     },
   ],
