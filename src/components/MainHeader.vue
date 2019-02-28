@@ -26,7 +26,7 @@ header {
   background-color: black;
   margin: 10px auto;
 }
-a{
+a {
   text-decoration: none;
 }
 </style>

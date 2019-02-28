@@ -22,7 +22,8 @@ export default {
 
 <style>
 /*Normalize html and body elements,this style is just good to have*/
-html,body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -35,13 +36,17 @@ body {
   background: black;
 }
 .contents {
-  background:url(../assets/marble_1.png); 
+  background: url(../assets/marble_1.png);
   margin: auto 4% auto 4%;
   padding: 10px 30px 10px 30px;
-box-shadow: inset 0 5px 50px rgba(0,0,0,0.5), /*bottom internal shadow*/
-inset 0 30px 85px rgba(0,0,0,1); /*top internal highlight*/
+  box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
+    /*bottom internal shadow*/ inset 0 30px 85px rgba(0, 0, 0, 1); /*top internal highlight*/
 }
-h1,h2,h3,p,ul{
+h1,
+h2,
+h3,
+p,
+ul {
   color: white;
 }
 </style>
