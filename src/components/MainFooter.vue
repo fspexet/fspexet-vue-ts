@@ -1,6 +1,6 @@
 <template>
     <footer>
-      <h1>This is a footer,and now its gaining in length and losing typing strength</h1>
+      <h1>text</h1>
     </footer>
 </template>
 
@@ -8,6 +8,6 @@
 footer {
   margin-top: auto;
   margin-bottom: 0;
-  background: red;
+  background:url("marble_1.png");
 }
 </style>
