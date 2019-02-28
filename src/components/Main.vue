@@ -31,12 +31,11 @@ html {
   min-height: 100%;
 }
 body {
-  background-color: black;
-  /*  background-image: url("beach.jpg");*/
+  /* background: url(../assets/beach.jpg); */
+  background: black;
 }
 .contents {
-  background-image: url("marble_1.png");
-  background-color: gray;
+  background:url(../assets/marble_1.png); 
   margin: auto 4% auto 4%;
   padding: 10px 30px 10px 30px;
 box-shadow: inset 0 5px 50px rgba(0,0,0,0.5), /*bottom internal shadow*/
