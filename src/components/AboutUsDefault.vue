@@ -55,8 +55,7 @@
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
+a{
   font-weight: bold;
 }
 

@@ -1,7 +1,9 @@
 <template>
   <div id="main">
     <main-header/>
-    <router-view></router-view>
+    <div class="main">
+      <router-view></router-view>
+    </div>
     <main-footer/>
   </div>
 </template>
@@ -35,18 +37,22 @@ body {
   /* background: url(../assets/beach.jpg); */
   background: black;
 }
-.contents {
+.main {
   background: url(../assets/marble_1.png);
-  margin: auto 4% auto 4%;
   padding: 10px 30px 10px 30px;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
     /*bottom internal shadow*/ inset 0 30px 85px rgba(0, 0, 0, 1); /*top internal highlight*/
 }
-h1,
-h2,
-h3,
-p,
-ul {
+.contents {
+  width: 60%;
+  margin: auto;
+}
+
+h1,h2,h3,h4,p,ul {
   color: white;
+}
+
+a {
+  color: gold;
 }
 </style>

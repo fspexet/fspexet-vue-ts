@@ -13,6 +13,10 @@ export default new Router({
       component: Main,
       children: [
         {
+          path: '',
+          component: () => import('@/components/News.vue'),
+        },
+        {
           path: 'tickets',
           component: () => import('@/components/Tickets.vue'),
         },

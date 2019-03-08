@@ -26,7 +26,13 @@ header {
   background-color: black;
   margin: 10px auto;
 }
-a {
+a.toplink{
+  margin-right: 3px;
   text-decoration: none;
+
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
 }
 </style>
