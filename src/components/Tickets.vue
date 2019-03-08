@@ -62,7 +62,10 @@
       <h3 class="depth">Internet</h3>
       <p>
         Du kan även köpa biljetter helt utan att röra dig hemifrån!
-        bara svara på formuläret nedan eller i <a href="https://docs.google.com/forms/d/e/1FAIpQLSdG1OnhW4AXTZ5wuGrbRatd9G8NaKJGmM96dH0z0vHcrl-90g/viewform?usp=sf_link">den här länken</a> med följande information:
+        bara svara på formuläret nedan eller i
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdG1OnhW4AXTZ5wuGrbRatd9G8NaKJGmM96dH0z0vHcrl-90g/viewform?usp=sf_link"
+        >den här länken</a> med följande information:
       </p>
       <ul>
         <li>Vilken föreställning ni vill se</li>
@@ -72,11 +75,18 @@
       </ul>
       <p>
         Så borde ni snart få en mejl om hur ni betalar för att bekräfta er plats. Om ni har frågor kan ni mejla
-        <a href="mailto:biljetter@f-spexet.se">
+        <a
+          href="mailto:biljetter@f-spexet.se"
+        >
           <b>Biljetter@f-spexet.se</b>
         </a>
       </p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG1OnhW4AXTZ5wuGrbRatd9G8NaKJGmM96dH0z0vHcrl-90g/viewform?embedded=true" width="640" height="1469" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdG1OnhW4AXTZ5wuGrbRatd9G8NaKJGmM96dH0z0vHcrl-90g/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >Loading...</iframe>
     </div>
   </div>
 </template>
@@ -84,7 +94,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Tickets',
+    title: 'Biljetter',
   },
 };
 </script>
@@ -98,6 +108,10 @@ export default {
 p,
 h3 {
   padding-left: 10px;
+}
+iframe {
+  width: 100%;
+  height: 500px;
 }
 
 .bparagraph {

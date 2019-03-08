@@ -4,6 +4,14 @@
   </div>
 </template>
 
+<script lang="ts">
+export default {
+  metaInfo: {
+    title: 'Tidigare Spex',
+  },
+};
+</script>
+
 <style>
 .obs {
   color: red;

@@ -18,6 +18,8 @@
     <router-link to="/tickets">
       <button>Biljett</button>
     </router-link>
+    <p>Ni får även ett försök till att gissa på rebusen nu när ni vet årets tema, kan ni förstå hur nu när ni vet svaret?</p>
+    <img src="../assets/ökenrebus.png" alt="">
   </div>
 </template>
 
@@ -26,4 +28,13 @@
   font-size: 20px;
   text-decoration: ivory;
 }
+
+button{
+  font-size: 20px;
+}
+
+img{
+  width: 100%;
+}
+
 </style>

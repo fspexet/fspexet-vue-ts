@@ -24,6 +24,10 @@ export default {
 
 <style>
 /*Normalize html and body elements,this style is just good to have*/
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -34,11 +38,10 @@ html {
   min-height: 100%;
 }
 body {
-  /* background: url(../assets/beach.jpg); */
   background: black;
 }
 .main {
-  background: url(../assets/marble_1.png);
+  background: url(../assets/marble_1_seam.png);
   padding: 10px 30px 10px 30px;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
     /*bottom internal shadow*/ inset 0 30px 85px rgba(0, 0, 0, 1); /*top internal highlight*/
@@ -46,13 +49,32 @@ body {
 .contents {
   width: 60%;
   margin: auto;
+  min-width: 300px;
 }
 
-h1,h2,h3,h4,p,ul {
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
   color: white;
+}
+
+h1{
+  font-family:
+Brush Script MT, Brush Script Std, cursive
+;
+
 }
 
 a {
   color: gold;
+}
+
+@media screen and (max-width: 600px) {
+  .contents {
+    /* width: 95%; */
+  }
 }
 </style>

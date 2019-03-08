@@ -48,7 +48,7 @@
       </a>
     </p>
 
-    <h3>Hemside pro blem?</h3>
+    <h3>Hemside problem?</h3>
     <p><a href="mailto:media@f-spexet.se">
         <b>media@f-spexet.se</b>
       </a>
@@ -56,3 +56,10 @@
 
     </div>
 </template>
+<script lang="ts">
+export default {
+  metaInfo: {
+    title: 'Kontakta Oss',
+  },
+};
+</script>

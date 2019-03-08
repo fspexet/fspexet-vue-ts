@@ -7,7 +7,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'About us',
+    title: 'Om oss',
   },
 };
 </script>

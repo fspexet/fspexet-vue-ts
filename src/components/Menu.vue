@@ -2,10 +2,9 @@
   <div class="contents">
     <div id="meny">
       <h1>Menyn</h1>
-      <p class="bparagraph">
-        Vissa gillar att veta vad som serveras. Är du en av dem?
-        då presenterar vi våran meny här nedan
-      </p>
+      <p
+        class="bparagraph"
+      >Ibland gillar man att veta vad man äter. Därför presenterar vi våran meny här nedanför.</p>
 
       <h3>Förrätt</h3>
       <p>Soppa gjord på blodet från ett flertal tomater.</p>
@@ -14,7 +13,7 @@
       <p>Död ugnsstekt kyckling med ännu dödare rotfrukter</p>
 
       <h3>Efterrätt</h3>
-      <p>Chokoladkaka begravd i chokolad kaka</p>
+      <p>Chokolad begraven i en kaka.</p>
     </div>
 
     <hr>
@@ -25,6 +24,24 @@
   </div>
 </template>
 
+<script lang="ts">
+export default {
+  metaInfo: {
+    title: 'Meny',
+  },
+};
+</script>
 
 <style scoped>
+h1 {
+  margin-bottom: 10px;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 00px;
+}
+p {
+  margin-top: 00px;
+  margin-bottom: 20px;
+}
 </style>

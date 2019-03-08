@@ -26,13 +26,15 @@ header {
   background-color: black;
   margin: 10px auto;
 }
-a.toplink{
+a.toplink {
   margin-right: 3px;
   text-decoration: none;
-
 }
-a:hover{
+a:hover {
   color: white;
   text-decoration: underline;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
 }
 </style>
