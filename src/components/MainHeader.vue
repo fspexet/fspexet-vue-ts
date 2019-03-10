@@ -26,7 +26,29 @@ header {
   background-color: black;
   margin: 10px auto;
 }
-a.toplink {
+
+@media screen and (max-width : 600px) {
+  header{
+    width: 100%;
+  }
+  #top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  a.toplink{
+    box-sizing: border-box;
+    position: relative;
+    order: 2;
+  }
+  #logo:nth-child(3){
+    flex: 0 0 100%;
+    order: 1;
+  }
+
+
+}
+a.toplink{
   margin-right: 3px;
   text-decoration: none;
 }
