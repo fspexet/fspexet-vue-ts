@@ -62,7 +62,7 @@
       <h3 class="depth">Internet</h3>
       <p>
         Du kan även köpa biljetter helt utan att röra dig hemifrån!
-        bara svara på formuläret nedan eller i
+        Bara svara på formuläret nedan eller i
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdG1OnhW4AXTZ5wuGrbRatd9G8NaKJGmM96dH0z0vHcrl-90g/viewform?usp=sf_link"
         >den här länken</a> med följande information:
@@ -70,7 +70,7 @@
       <ul>
         <li>Vilken föreställning ni vill se</li>
         <li>Namn på alla i sällskapet</li>
-        <li>Vilken biljett-kategori som gäller för varje person (Nollan, student, övrig)</li>
+        <li>Vilken biljett-kategori som gäller för varje person (<!--nollan,  -->student, övrig)</li>
         <li>Eventuella allergier och matpreferenser</li>
       </ul>
       <p>

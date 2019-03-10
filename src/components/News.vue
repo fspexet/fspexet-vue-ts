@@ -14,7 +14,7 @@
         <br>Vad kan hända om Döden tar semester?
       </i>
     </p>
-    <p>Nu är temat släppt och det är lite mindre än en månad kvar till första föreställning. Om du är intresserad av att skaffa biljett så kan du klicka på biljett knappen och börja din färd på en fantastisk underjords resa</p>
+    <p>Nu är temat släppt och det är lite mindre än en månad kvar till första föreställning. Om du är intresserad av att skaffa biljett så kan du klicka på biljettknappen och börja din färd på en fantastisk underjordsresa</p>
     <router-link to="/tickets">
       <button>Biljett</button>
     </router-link>

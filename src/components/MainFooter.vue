@@ -50,12 +50,11 @@ h1 {
 
 .content {
   border-radius: 30px;
-  height: 40px;
   width: 20%;
   margin: 10px;
-  min-height: 250px;
   min-width: 250px;
-  padding: 10px 20px;
+  padding: 10px 20px;  
+  padding-bottom: 10px;
   background-color: #0a0a0a;
 }
 
