@@ -35,15 +35,22 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
   }
   a.toplink{
-    box-sizing: border-box;
     position: relative;
+    flex: 1 1 30%;
     order: 2;
+    flex-shrink: 5;
+
   }
   #logo:nth-child(3){
     flex: 0 0 100%;
     order: 1;
+  }
+  h1 {
+    text-decoration: underline;
+
   }
 
 
