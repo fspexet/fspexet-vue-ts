@@ -35,7 +35,7 @@ footer {
 #box {
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   flex-direction: row;
   justify-content: center;
 }
@@ -55,7 +55,7 @@ h1 {
   min-width: 250px;
   padding: 10px 20px;  
   padding-bottom: 10px;
-  background-color: #0a0a0a;
+  background-color: #151515;
 }
 
 h2,

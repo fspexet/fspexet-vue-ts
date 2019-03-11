@@ -40,7 +40,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 00px;
 }
-p {
+h3+p {
   margin-top: 00px;
   margin-bottom: 20px;
 }

@@ -17,7 +17,7 @@ export default {
     'main-footer': Footer,
   },
   metaInfo: {
-    title: 'Home',
+    title: 'F-spexet',
   },
 };
 </script>
@@ -43,13 +43,15 @@ body {
 .main {
   background: url(../assets/marble_1_seam.png);
   padding: 10px 30px 10px 30px;
+  width: 100%;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
-    /*bottom internal shadow*/ inset 0 30px 85px rgba(0, 0, 0, 1); /*top internal highlight*/
+    /*bottom internal shadow*/ inset 0 20px 85px rgba(0, 0, 0, 1); /*top internal highlight*/
 }
 .contents {
   width: 60%;
   margin: auto;
-  min-width: 300px;
+  min-width: 280px;
+  max-width: 700px;
 }
 
 h1,
@@ -61,20 +63,18 @@ ul {
   color: white;
 }
 
-h1{
-  font-family:
-Brush Script MT, Brush Script Std, cursive
-;
-
+div > h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 a {
   color: gold;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 375px) {
   .contents {
-    /* width: 95%; */
+    /* background-color: red; */
   }
 }
 </style>

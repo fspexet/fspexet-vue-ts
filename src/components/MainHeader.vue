@@ -7,8 +7,8 @@
       <router-link class="toplink" to="/menu">
         <h1>Meny</h1>
       </router-link>
-      <router-link id="logo" to="/">
-        <img id="logo-image" src="@/assets/logo.png">
+      <router-link class="toplink" id="logo" to="/">
+        <img id="logo-image" src="@/assets/logo.png" alt="loggan för f-spexet 2019">
       </router-link>
       <router-link class="toplink" to="/about-us">
         <h1>Om oss</h1>
@@ -24,38 +24,43 @@
 header {
   width: max-content;
   background-color: black;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
-@media screen and (max-width : 600px) {
-  header{
+@media screen and (max-width: 800px) {
+  header {
     width: 100%;
+    height: 100%;
   }
   #top {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
+    justify-content: center;
   }
-  a.toplink{
+  a.toplink {
     position: relative;
-    flex: 1 1 30%;
-    order: 2;
+    order: 3;
+    xflex: 1 1 30%;
     flex-shrink: 5;
-
   }
-  #logo:nth-child(3){
+  #logo:nth-child(3) {
     flex: 0 0 100%;
     order: 1;
-  }
+    justify-self: auto;
+    }
   h1 {
     text-decoration: underline;
-
   }
-
-
+  img {
+    width: 100%;
+    height: 100%;
+    /* max-width: 256px; */
+    /* max-height: 350px; */
+  }
 }
-a.toplink{
+
+a.toplink {
   margin-right: 3px;
   text-decoration: none;
 }
@@ -63,7 +68,5 @@ a:hover {
   color: white;
   text-decoration: underline;
 }
-h1 {
-  font-family: 'Times New Roman', Times, serif;
-}
+
 </style>

@@ -32,6 +32,10 @@ export default new Router({
               path: 'groups',
               component: () => import('@/components/Groups.vue'),
             },
+            {
+              path: 'history',
+              component: () => import('@/components/History.vue'),
+            },
           ],
         },
         {
