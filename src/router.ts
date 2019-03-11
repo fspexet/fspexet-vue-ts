@@ -13,6 +13,10 @@ export default new Router({
       component: Main,
       children: [
         {
+          path: '',
+          component: () => import('@/components/News.vue'),
+        },
+        {
           path: 'tickets',
           component: () => import('@/components/Tickets.vue'),
         },
@@ -27,6 +31,10 @@ export default new Router({
             {
               path: 'groups',
               component: () => import('@/components/Groups.vue'),
+            },
+            {
+              path: 'history',
+              component: () => import('@/components/History.vue'),
             },
           ],
         },

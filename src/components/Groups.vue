@@ -129,6 +129,14 @@
   </div>
 </template>
 
+<script lang="ts">
+export default {
+  metaInfo: {
+    title: 'Poster',
+  },
+};
+</script>
+
 <style scoped>
 .bparagraph {
   font-size: 20px;
