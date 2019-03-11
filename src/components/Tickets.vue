@@ -8,7 +8,7 @@
     <hr>
 
     <div id="viktigt">
-      <h2>Viktigt</h2>
+      <h2>Datum</h2>
       <p>Vi har föreställning följande datum</p>
       <ul>
         <li>Måndag 2019-04-01 kl 18:00 Premiär</li>
@@ -58,7 +58,7 @@
     <div id="försäljning">
       <h2>Försäljningsplats</h2>
       <h3 class="depth">Biljettbåset</h3>
-      <p>I ett svart bås på Teknologgården (utanför Chalmers kårhus på Johanneberg) kommer det under lunchtid att säljas biljetter närmare föreställningarna. Där kan du betala kontant eller med Swish.</p>
+      <p>I ett svart bås på Teknologgården (utanför Chalmers kårhus på Johanneberg) kommer det under lunchtid att säljas biljetter närmare föreställningarna. Där kan du betala kontant eller med kort.</p>
       <h3 class="depth">Internet</h3>
       <p>
         Du kan även köpa biljetter helt utan att röra dig hemifrån!
