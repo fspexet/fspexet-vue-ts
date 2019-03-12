@@ -24,8 +24,8 @@
     <h2>Styret</h2>
 
     <h3>Ordförande</h3>
-    <p>Oscar Carlsson <a href="mailto:orforande@f-spexet.se">
-        <b>orforande@f-spexet.se</b>
+    <p>Oscar Carlsson <a href="mailto:ordforande@f-spexet.se">
+        <b>ordforande@f-spexet.se</b>
       </a>
     </p>
 

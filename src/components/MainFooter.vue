@@ -8,9 +8,7 @@
         <p>Kalle Glader,
           <br>Hugo Grauers gata 4A
         </p>
-        <button>
           <a href="https://goo.gl/maps/bUjXVzHU9sm">Google maps</a>
-        </button>
       </div>
       <div class="content" id="wiki">
         <h2>Länkar</h2>
