@@ -14,13 +14,23 @@
         <br>Vad kan hända om Döden tar semester?
       </i>
     </p>
-    <p>Nu är temat släppt och det är lite mindre än en månad kvar till första föreställning. 
-      Om du är intresserad av att skaffa biljett så kan du klicka på biljettknappen och börja din färd på en fantastisk underjordsresa</p>
-    <router-link to="/tickets">
-      <button>Biljett</button>
-    </router-link>
-    <p>Ni får även ett försök till att gissa på rebusen nu när ni vet årets tema, kan ni förstå hur nu när ni vet svaret?</p>
-    <img src="../assets/ökenrebus.png" alt="">
+
+    <br>
+
+    <div id="news1">
+      <p>
+        Nu är temat släppt och det är lite mindre än en månad kvar till första föreställning.
+        Om du är intresserad av att se på föreställningen så kan du klicka på biljettknappen och börja din färd till en fantastisk underjordsresa
+      </p>
+      <router-link to="/tickets">
+        <button>Biljett</button>
+      </router-link>
+      <p>
+        Du får även ett försök till att gissa på rebusen nu när du vet årets tema, kan ni förstå hur det hänger ihop nu när du vet svaret?
+        Vi kommer ladda upp lösningen vid slutet av veckan.
+      </p>
+      <img src="../assets/ökenrebus.png" alt>
+    </div>
   </div>
 </template>
 
@@ -30,12 +40,15 @@
   text-decoration: ivory;
 }
 
-button{
+button {
   font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -1px 1px #666,
+    /*top external shadow*/ inset 0 -1px 1px rgba(0, 0, 0, 0.5),
+    /*bottom internal shadow*/ inset 0 1px 1px rgba(255, 255, 255, 0.8); /*top internal highlight*/
 }
 
-img{
+img {
   width: 100%;
 }
-
 </style>

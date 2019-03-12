@@ -13,14 +13,16 @@
         </button>
       </div>
       <div class="content" id="wiki">
-        <h2>Till Wikin</h2>
-        <button>
-          <a href="https://wiki.f-spexet.se/">wiki.f-spexet.se</a>
-        </button>
+        <h2>Länkar</h2>
+          <a href="https://wiki.f-spexet.se/">Wikin</a>
+          <br>
+          <a href="https://www.facebook.com/FSpexet">Facebook</a>
       </div>
     </div>
   </footer>
 </template>
+
+
 
 <style scoped>
 footer {
@@ -40,7 +42,7 @@ footer {
   justify-content: center;
 }
 
-a {
+button a {
   color: black;
 }
 

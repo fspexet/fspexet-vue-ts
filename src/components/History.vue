@@ -4,9 +4,9 @@
     <div>
       <h4>Cecilia Vasa (2018)</h4>
       <p>
-        Gustav Vasas dotter Cecilia behöver skaffa sig ett jobb så hon går och blir rik skapare. 
+        Gustav Vasas dotter Cecilia tvingas skaffa sig ett jobb så hon går och blir rik skapare. 
         Ursäkta jag menade rikskapare ett yrke mer välkänt som pirat. 
-        Medan hon gett sig iväg på äventyr så sätter hennes far upp et giftermål med hennes bror Erik och drottningen av England. 
+        Medan hon gett sig iväg på äventyr så sätter hennes far upp ett giftermål med hennes bror Erik och drottningen av England. 
         En spännande berättelse som slutade med ärtsoppa.
       </p>
       <hr>

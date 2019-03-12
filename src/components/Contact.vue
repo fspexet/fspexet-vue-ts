@@ -3,7 +3,7 @@
     <h1>Kontakta oss</h1>
     <p><b> Nu är det ju så att det kan finnas några som vill ha tag i spexarna. 
     Ett alternativ är ju då att ställa sig på lämpligt ställe i fysikhuset och ropa, 
-    men du har nog mer framgång med någon av dessa mail adresser.
+    men du har nog mer framgång med någon av våra mail adresser.
     </b></p>
 
     <h3>Biljettfrågor</h3>
@@ -48,7 +48,7 @@
       </a>
     </p>
 
-    <h3>Hemside problem?</h3>
+    <h3>Problem med hemsidan?</h3>
     <p><a href="mailto:media@f-spexet.se">
         <b>media@f-spexet.se</b>
       </a>
