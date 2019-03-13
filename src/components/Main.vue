@@ -64,7 +64,7 @@ ul {
 }
 
 div > h1 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: Brush Script MT, Brush Script Std, 'Times New Roman', Times, serif;
 }
 
 a {

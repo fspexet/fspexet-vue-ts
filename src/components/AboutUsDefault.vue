@@ -12,7 +12,7 @@
     <h2>Mat och dryck</h2>
     <p>
       I middagen ingår förrätt, huvudrätt och efterrätt.
-      Vi bjuder på vatten och har en välfylld bar där vi säljer allt från läsk och mineralvatten.
+      Vi bjuder på vatten och har en välfylld bar där vi säljer allt från läsk och mineralvatten till våra fantastiska drinkar.
       Vill man ha alkohol får man ta med det själv.
     </p>
     <p>
