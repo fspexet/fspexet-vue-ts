@@ -9,12 +9,12 @@
 
     <div id="viktigt">
       <h2>Datum</h2>
-      <p>Vi har föreställning följande datum</p>
+      <p>Vi har föreställningar på följande datum</p>
       <ul>
         <li>Måndag 2019-04-01 kl 18:00 Premiär</li>
         <li>Tisdag 2019-04-02 kl 18:00</li>
         <li>Torsdag 2019-04-04 kl 18:00</li>
-        <li>Fredag 2019-04-05 kl 18:00</li>
+        <li class="obs">Fredag 2019-04-05 kl 18:00 - SLUTSÅLD</li>
         <li>Lördag 2019-04-06 kl 17:00 Busk</li>
       </ul>
     </div>
