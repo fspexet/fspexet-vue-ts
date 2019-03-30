@@ -2,22 +2,35 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr>
-    <h2>3...2...1... DRA IGÅNG</h2>
-    <p id="intro">
-      <i>
-        Är ni trötta på allt pappersarbete och skulle behöva semester?
-        <br>Hade livet känns enklare med en assistent? Döden känner precis likadant, och ikväll kommer ni att få se hur det går
-        när Döden skaffar sig en hjälpreda för att sortera alla själar i
-        Dödsriket.
-        <br>
-        <br>Kan en människa klara av Dödens jobb?
-        <br>Vad kan hända om Döden tar semester?
-      </i>
-    </p>
 
-    <br>
+    <div id="news2">
+      <h2>Lösning</h2>
+      <p>
+        Kort förklaring av rebusen.
+        <br>Om du summerar alla bokstäver i de stora bilderna som inte har kryss över sig (nödlandning, rök och öken)
+        och sedan drar bort dem bokstäver som finns i de kryssade bilderna(king, lan, örn och kön) så har du kvar bokstäverna d d e n ö.
+        Sen följer man instruktionerna på den lilla pilen i hörnet och kastar om dem så kan du bilda ordet Döden.
+      </p>
+    </div>
 
+    Ta bokstäverna i nödlandning, rök och öken.
+    Ta bort bokstäverna i king, lan, örn och kön
     <div id="news1">
+      <h2>3...2...1... DRA IGÅNG</h2>
+      <p id="intro">
+        <i>
+          Är ni trötta på allt pappersarbete och skulle behöva semester?
+          <br>Hade livet känns enklare med en assistent? Döden känner precis likadant, och ikväll kommer ni att få se hur det går
+          när Döden skaffar sig en hjälpreda för att sortera alla själar i
+          Dödsriket.
+          <br>
+          <br>Kan en människa klara av Dödens jobb?
+          <br>Vad kan hända om Döden tar semester?
+        </i>
+      </p>
+
+      <br>
+
       <p>
         Nu är temat släppt och det är lite mindre än en månad kvar till första föreställning.
         Om du är intresserad av att se på föreställningen så kan du klicka på biljettknappen och börja din färd till en fantastisk underjordsresa

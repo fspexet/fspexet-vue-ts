@@ -10,10 +10,13 @@
       <p>Soppa gjord på blodet från ett flertal tomater.</p>
 
       <h3>Huvudrätt</h3>
-      <p>Död ugnsstekt kyckling med ännu dödare ugnsbakade rotfrukter</p>
+      <p>Död ugnsstekt kyckling med ännu dödare ugnsbakade rotfrukter. Serveras tillsammans med en vitvinsås blekare än döden själv.</p>
 
       <h3>Efterrätt</h3>
       <p>Chokolad begraven i en kaka.</p>
+
+      <h3>Alternativ kost</h3>
+      <p>Vi serverar självklart kost till vegetarianer samt andra preferenser eller allergianpassning. </p>
     </div>
 
     <hr>
