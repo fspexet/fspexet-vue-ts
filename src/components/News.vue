@@ -13,8 +13,8 @@
       </p>
     </div>
 
-    Ta bokstäverna i nödlandning, rök och öken.
-    Ta bort bokstäverna i king, lan, örn och kön
+<hr>
+
     <div id="news1">
       <h2>3...2...1... DRA IGÅNG</h2>
       <p id="intro">
