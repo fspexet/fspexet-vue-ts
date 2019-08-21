@@ -5,10 +5,10 @@
     <div id="box">
       <div class="content" id="plats">
         <h2>Var?</h2>
-        <p>Kalle Glader,
-          <br>Hugo Grauers gata 4A
+        <p>Sektionslokalen Focus,
+          <br>Kemivägen 11, 412 58 Göteborg
         </p>
-          <a href="https://goo.gl/maps/bUjXVzHU9sm">Google maps</a>
+          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>
       </div>
       <div class="content" id="wiki">
         <h2>Länkar</h2>
