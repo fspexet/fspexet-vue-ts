@@ -2,6 +2,14 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr>
+    <div id="news3">
+      <h2>Vi är tillbaka</h2>
+      <p>
+        Sommaren är slut och vi är tillbaka med vår andra uppställning av "F-spexet 2019, Döden". <br>
+      </p>
+    </div>
+
+    <hr>
 
     <div id="news2">
       <h2>Lösning</h2>
@@ -13,7 +21,7 @@
       </p>
     </div>
 
-<hr>
+  <hr>
 
     <div id="news1">
       <h2>3...2...1... DRA IGÅNG</h2>
