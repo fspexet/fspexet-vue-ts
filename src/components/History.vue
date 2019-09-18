@@ -2,6 +2,12 @@
   <div class="contents">
     <h1>Tidigare F-Spex</h1>
     <div>
+      <h4>Döden (2019)</h4>
+      <p>
+        Robert Oppenheimer dör och får äran att se hur kontorsarbetet ser ut i efterlivet.
+      </p>
+      <hr>
+    </div><div>
       <h4>Cecilia Vasa (2018)</h4>
       <p>
         Gustav Vasas dotter Cecilia tvingas skaffa sig ett jobb så hon går och blir rik skapare. 

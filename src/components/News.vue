@@ -2,6 +2,37 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr>
+    <div id="news4">
+      <h2>Spexets nästa återuppståndelse</h2>
+      <p>
+        Vi har nu haft vår sista föreställning för det här året. Det var ett fantastiskt år men någon gång 
+        måste det ta stopp. Men för att kunna återuppstå till nästa år behöver vi nya medlemmar så kom på något av våra 
+        Asptillfällen där du kan göra något roligt lära dig hur F-spexet går till.<br>
+      </p>
+      <p>
+
+      <ul>
+        <li>Kanelbullkväll Onsdag 2019-09-18 kl 17:15 på Focus</li>
+        Kom ät kanelbullar och fråga erfarna spexare vad de gör, när de gör, hur de gör eller vad du nu kan tänka dig. 
+        Kanske du hittar något du inte anar du var intressead av.
+        <br><br>
+        <li>Aspexpressen Lördag 2019-09-21 kl 13:00 i Signes </li>
+        En komprimering av ett spexår ner till en eftermiddag, känn på hur det verkligen upplevs att spexa. 
+        <br><br>
+        <li>Spelkväll Måndag 2019-09-23 kl 17:15 </li>
+        Häng med oss och spela brädspel.  
+        <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
+      </ul>
+      Om du har tid att gå på något av våra asptillfällen men vill söka ändå så kan du även skicka maill till <a
+          href="mailto:JagVill@f-spexet.se"
+        >
+          <b>JagVill@f-spexet.se</b>
+        </a>
+        med information om vad du känner för att söka så får du snart mer information.
+      </p>
+    </div>
+    
+    <hr>
     <div id="news3">
       <h2>Vi är tillbaka</h2>
       <p>
