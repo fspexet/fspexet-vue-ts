@@ -22,11 +22,12 @@
         <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
       </ul>
       Om du har tid att gå på något av våra asptillfällen men vill söka ändå så kan du även skicka mail till <a
-          href="mailto:JagVill@f-spexet.se"
+          href="mailto:Kollegium@f-spexet.se"
         >
-          <b>JagVill@f-spexet.se</b>
+          <b>Kollegium@f-spexet.se</b>
         </a>
-        med information om vad du vill söka så får du snart svar med information.
+        med information om vad du vill söka så får du snart svar med information. Det går även att läsa om vad olika poster gör om du går 
+        in på "Om oss" och sedan klickar "poster i f-spexet"
       </p>
     </div>
     
