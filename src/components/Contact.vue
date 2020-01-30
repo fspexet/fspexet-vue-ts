@@ -7,14 +7,13 @@
     </b></p>
 
     <h3>Biljettfrågor</h3>
-    <p>Fredrik Åberg <a href="mailto:kassor@f-spexet.se">
+    <p>Ebba Grönfors <br><a href="mailto:kassor@f-spexet.se">
         <b>kassor@f-spexet.se</b>
       </a>
     </p>
 
     <h3>Porslin eller annan uthyrning</h3>
-    <p>
-      <a href="mailto:skyddsrumet@f-spexet.se">
+    <p><a href="mailto:skyddsrumet@f-spexet.se">
         <b>skyddsrumet@f-spexet.se</b>
       </a>
     </p>
@@ -24,26 +23,25 @@
     <h2>Styret</h2>
 
     <h3>Ordförande</h3>
-    <p>Oscar Carlsson <a href="mailto:ordforande@f-spexet.se">
+    <p>Beatriz bento Hansson \nbsp <br><a href="mailto:ordforande@f-spexet.se">
         <b>ordforande@f-spexet.se</b>
       </a>
     </p>
 
     <h3>Förman</h3>
-    <p>Anna Romeborn <a href="mailto:forman@f-spexet.se">
+    <p>Fredrik Albers<br><a href="mailto:forman@f-spexet.se">
         <b>forman@f-spexet.se</b>
       </a>
     </p>
 
     <h3>Kassör</h3>
-    <p>Fredrik Åberg <a href="mailto:kassor@f-spexet.se">
+    <p>Ebba Grönfors<br><a href="mailto:kassor@f-spexet.se">
         <b>kassor@f-spexet.se</b>
       </a>
     </p>
 
     <h3>Osäker på vem? Kontakta hela styret</h3>
-    <p>
-      <a href="mailto:styret@f-spexet.se">
+    <p><a href="mailto:styret@f-spexet.se">
         <b>styret@f-spexet.se</b>
       </a>
     </p>

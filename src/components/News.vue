@@ -51,7 +51,7 @@
       </p>
     </div>
 
-  <hr>
+    <hr>
 
     <div id="news1">
       <h2>3...2...1... DRA IGÅNG</h2>
