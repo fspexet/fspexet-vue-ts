@@ -7,7 +7,7 @@
     </b></p>
 
     <h3>Biljettfrågor</h3>
-    <p>Fredrik Åberg <a href="mailto:kassor@f-spexet.se">
+    <p>Ebba Grönfors <br> <a href="mailto:kassor@f-spexet.se">
         <b>kassor@f-spexet.se</b>
       </a>
     </p>
@@ -24,19 +24,19 @@
     <h2>Styret</h2>
 
     <h3>Ordförande</h3>
-    <p>Oscar Carlsson <a href="mailto:ordforande@f-spexet.se">
+    <p>Beatriz Hansson<br> <a href="mailto:ordforande@f-spexet.se">
         <b>ordforande@f-spexet.se</b>
       </a>
     </p>
 
     <h3>Förman</h3>
-    <p>Anna Romeborn <a href="mailto:forman@f-spexet.se">
+    <p>Fredrik Albers<br><a href="mailto:forman@f-spexet.se">
         <b>forman@f-spexet.se</b>
       </a>
     </p>
 
     <h3>Kassör</h3>
-    <p>Fredrik Åberg <a href="mailto:kassor@f-spexet.se">
+    <p>Ebba Grönfors <br> <a href="mailto:kassor@f-spexet.se">
         <b>kassor@f-spexet.se</b>
       </a>
     </p>

@@ -1,59 +1,52 @@
 <template>
   <div class="contents">
     <h1>Nyheter</h1>
-    <hr>
-    <div id="news4">
-      <h2>Spexets nästa återuppståndelse</h2>
-      <p>
-        Vi har nu haft vår sista föreställning för det här året. Det var ett fantastiskt år men någon gång 
-        måste det ta stopp. Men för att kunna återuppstå till nästa år behöver vi nya medlemmar så kom på något av våra 
-        Asptillfällen där du kan göra något roligt lära dig hur F-spexet går till.<br>
+    <div id="news-5">
+      <h2>Spexets sommarvisa</h2>
+        <p>
+          Du ska inte tro det blir spex snart <br>
+          ifall inte rebus snart dyker upp <br>
+          och när vår rebus den dyker upp <br>
+          då kommer spexet snart <br>
+
+      <router-link to="/tickets">
+        <button>Biljett</button>
+      </router-link>
+<!-- 
+Du ska inte tro det blir sommar
+Ifall inte nån sätter fart
+På sommarn och gör lite somrigt
+Då kommer blommorna snart
+Jag gör så att blommorna blommar
+Jag gör hela kohagen grön
+Och nu så har sommaren kommit
+För jag har just tagit bort snön
+
+Jag gör mycket vatten i bäcken
+Så där så det hoppar och far
+Jag gör fullt med svalor som flyger
+Och myggor som svalorna tar
+Jag gör löven nya på träden
+Och små fågelbon här och där
+Jag gör himlen vacker om kvällen
+För jag gör den alldeles skär
+
+Och smultron det gör jag åt barna
+För det tycker jag dom kan få
+Och andra små roliga saker
+Som passar när barna är små
+Och jag gör så roliga ställen
+Där barna kan springa omkring
+Då blir barna fulla med sommar
+Och bena blir fulla med spring
+-->
+
       </p>
-      <p>
-      <ul>
-        <li>Kanelbullkväll Onsdag 2019-09-18 kl 17:15 på Focus</li>
-        Kom ät kanelbullar och fråga erfarna spexare vad de gör, när de gör, hur de gör eller vad du nu kan tänka dig. 
-        <br><br>  
-        <li>Aspexpressen Lördag 2019-09-21 kl 13:00 i Signes </li>
-        En komprimering av ett spexår ner till en eftermiddag. Kom och testa spexupplevelsen.
-        <br><br>
-        <li>Spelkväll Måndag 2019-09-23 kl 17:15 på Focus </li>
-        Häng med oss och spela brädspel. Erfarna spexara finns på plats för att svara på eventuella frågor.
-        <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
-      </ul>
-      Om du har tid att gå på något av våra asptillfällen men vill söka ändå så kan du även skicka mail till <a
-          href="mailto:Kollegium@f-spexet.se"
-        >
-          <b>Kollegium@f-spexet.se</b>
-        </a>
-        med information om vad du vill söka så får du snart svar med information. Det går även att läsa om vad olika poster gör om du går 
-        in på "Om oss" och sedan klickar "poster i f-spexet"
-      </p>
-    </div>
-    
-    <hr>
-    <div id="news3">
-      <h2>Vi är tillbaka</h2>
-      <p>
-        Sommaren är slut och vi är tillbaka med vår andra uppställning av "F-spexet 2019, Döden". <br>
-      </p>
-    </div>
+    </div>   
 
     <hr>
-
-    <div id="news2">
-      <h2>Lösning</h2>
-      <p>
-        Kort förklaring av rebusen.
-        <br>Om du summerar alla bokstäver i de stora bilderna som inte har kryss över sig (nödlandning, rök och öken)
-        och sedan drar bort dem bokstäver som finns i de kryssade bilderna(king, lan, örn och kön) så har du kvar bokstäverna d d e n ö.
-        Sen följer man instruktionerna på den lilla pilen i hörnet och kastar om dem så kan du bilda ordet Döden.
-      </p>
-    </div>
-
-  <hr>
-
-    <div id="news1">
+   
+    <!-- <div id="news_rebus">
       <h2>3...2...1... DRA IGÅNG</h2>
       <p id="intro">
         <i>
@@ -73,15 +66,14 @@
         Nu är temat släppt och det är lite mindre än en månad kvar till första föreställning.
         Om du är intresserad av att se på föreställningen så kan du klicka på biljettknappen och börja din färd till en fantastisk underjordsresa
       </p>
-      <router-link to="/tickets">
-        <button>Biljett</button>
-      </router-link>
+  
       <p>
         Du får även ett försök till att gissa på rebusen nu när du vet årets tema, kan ni förstå hur det hänger ihop nu när du vet svaret?
         Vi kommer ladda upp lösningen vid slutet av veckan.
       </p>
-      <img src="../assets/ökenrebus.png" alt>
-    </div>
+      <img src="../assets/rebus.png" alt>
+    </div> -->
+
   </div>
 </template>
 
