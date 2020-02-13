@@ -5,17 +5,25 @@
     <div id="box">
       <div class="content" id="plats">
         <h2>Var?</h2>
-        <p>Sektionslokalen Focus,
+        <!-- <p>Sektionslokalen Focus,
           <br>Kemivägen 11, 412 58 Göteborg
         </p>
-          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>
+          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a> -->
+          <p>Kalle Glader,
+          <br>Hugo Grauers gata 4A, 411 33 Göteborg
+        </p>
+          <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
       </div>
+
+
+
       <div class="content" id="wiki">
         <h2>Länkar</h2>
           <a href="https://wiki.f-spexet.se/">Wikin</a>
           <br>
           <a href="https://www.facebook.com/FSpexet">Facebook</a>
       </div>
+
     </div>
   </footer>
 </template>

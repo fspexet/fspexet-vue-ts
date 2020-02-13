@@ -11,16 +11,18 @@
       <h2>Datum</h2>
       <p>Vi har föreställningar på följande datum</p>
       <ul>
-        <li>Söndag 2019-09-08 kl 17:00, Premiär</li>
-        <li>Måndag 2019-09-09 kl 18:00, F-nollan* </li>
-        <li>Tisdag 2019-09-10 kl 18:00 </li>
+        <li>Måndag 2019-03-24 kl 18:00, Premiär </li>
+        <li>Tisdag 2019-03-25 kl 18:00 </li>
+        <li>Torsdag 2019-03-27 kl 18:00 </li>
+        <li>Fredag 2019-03-28 kl 18:00 </li>
+        <li>Lördag 2019-03-29 kl 18:00, Busk </li>
         
         <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
       </ul>
 
-      <p class="obs">
+      <!-- <p class="obs">
         *reserverad för F-nollan, vi öppnar för allmän försäljning några dagar innan föreställningen.<br>
-      </p>
+      </p> -->
     </div>
 
     <hr>
@@ -28,13 +30,13 @@
     <div id="pris">
       <h2>Pris</h2>
       <ul>
-        <li>Nollan**: 100kr</li>
+        <!-- <li>Nollan**: 100kr</li> -->
         <li>Student*: 130kr</li>
-        <li>Övriga: 220kr</li>
+        <li>Övriga: 250kr</li>
       </ul>
       <p>Dessa priser gäller alla föreställningar under våren och inkluderar även en trerätters middag!</p>
       <p class="obs">
-        **Som Nollan räknas nyantagen(augusti 2019) student på Chalmers Tekniska Högskola.<br>
+        <!-- **Som Nollan räknas nyantagen(augusti 2019) student på Chalmers Tekniska Högskola.<br> -->
         *Som student räknas alla som är till och med 24 år och/eller alla som har ett student-id.
       </p>
       <div id="guldkort">
@@ -46,7 +48,7 @@
           under ett år! Priserna för Guldkortet är
         </p>
         <ul>
-          <li>Student: 350kr</li>
+          <li>Student: 300kr</li>
           <li>Övriga: 500kr</li>
         </ul>
         <p class="obs">

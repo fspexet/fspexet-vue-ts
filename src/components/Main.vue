@@ -41,7 +41,7 @@ body {
   background: black;
 }
 .main {
-  background: url(../assets/marble_1_seam.png);
+  /* background: url(../assets/marble_1_seam.png); */
   padding: 10px 30px 10px 30px;
   width: 100%;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
@@ -71,10 +71,10 @@ a {
   color: gold;
 }
 
-
-@media screen and (max-width: 375px) {
+/*Test used when resizing screen, colours page red*/
+@media screen and (max-width: 375px) { 
   .contents {
-    /* background-color: red; */
+    background-color: red; 
   }
 }
 </style>
