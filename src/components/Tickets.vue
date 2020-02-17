@@ -11,11 +11,11 @@
       <h2>Datum</h2>
       <p>Vi har föreställningar på följande datum</p>
       <ul>
-        <li>Måndag 2019-03-24 kl 18:00, Premiär </li>
-        <li>Tisdag 2019-03-25 kl 18:00 </li>
-        <li>Torsdag 2019-03-27 kl 18:00 </li>
-        <li>Fredag 2019-03-28 kl 18:00 </li>
-        <li>Lördag 2019-03-29 kl 18:00, Busk </li>
+        <li>Tisdag 2019-03-24 kl 18:00, Premiär </li>
+        <li>Onsdag 2019-03-25 kl 18:00 </li>
+        <li>Fredag 2019-03-27 kl 18:00 </li>
+        <li>Lördag 2019-03-28 kl 17:00 </li>
+        <li>Söndag 2019-03-29 kl 17:00, Busk </li>
         
         <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
       </ul>
@@ -42,10 +42,7 @@
       <div id="guldkort">
         <h3>Guldkort</h3>
         <p>
-          Nu kommer även F-spexet att erbjuda Guldkort i båset på Teknologgården.
-          Ett Guldkort är din ultimata spexupplevelse,
-          du får nämligen gratis inträde till ett (1) F-spex och ALLA Bob + Vera spex
-          under ett år! Priserna för Guldkortet är
+          F-spexet erbjuder även Guldkort. Ett Guldkort är din ultimata spexupplevelse, du får nämligen gratis inträde till ett (1) F-spex och alla Chalmersspex i RunAn under ett kalenderår! Notera att Guldkortet inte gäller för de av Chalmersspexets föreställningar som hålls på någon annan plats än i RunAn. Priserna för Guldkortet är
         </p>
         <ul>
           <li>Student: 300kr</li>

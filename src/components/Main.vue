@@ -74,7 +74,7 @@ a {
 /*Test used when resizing screen, colours page red*/
 @media screen and (max-width: 375px) { 
   .contents {
-    background-color: red; 
+    background-color: black; 
   }
 }
 </style>

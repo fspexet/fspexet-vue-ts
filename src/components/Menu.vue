@@ -7,13 +7,13 @@
       >Ibland gillar man att veta vad man äter. Därför tänkte vi dela med oss av våran meny.</p>
 
       <h3>Mat</h3>
-       <p>Den blir god</p>
+       <p>Exakt info bör vara tillgänglig nära början av Mars.</p>
 
       <h2>Alternativ kost</h2>
         <p>
         Vi serverar självklart mat även du behöver specialkost (vegetarisk,
         veganskt, glutenfritt etc.). Kom bara ihåg att ange det när du beställer
-        biljett. Om du vill veta vad som för justeringar som görs kan du skicka
+        biljett. Om du vill veta spexifikt vad som för justeringar som görs kan du skicka
         mail till <a href="mailto:mat@f-spexet.se"> <b>mat@f-spexet.se</b></a>
         </p>
     </div>

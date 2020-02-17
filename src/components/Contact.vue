@@ -24,7 +24,7 @@
     <h2>Styret</h2>
 
     <h3>Ordförande</h3>
-    <p>Beatriz Hansson<br> <a href="mailto:ordforande@f-spexet.se">
+    <p>Beatriz Bento Hansson<br> <a href="mailto:ordforande@f-spexet.se">
         <b>ordforande@f-spexet.se</b>
       </a>
     </p>
