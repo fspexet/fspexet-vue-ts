@@ -3,7 +3,7 @@
     <h1>Om F-spexet</h1>
     <p
       class="bparagraph"
-    >Under våren och hösten kommer F-spexet framföra 2019 års fantastiska uppsättning. Allt om denna finns att läsa om här.</p>
+    >Under våren och hösten kommer F-spexet framföra 2020 års fantastiska uppsättning. Allt om denna finns att läsa om här.</p>
     <h2>Vad är F-spexet?</h2>
     <p>F-spexet är Chalmers F-sektions studentspex. Men vad är ett spex?</p>
     <p>Jo, det är teater fast lite galnare, lite roligare och lite bättre. Det blandas friskt teater med sång, dans, skämt och ordvitsar under tre spexiga akter. Dessutom serverar F-spexet en eminent trerätters middag till föreställningarna. Något så bra får man väl inte missa?</p>
@@ -44,15 +44,15 @@
     <p>
       Undrat vilka poster eller grupper som finns i f-spexet, eller vad de gör?
       Kanske funderar du på att vara med själv i nästa års spex? Ta då en titt på
-      <router-link to="/about-us/groups">Poster i F-spexet.</router-link>
+      <router-link to="/about-us/groups">poster i F-spexet.</router-link>
     </p>
 
     <hr>
     <h2>Tidigare spex</h2>
     <p>
-      Döden är ju inte det första gången f-spexet framträder, vi är ju ändå 15 år gammalt det här året.
+      Johannes Kepler är ju inte den första gången f-spexet framträder, vi är ju ändå 16 år gamla det här året.
       Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
-      <router-link to="/about-us/history">Tidigare spex</router-link>
+      <router-link to="/about-us/history">tidigare spex</router-link>
     </p>
 
     <hr>
@@ -75,7 +75,8 @@
 }
 
 a {
-  font-weight: bold;
+  font-weight: normal;
+  font-style: italic;
 }
 
 ul {

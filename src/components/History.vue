@@ -4,22 +4,25 @@
     <div>
       <h4>Döden (2019)</h4>
       <p>
-        Robert Oppenheimer dör och får äran att se hur kontorsarbetet ser ut i efterlivet.
+        Robert Oppenheimer dör och får äran att se hur kontorsarbetet ser ut i efterlivet, som vikarie till den
+        antropomorfiska representationen av döden. Han fångas i mitten av en maktkamp mellan Azrael, Hel, och Hades,
+        som har hand om var sin del av dödsriket &mdash; de Abrahamitiska troernas, Asatrons, respektive Hellenismens.
+        Ett livligt spex präglat av intressekonflikt, naivitet, och tropisk semester.
       </p>
       <hr>
     </div><div>
       <h4>Cecilia Vasa (2018)</h4>
       <p>
-        Gustav Vasas dotter Cecilia tvingas skaffa sig ett jobb så hon går och blir rik skapare. 
-        Ursäkta jag menade rikskapare ett yrke mer välkänt som pirat. 
-        Medan hon gett sig iväg på äventyr så sätter hennes far upp ett giftermål med hennes bror Erik och drottningen av England. 
+        Gustav Vasas dotter Cecilia tvingas skaffa sig ett jobb så hon går och blir rik skapare.
+        Ursäkta jag menade rikskapare ett yrke mer välkänt som pirat.
+        Medan hon gett sig iväg på äventyr så sätter hennes far upp ett giftermål med hennes bror Erik och drottningen av England.
         En spännande berättelse som slutade med ärtsoppa.
       </p>
       <hr>
     </div>
     <div>
       <h4>Jules Verne (2017)</h4>
-      <p>I 2017 års F-spex fick vi följa med den oentusiastiska juristen Jules Verne, hans vänner, och Sigmund Freud, 
+      <p>I 2017 års F-spex fick vi följa med den oentusiastiska juristen Jules Verne, hans vänner, och Sigmund Freud,
         på en segling under havet till ett mystiskt föremål alla vill åt.</p>
       <hr>
     </div>
@@ -31,19 +34,19 @@
     </div>
     <div>
       <h4>Zelda Fitzgerald (2015)</h4>
-      <p>2015 års F-Spex tog oss till Gertrude Steins salonger, hjärtat i Paris kulturliv under det glada 20-talet, 
+      <p>2015 års F-Spex tog oss till Gertrude Steins salonger, hjärtat i Paris kulturliv under det glada 20-talet,
         och frågan alla ställer sig är: vem var det egentligen som skrev F. Scott Fitzgeralds Den Store Gatsby?</p>
       <hr>
     </div>
     <div>
       <h4>Kubakrisen (2014)</h4>
-      <p>2014 års F-Spex sträckte sig hela vägen från Moskva i öster till USA och Kuba i väster, 
+      <p>2014 års F-Spex sträckte sig hela vägen från Moskva i öster till USA och Kuba i väster,
         och täckte in nästan alla de tillfällen som gör anspråk på att kallas "det viktigaste ögonblicket i den moderna historien".</p>
       <hr>
     </div>
     <div>
       <h4>Ludwig Emil Grimm (2013)</h4>
-      <p>2013 års F-Spex utspelar sig i sagans värld där Ludwig - den tredje av de två bröderna Grimm - möter en ung häxa, 
+      <p>2013 års F-Spex utspelar sig i sagans värld där Ludwig - den tredje av de två bröderna Grimm - möter en ung häxa,
         en förbannad drottning, narren med de bästa skämten, en modig häst och sisådär 98 grodor.</p>
       <hr>
     </div>

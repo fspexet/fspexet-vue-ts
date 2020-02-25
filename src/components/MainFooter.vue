@@ -53,7 +53,9 @@ button a {
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-style: oblique;
 }
 
 .content {
@@ -61,7 +63,7 @@ h1 {
   width: 20%;
   margin: 10px;
   min-width: 250px;
-  padding: 10px 20px;  
+  padding: 10px 20px;
   padding-bottom: 10px;
   background-color: #151515;
 }
@@ -71,5 +73,9 @@ p {
   color: white;
   margin-top: 5px;
   margin-bottom: 00px;
+}
+
+a{
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 </style>

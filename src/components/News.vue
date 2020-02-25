@@ -1,7 +1,7 @@
 <template>
   <div class="contents">
     <h1>Nyheter</h1>
-      <!-- 
+      <!--
       <h2>Spexets sommarvisa</h2>
       <h3>av:Media</h3>
       <p>
@@ -45,16 +45,37 @@
       -->
 
 
+    <hr>
+
+    <div id="news_temaslapp">
+      <h2>F-spexet 2020 &mdash; Johannes Kepler</h2>
+      <p id="intro">
+        <i>eller Illustrerad Vetenskap</i>
+      </p>
+      <p>
+       Är er vardag trist och grå? Har ni alltid haft siktet inställt på stjärnorna men aldrig
+       riktigt haft budgeten att åka till Mars? Då har ni mycket gemensamt med den unge Johannes
+       Kepler som alltid har något i kikaren, bokstavligen.
+     </p><p>
+       Vecka 13 framför vi 2020 års fantastiska spex, som tar oss till det Tysk-Romerska rikets
+       hov i Prag kring sekelskiftet år 1600. Vi följer den unge Johannes Kepler ska just träda in som lärling
+       till hovastronomen Tycho Brahe, efter att ha nått prominens i Graz under sin mentor, Michael Mästlin.
+     </p><h3>
+       <router-link to="/tickets">Se föreställningsdatum och köp biljetter här!</router-link>
+     </h3><p>
+       <img src="../assets/mysterium.png" alt>
+      </p>
+    </div>
 
     <hr>
-   
+
     <div id="news_rebus">
       <h2>Årets rebus är här!</h2>
       <p id="intro">
       </p>
       <p>
-        Lösningen ger titeln på årets uppsättning av F-spexet. Maila din gissning till rebus@f-spexet.se senast 24 februari. En vinnare lottas fram av dem som har gissat rätt, som vinner ett guldkort som gäller på en av våra föreställningar och alla Chalmersspexets föreställningar under ett år. Rätt svar presenteras den 25 februari, då vi har vårt temasläpp på Focus under lunchen.
-         <br> LYCKA TILL!
+        Nu har temat släppts, men rebusen förblir. Kan du lyckas lista fram <i>Johannes Kepler</i>
+        från den här finurliga stofilen, med sin stav och dopkärl?
       <img src="../assets/rebus.png" alt>
       </p>
     </div>

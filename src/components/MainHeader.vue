@@ -2,19 +2,19 @@
   <header>
     <div id="top">
       <router-link class="toplink" to="/tickets">
-        <h1>Biljetter</h1>
+        <h1>BILJETTER</h1>
       </router-link>
       <router-link class="toplink" to="/menu">
-        <h1>Meny</h1>
+        <h1>MENY</h1>
       </router-link>
       <router-link class="toplink" id="logo" to="/">
-        <img id="logo-image" src="@/assets/logo.png" alt="loggan för f-spexet 2019">
+        <img id="logo-image" src="@/assets/logo_new.png" alt="F-spexet 2020">
       </router-link>
       <router-link class="toplink" to="/about-us">
-        <h1>Om oss</h1>
+        <h1>OM OSS</h1>
       </router-link>
       <router-link class="toplink" to="/contact">
-        <h1>Kontakt</h1>
+        <h1>KONTAKT</h1>
       </router-link>
     </div>
   </header>
@@ -25,6 +25,7 @@ header {
   width: max-content;
   background-color: black;
   margin: 5px auto;
+  font-family: Josefin, Futura, 'PakType Tehreer';
 }
 
 @media screen and (max-width: 800px) {
@@ -43,15 +44,15 @@ header {
     order: 3;
     xflex: 1 1 30%;
     flex-shrink: 5;
+    width: 1%;
   }
   #logo:nth-child(3) {
     flex: 0 0 100%;
+    width: 1%;
     order: 1;
-    justify-self: auto;
+    /* justify-self: auto; */
     }
-  h1 {
-    text-decoration: underline;
-  }
+
   img {
     width: 100%;
     height: 100%;

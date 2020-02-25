@@ -24,6 +24,26 @@ export default {
 
 <style>
 /*Normalize html and body elements,this style is just good to have*/
+@font-face {
+  font-family: EB Garamond;
+  src: url(../assets/fonts/EBGaramond12-Regular.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: EB Garamond;
+  src: url(../assets/fonts/EBGaramond12-Italic.otf) format('opentype');
+  font-style: italic;
+}
+@font-face {
+  font-family: EB Garamond;
+  src: url(../assets/fonts/EBGaramondSC12-Regular.otf) format('opentype');
+  font-style: oblique;
+}
+@font-face {
+  font-family: Josefin;
+  src: url(../assets/fonts/JosefinSans-Bold.ttf) format('truetype');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -41,7 +61,9 @@ body {
   background: black;
 }
 .main {
-  /* background: url(../assets/marble_1_seam.png); */
+  background: url(../assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px 30px 10px 30px;
   width: 100%;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
@@ -63,18 +85,58 @@ ul {
   color: white;
 }
 
+h2,
+h3,
+h4,
+p,
+ul {
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+p {
+  font-size: 20px;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 32px;
+  font-style: oblique;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 24px;
+  font-style: italic;
+}
+
 div > h1 {
-  font-family: Brush Script MT, Brush Script Std, 'Times New Roman', Times, serif;
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-style: oblique;
+  font-size: 48px;
 }
 
 a {
-  color: gold;
+  color: green;
+}
+
+li {
+  font-size: 20px;
+}
+
+.smallcaps {
+  font-style: oblique;
 }
 
 /*Test used when resizing screen, colours page red*/
-@media screen and (max-width: 375px) { 
+@media screen and (max-width: 375px) {
   .contents {
-    background-color: black; 
+    background-color: black;
   }
 }
 </style>

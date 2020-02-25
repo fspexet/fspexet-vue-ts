@@ -41,7 +41,7 @@
 
     <h3>Ensemblen</h3>
     <p>
-      Också en relativt viktigt grupp i ett F-Spex. Ensemblens uppgift i spexet är
+      Också en relativt viktig grupp i ett F-Spex. Ensemblens uppgift i spexet är
       att stå på scen och framföra det spex som manusgruppen har skrivit, regissören
       regisserat och publiken bett om.
     </p>
@@ -78,7 +78,7 @@
     </p>
     <hr>
 
-    <h3>Ljud och ljus (LOL)</h3>
+    <h3>Ljud och ljus (LoL)</h3>
     <p>
       LOL har till uppgift att bestämma vilken typ av utrustning årets spex behöver samt
       rigga densamma innan varje föreställning, samt under föreställningarna sköta reglagen för att de som
@@ -95,9 +95,9 @@
     </p>
     <hr>
 
-    <h3>Sömmerskorna</h3>
+    <h3>Kostym</h3>
     <p>
-      Det är Sömmerskorna som syr alla fina kläder på scen. Deras ansvar är
+      Det är Kostym som syr alla fina kläder på scen. Deras ansvar är
       att leta igenom manus och bestämma hur Ensemblen skall se ut, lista ut
       hur detta kan sys, sy det och skälla när Ensemblen har sönder sagda kläder.
     </p>
@@ -140,6 +140,10 @@ export default {
 <style scoped>
 .bparagraph {
   font-size: 20px;
+}
+
+h3 {
+
 }
 
 #styret {

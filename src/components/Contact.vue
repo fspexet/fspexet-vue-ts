@@ -1,21 +1,21 @@
 <template>
   <div class="contents">
     <h1>Kontakta oss</h1>
-    <p><b> Nu är det ju så att det kan finnas några som vill ha tag i spexarna. 
-    Ett alternativ är ju då att ställa sig på lämpligt ställe i fysikhuset och ropa, 
-    men du har nog mer framgång med någon av våra mail adresser.
-    </b></p>
+    <p> Nu är det ju så att det kan finnas några som vill ha tag i spexarna.
+    Ett alternativ är ju då att ställa sig på lämpligt ställe i fysikhuset och ropa,
+    men du har nog mer framgång med någon av våra mailadresser.
+    </p>
 
     <h3>Biljettfrågor</h3>
     <p>Ebba Grönfors <br> <a href="mailto:kassor@f-spexet.se">
-        <b>kassor@f-spexet.se</b>
+        kassor@f-spexet.se
       </a>
     </p>
 
     <h3>Porslin eller annan uthyrning</h3>
     <p>
       <a href="mailto:skyddsrumet@f-spexet.se">
-        <b>skyddsrumet@f-spexet.se</b>
+        skyddsrumet@f-spexet.se
       </a>
     </p>
 
@@ -25,32 +25,32 @@
 
     <h3>Ordförande</h3>
     <p>Beatriz Bento Hansson<br> <a href="mailto:ordforande@f-spexet.se">
-        <b>ordforande@f-spexet.se</b>
+        ordforande@f-spexet.se
       </a>
     </p>
 
     <h3>Förman</h3>
     <p>Fredrik Albers<br><a href="mailto:forman@f-spexet.se">
-        <b>forman@f-spexet.se</b>
+        forman@f-spexet.se
       </a>
     </p>
 
     <h3>Kassör</h3>
-    <p>Ebba Grönfors <br> <a href="mailto:kassor@f-spexet.se">
-        <b>kassor@f-spexet.se</b>
+    <p>Ebba Grönfors<br><a href="mailto:kassor@f-spexet.se">
+        kassor@f-spexet.se
       </a>
     </p>
 
     <h3>Osäker på vem? Kontakta hela styret</h3>
     <p>
       <a href="mailto:styret@f-spexet.se">
-        <b>styret@f-spexet.se</b>
+        styret@f-spexet.se
       </a>
     </p>
 
     <h3>Problem med hemsidan?</h3>
     <p><a href="mailto:media@f-spexet.se">
-        <b>media@f-spexet.se</b>
+        media@f-spexet.se
       </a>
     </p>
 
@@ -63,3 +63,13 @@ export default {
   },
 };
 </script>
+<style scoped>
+h3 {
+  font-size: 24px;
+  font-style: italic;
+}
+a {
+  font-weight: normal;
+  font-style: italic;
+}
+</style>
