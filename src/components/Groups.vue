@@ -138,13 +138,7 @@ export default {
 </script>
 
 <style scoped>
-.bparagraph {
-  font-size: 20px;
-}
 
-h3 {
-
-}
 
 #styret {
   padding-left: 20px;

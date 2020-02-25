@@ -73,11 +73,7 @@
           href="mailto:biljetter@f-spexet.se"
         >
           biljetter@f-spexet.se
-        </a>,
-         på formuläret nedan eller i
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScOKpbjWhGssL4Rd5Vue84tSnZ9q3HBlsLXRRF4BzRlvtBCjA/viewform?usp=sf_link"
-        >den här länken</a>
+        </a>
          med följande information:
       </p>
       <ul>
@@ -94,19 +90,7 @@
           biljetter@f-spexet.se
         </a>
       </p>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScOKpbjWhGssL4Rd5Vue84tSnZ9q3HBlsLXRRF4BzRlvtBCjA/viewform?embedded=true"
-
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0">Formuläret läses in...
-      </iframe>
-      <!-- <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdG1OnhW4AXTZ5wuGrbRatd9G8NaKJGmM96dH0z0vHcrl-90g/viewform?embedded=true"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >Loading...</iframe> -->
+     
     </div>
   </div>
 </template>
@@ -124,19 +108,7 @@ export default {
 .obs {
   color: orange;
 }
-p,
-h3 {
-  padding-left: 10px;
-}
-iframe {
-  width: 100%;
-  height: 500px;
-}
-a {
-  font-weight: normal;
-}
 
-.bparagraph {
-  font-size: 20px;
-}
+
+
 </style>

@@ -76,20 +76,15 @@ body {
   max-width: 700px;
 }
 
-h1,
+h1{
+  color: white;
+}
 h2,
 h3,
 h4,
 p,
 ul {
   color: white;
-}
-
-h2,
-h3,
-h4,
-p,
-ul {
   font-family: 'EB Garamond', 'Times New Roman', Times, serif;
   font-weight: normal;
 }
@@ -123,6 +118,8 @@ div > h1 {
 
 a {
   color: green;
+  font-weight: normal;
+  font-style: italic;
 }
 
 li {
@@ -133,8 +130,12 @@ li {
   font-style: oblique;
 }
 
-/*Test used when resizing screen, colours page red*/
-@media screen and (max-width: 375px) {
+.bparagraph {
+  font-size: 20px;
+}
+
+/*Test used when resizing screen, colours page black when 5 px wide*/
+@media screen and (max-width: 5px) {
   .contents {
     background-color: black;
   }

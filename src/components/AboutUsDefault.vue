@@ -70,16 +70,6 @@
 </template>
 
 <style scoped>
-.bparagraph {
-  font-size: 20px;
-}
 
-a {
-  font-weight: normal;
-  font-style: italic;
-}
 
-ul {
-  color: white;
-}
 </style>
