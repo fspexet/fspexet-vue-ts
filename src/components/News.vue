@@ -2,14 +2,16 @@
   <div class="contents">
     <h1>Nyheter</h1>
       <!--
-      <h2>Spexets sommarvisa</h2>
-      <h3>av:Media</h3>
+      <h2>Spexets temasläppvisa</h2>
+      <h3>Text av:Media</h3>
+      <h3>Orginal melodi:Idas sommarvisa</h3>
+      
       <p>
 
       Du ska inte tro det blir spex snart <br>
       ifall inte rebus snart dyker upp <br>
-      och när vår rebus den dyker upp <br>
-      då kommer spexet snart <br>
+      och när våran rebus den dyker upp <br>
+      då vet du spexet är snart <br>
 
 
       Du ska inte tro det blir sommar
@@ -63,8 +65,8 @@
      </p><h3>
        <router-link to="/tickets">Se föreställningsdatum och köp biljetter här!</router-link>
      </h3><p>
-       <img src="../assets/mysterium.png" alt>
       </p>
+       <img src="../assets/mysterium.png" class="big_image" alt>
     </div>
 
     <hr>
@@ -76,8 +78,8 @@
       <p>
         Nu har temat släppts, men rebusen förblir. Kan du lyckas lista fram <i>Johannes Kepler</i>
         från den här finurliga stofilen, med sin stav och dopkärl?
-      <img src="../assets/rebus.png" alt>
       </p>
+      <img src="../assets/rebus.png" class="big_image" alt="rebusen för spexet 2020">
     </div>
 
   </div>

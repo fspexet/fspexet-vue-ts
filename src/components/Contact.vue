@@ -68,8 +68,4 @@ h3 {
   font-size: 24px;
   font-style: italic;
 }
-a {
-  font-weight: normal;
-  font-style: italic;
-}
 </style>
