@@ -6,11 +6,13 @@
       <div class="content" id="plats">
         <h2>Var?</h2>
         <!-- <p>Sektionslokalen Focus,
-          <br>Kemivägen 11, 412 58 Göteborg
+          <br>Kemivägen 11,
+          <br>412 58 Göteborg
         </p>
           <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a> -->
           <p>Kalle Glader,
-          <br>Hugo Grauers gata 4A, 411 33 Göteborg
+          <br>Hugo Grauers gata 4A,
+          <br>411 33 Göteborg
         </p>
           <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
       </div>
@@ -52,11 +54,6 @@ button a {
   color: black;
 }
 
-h1 {
-  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
-  font-weight: normal;
-  font-style: oblique;
-}
 
 .content {
   border-radius: 30px;
@@ -75,7 +72,4 @@ p {
   margin-bottom: 00px;
 }
 
-a{
-  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
-}
 </style>

@@ -1,28 +1,50 @@
 <template>
   <div class="contents">
     <div id="meny">
-      <h1>Menyn</h1>
+      <center>
+      <h1>Meny</h1>
+      <hr>
+
       <p
         class="bparagraph"
-      >Ibland gillar man att veta vad man äter. Därför tänkte vi dela med oss av våran meny.</p>
+      >P&aring; v&aring;ra f&ouml;rest&auml;llningar serveras en full, trer&auml;tters middag.</p>
+      
+      <h3>F&ouml;rr&auml;tt</h3>
+      <h4>Potatis & purjol&ouml;ksſoppa</h4> 
+      <p>Vad bättre att påbörja kvällen med än en värmande soppa? En gräddig rikhet värdig 
+en kejsare ger den här enkla rätten mer karaktär än den redan har, och inspirerar 
+till vidare aptit för det som komma skall.</p>
 
-      <h3>Mat</h3>
-       <p>Exakt info bör vara tillgänglig nära början av Mars.</p>
+      <h3>Huvud&auml;tt</h3>
+      <h4>Kycklinggryta med paprika</h4>
+      <p>Efter en kejserlig välkomst, behövs ett jordnära emottagande. Denna kycklinggryta i 
+östeuropeisk anda viger samman de enkla frukterna från terra nostra i ett lyckligt giftermål 
+av kyckling och grönsaker.</p>
+
+      <h3>Efterr&auml;tt</h3>
+      <h4>P&auml;ronſmulpaj med vaniljſ&aring;s</h4>
+      <p>För att avsluta kvällen på fruktsamt vis erbjuds det närmsta uppnåeliga till ett 
+Magna Pirum &ndash; i pajform naturligtvis! Himmelskt god som den är, kommer denna stjärna till bakelse bara lämna en sak att önska: en uppfriskande vaniljsås!</p>
 
       <h2>Alternativ kost</h2>
         <p>
         Vi serverar självklart mat även om du behöver specialkost (vegetarisk,
         veganskt, glutenfritt etc.). Kom bara ihåg att ange det när du beställer
-        biljett. Om du vill veta spexifikt vad som för justeringar som görs kan du skicka
+        biljett. Om du vill veta spexifikt vad för justeringar som görs kan du skicka
         mail till <a href="mailto:mat@f-spexet.se"> mat@f-spexet.se</a>
         </p>
+      </center>
     </div>
 
     <hr>
 
-    <h2>Baren</h2>
+    <div id="drinks">
+      <center>
+      <h2>Dryckor</h2>
       <p>Utöver den inkluderade trerätters middagen har vi även en bar där man kan köpa alkoholfri dryck som läsk eller drinkar.</p>
       <p>Om du önskar dricka alkohol på våra föreställningar är du tvungen att ta med eget. Vi har ingen möjlighet till försäljning av alkohol.</p>
+      </center>
+    </div>
   </div>
 </template>
 
@@ -35,15 +57,16 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  margin-bottom: 10px;
+h3,
+h4 {
+  text-rendering: optimiseLegibility;
+  -ms-font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
+  -webkit-font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
+  -moz-font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
+  font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
 }
 h3 {
-  margin-top: 20px;
-  margin-bottom: 00px;
-}
-h3+p {
-  margin-top: 00px;
-  margin-bottom: 20px;
+  
+  font-variant: small-caps;
 }
 </style>
