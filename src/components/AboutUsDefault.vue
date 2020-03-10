@@ -1,6 +1,9 @@
 <template>
   <div class="contents">
     <h1>Om F-spexet</h1>
+
+    <hr>
+
     <p
       class="bparagraph"
     >Under våren och hösten kommer F-spexet framföra 2020 års fantastiska uppsättning. Allt om denna finns att läsa om här.</p>

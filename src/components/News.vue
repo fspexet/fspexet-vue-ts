@@ -5,7 +5,7 @@
       <h2>Spexets temasläppvisa</h2>
       <h3>Text av:Media</h3>
       <h3>Orginal melodi:Idas sommarvisa</h3>
-      
+
       <p>
 
       Du ska inte tro det blir spex snart <br>
@@ -51,8 +51,9 @@
 
     <div id="news_temaslapp">
       <h2>F-spexet 2020 &mdash; Johannes Kepler</h2>
-      <p id="intro">
-        <i>eller Illustrerad Vetenskap</i>
+      <p>
+        <span style="font-family:EB Garamond SC">eller</span>
+        <span style="font-style:italic;font-feature-settings:'hlig'"> Illustrerad Vetenskap</span>
       </p>
       <p>
        Är er vardag trist och grå? Har ni alltid haft siktet inställt på stjärnorna men aldrig
@@ -60,7 +61,7 @@
        Kepler som alltid har något i kikaren, bokstavligen.
      </p><p>
        Vecka 13 framför vi 2020 års fantastiska spex, som tar oss till det Tysk-Romerska rikets
-       hov i Prag kring sekelskiftet år 1600. Vi följer den unge Johannes Kepler ska just träda in som lärling
+       hov i Prag kring sekelskiftet år 1600. Vi följer den unge Johannes Kepler som just ska träda in som lärling
        till hovastronomen Tycho Brahe, efter att ha nått prominens i Graz under sin mentor, Michael Mästlin.
      </p><h3>
        <router-link to="/tickets">Se föreställningsdatum och köp biljetter här!</router-link>

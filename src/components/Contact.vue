@@ -1,6 +1,9 @@
 <template>
   <div class="contents">
     <h1>Kontakta oss</h1>
+
+    <hr>
+
     <p> Nu är det ju så att det kan finnas några som vill ha tag i spexarna.
     Ett alternativ är ju då att ställa sig på lämpligt ställe i fysikhuset och ropa,
     men du har nog mer framgång med någon av våra mailadresser.

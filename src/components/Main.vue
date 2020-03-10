@@ -26,18 +26,17 @@ export default {
 /*Normalize html and body elements,this style is just good to have*/
 @font-face {
   font-family: EB Garamond;
-  src: url(../assets/fonts/EBGaramond12-Regular.otf) format('opentype');
   font-style: normal;
+  src: url(../assets/fonts/EBGaramond12-Regular.otf) format('opentype');
 }
 @font-face {
   font-family: EB Garamond;
-  src: url(../assets/fonts/EBGaramond12-Italic.otf) format('opentype');
   font-style: italic;
+  src: url(../assets/fonts/EBGaramond12-Italic.otf) format('opentype');
 }
 @font-face {
-  font-family: EB Garamond;
+  font-family: EB Garamond SC;
   src: url(../assets/fonts/EBGaramondSC12-Regular.otf) format('opentype');
-  font-style: oblique;
 }
 @font-face {
   font-family: Josefin;
@@ -76,9 +75,7 @@ body {
   max-width: 700px;
 }
 
-h1{
-  color: white;
-}
+h1,
 h2,
 h3,
 h4,
@@ -92,28 +89,42 @@ ul {
 p {
   font-size: 20px;
   font-style: normal;
+  font-variant: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h0 {
+  color: white;
+  font-family: Josefin, Futura, 'PakType Tehreer', sans;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size: 48px;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-size: 32px;
-  font-style: oblique;
+  font-variant: small-caps;
+  margin-bottom: 10px;
 }
 
 h3 {
   font-size: 24px;
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 h4 {
   font-size: 24px;
   font-style: italic;
-}
-
-div > h1 {
-  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
-  font-weight: normal;
-  font-style: oblique;
-  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 a {
@@ -124,10 +135,6 @@ a {
 
 li {
   font-size: 20px;
-}
-
-.smallcaps {
-  font-style: oblique;
 }
 
 .bparagraph {
