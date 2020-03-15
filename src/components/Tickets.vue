@@ -3,19 +3,52 @@
     <h1>Biljetter</h1>
     <p
       class="bparagraph"
-    >Här hittas information om när vi har föreställningar samt hur och var du skaffar dig biljetter.</p>
+    >Här hittas information om när vi har föreställningar samt hur och var du skaffar dig 
+    biljetter.</p>
 
+    <hr>
+    <div id="cancellation">
+      <p class="obs">
+       Hej!
+       <br><br>
+       Med anledning av den senaste tidens utveckling med Coronaviruset har F-spexets styre 
+       bedömt att vi inte kan garantera tillräckligt med smittskydd för varken publik eller 
+       våra spexare. Därmed är tyvärr våra vårföreställningar inställda.
+       <br><br>
+       Vår ambition är att införa extra föreställningar i höst för att kompensera. Ni är 
+       varmt välkomna till våra föreställningar då. Information om dessa kommer komma här 
+       när det närmar sig.
+       <br><br>
+       Om du redan har köpt biljetter från oss så har ett mail skickats ut till 
+       kontaktpersonen för varje sällskap med information om återbetalning. Har du inte fått 
+       ett sådant mail, kontakta
+       <a href="mailto:kassor@f-spexet.se">
+        kassor@f-spexet.se
+       </a>.
+       <br><br>
+       Har du några övriga frågor kan du kontakta vårt styre på
+       <a href="mailto:styret@f-spexet.se">
+        styret@f-spexet.se
+       </a>.
+       <br><br>
+       Tack så mycket för visat intresse, vi hoppas få se er i höst!
+       <br><br>
+       Spexiga Hälsningar
+       <br>
+       Styret genom Tant Bea
+      </p>
+    </div>
     <hr>
 
     <div id="viktigt">
       <h2>Datum</h2>
-      <p>Vi har föreställningar på följande datum</p>
+      <p>Vi har inställda föreställningar på följande datum</p>
       <ul>
-        <li>Tisdag 2020-03-24 kl 18:00, Premiär </li>
-        <li>Onsdag 2020-03-25 kl 18:00 </li>
-        <li>Fredag 2020-03-27 kl 18:00 </li>
-        <li>Lördag 2020-03-28 kl 17:00 </li>
-        <li>Söndag 2020-03-29 kl 17:00, Buskföreställning </li>
+        <li>Tisdag 2020-03-24 kl 18:00 [INSTÄLLD] </li>
+        <li>Onsdag 2020-03-25 kl 18:00 [INSTÄLLD] </li>
+        <li>Fredag 2020-03-27 kl 18:00 [INSTÄLLD] </li>
+        <li>Lördag 2020-03-28 kl 17:00 [INSTÄLLD] </li>
+        <li>Söndag 2020-03-29 kl 17:00 [INSTÄLLD] </li>
 
         <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
       </ul>
@@ -64,12 +97,15 @@
     <div id="försäljning">
       <h2>Försäljningsplats</h2>
       <h3 class="depth">Biljettbåset</h3>
-      <p>I ett svart bås på Teknologgården (utanför Chalmers kårhus på Johanneberg) kommer det under lunchtid att säljas
-        biljetter från och med vecka 10. Där kan du betala kontant eller med kort.</p>
+      <p>I ett svart bås på Teknologgården (utanför Chalmers kårhus på Johanneberg) kommer 
+         det under lunchtid på vardagar, veckorna innan föreställningar, att säljas biljetter. 
+         Där kan du betala kontant eller med kort.
+      </p>
       <h3 class="depth">Internet</h3>
       <p>
-        Du kan även köpa biljetter helt utan att röra dig hemifrån!
-        Bara mejla oss på <a
+        Du kommer även kunna köpa biljetter helt utan att röra dig hemifrån! Detta görs via 
+        mail eller formulär när föreställningsdatum fastställts.
+        <!-- Bara mejla oss på <a
           href="mailto:biljetter@f-spexet.se"
         >
           biljetter@f-spexet.se
@@ -95,7 +131,9 @@
      src="https://docs.google.com/forms/d/e/1FAIpQLScOKpbjWhGssL4Rd5Vue84tSnZ9q3HBlsLXRRF4BzRlvtBCjA/viewform?embedded=true" 
      frameborder="0" marginheight="0" marginwidth="0">
      Formuläret läses in...
-     </iframe>
+     </iframe> -->
+      </p>
+    </div>
   </div>
 </template>
 

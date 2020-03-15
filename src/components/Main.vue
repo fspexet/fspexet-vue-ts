@@ -105,19 +105,18 @@ h0 {
 h1 {
   font-variant: small-caps;
   font-size: 48px;
-  margin-bottom: 0px;
 }
 
 h2 {
   font-size: 32px;
   font-variant: small-caps;
-  margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
 
 h4 {
@@ -131,6 +130,7 @@ a {
   color: green;
   font-weight: normal;
   font-style: italic;
+  font-size: 21px;
 }
 
 li {
