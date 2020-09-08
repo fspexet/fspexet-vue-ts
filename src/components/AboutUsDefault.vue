@@ -6,7 +6,7 @@
 
     <p
       class="bparagraph"
-    >Någon gång kommer F-spexet framföra 2020 års fantastiska uppsättning. Allt om denna finns att läsa om här.</p>
+    >Någon gång kommer F-spexet framföra 2021 års fantastiska uppsättning. Allt om denna finns att läsa om här.</p>
     <h2>Vad är F-spexet?</h2>
     <p>F-spexet är Chalmers F-sektions studentspex. Men vad är ett spex?</p>
     <p>Jo, det är teater fast lite galnare, lite roligare och lite bättre. Det blandas friskt teater med sång, dans, skämt och ordvitsar under tre spexiga akter. Dessutom serverar F-spexet en eminent trerätters middag till föreställningarna. Något så bra får man väl inte missa?</p>
@@ -53,7 +53,7 @@
     <hr>
     <h2>Tidigare spex</h2>
     <p>
-      Johannes Kepler är ju inte den första gången f-spexet framträder, vi är ju ändå 16 år gamla det här året.
+      2021 blir ju inte den första gången f-spexet framträder, vi är ju ändå 16 år gamla det här året.
       Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
       <router-link to="/about-us/history">tidigare spex.</router-link>
     </p>

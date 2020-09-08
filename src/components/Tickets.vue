@@ -1,12 +1,16 @@
 <template>
   <div class="contents">
     <h1>Biljetter</h1>
+    <hr>
+
     <p
       class="bparagraph"
     >Här hittas information om när vi har föreställningar samt hur och var du skaffar dig 
-    biljetter.</p>
+    biljetter. Detta blir mer relevant när en föreställningsperiod är närmare förestånde, 
+    någon gång i vår.
+    </p>
 
-    <hr>
+    <!--<hr>
     <div id="cancellation">
       <p class="obs">
        Hej!
@@ -37,8 +41,8 @@
        <br>
        Styret genom Tant Bea
       </p>
-    </div>
-    <hr>
+    </div>-->
+    <!--<hr>
 
     <div id="viktigt">
       <h2>Datum</h2>
@@ -50,14 +54,12 @@
         <li>Lördag 2020-03-28 kl 17:00 [INSTÄLLD] </li>
         <li>Söndag 2020-03-29 kl 17:00 [INSTÄLLD] </li>
 
-        <!-- <li class="obs">Tisdag 2019-04-02 kl 18:00 - SLUTSÅLD</li> -->
       </ul>
 
-      <!-- <p class="obs">
+      <p class="obs">
         *reserverad för F-nollan, vi öppnar för allmän försäljning några dagar innan föreställningen.<br>
-      </p> -->
-    </div>
-
+      </p>
+    </div>-->
     <hr>
 
     <div id="pris">
