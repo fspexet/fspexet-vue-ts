@@ -2,11 +2,20 @@
   <div class="contents">
     <h1>Tidigare F-Spex</h1>
     <div>
+      <h4>Johannes Kepler (2020)</h4>
+      <p>
+        Den unge Johannes Kepler blir inbjuden till kejsare Rudolf II:s hov i Prag, för att studera under hovastronomen 
+        Tycho Brahe. Omkring Kepler vecklar djupgående intriger ut sig: en passionerad konstnärlig fejd mellan Giuseppe
+        Arcimboldo och Sofonisba Anguissola om titeln hovkonstnär, och en tvist om heliocentrism respektive geocentrism mellan 
+        Keplers mentor, Michael Mästlin, och Brahe. Illustrerad Vetenskap kring sekelskiftet år 1600 v.t.
+      </p>
+      <hr>
+    </div><div>
       <h4>Döden (2019)</h4>
       <p>
         Robert Oppenheimer dör och får äran att se hur kontorsarbetet ser ut i efterlivet, som vikarie till den
         antropomorfiska representationen av döden. Han fångas i mitten av en maktkamp mellan Azrael, Hel, och Hades,
-        som har hand om var sin del av dödsriket &mdash; de Abrahamitiska troernas, Asatrons, respektive Hellenismens.
+        som har hand om var sin del av dödsriket &ndash; de Abrahamitiska troernas, Asatrons, respektive Hellenismens.
         Ett livligt spex präglat av intressekonflikt, naivitet, och tropisk semester.
       </p>
       <hr>

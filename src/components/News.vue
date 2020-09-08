@@ -1,6 +1,40 @@
 <template>
   <div class="contents">
     <h1>Nyheter</h1>
+    <hr />
+    <div id="news_aspiration">
+      <h2> Välkommen till ett nytt spexår! </h2>
+        <p>
+          Mottagningen på Chalmers har börjat, och ett vanligt år skulle det snart vara 
+          dags för höstföreställningar. Därför tycker vi att det är dags för en uppdatering om 
+          spexets framtidsplaner.
+        </p><p>
+          När vårföreställningarna ställdes in var vår ambition att sätta upp Johannes Kepler             under hösten istället. Tyvärr har Covid-19 hängt kvar längre än vad vi räknade med 
+          då, och vi kan inte med gott samvete sätta upp några höstföreställningar heller. 
+          Istället avslutar vi vårt verksamhetsår utan föreställningar och lägger Johannes 
+          Kepler på hyllan tills vidare.
+        </p><p>
+          Men frukta icke! Är du Nollan kommer vi livestreama godbitar från tidigare spex 
+          tillsammans med anekdoter, spexiga bilder och annat skoj. Håll utkik idag, den 7 
+          september, efter en länk och ha dina bästa inrop redo! 
+        </p><h3>
+          Betyder det här att allt vanligt spexande är lagt på is?
+        </h3><p> 
+          Självklart inte! Vi siktar på en nystart med ett nytt manus, med ett än så länge 
+          topphemligt tema. Så länge inte pandemin stoppar oss sätts det upp någon gång under 
+          våren, med extra taggade spexare som sett fram i över ett år emot att få ha 
+          föreställningar. 
+        </p><p>
+          Vill du inte bara se vårt nya spex, utan även vara med och sätta upp det? Håll utkik 
+          efter information om aspningsaktiviteter, och gå med i spexet. Vi vill gärna spexa 
+          med just DIG!
+        </p><p>
+          Hoppas vi ses på aspningen och på de nya föreställningarna!
+        <br />
+        <span style="float:right"><i>Stytet för F-spexet 2020</i></span> <br />
+
+        </p>
+    </div>
     <!--
       <h2>Spexets temasläppvisa</h2>
       <h3>Text av:Media</h3>
@@ -46,7 +80,7 @@
         </router-link>
       -->
 
-    <hr />
+    <!--<hr />
     <div id="news_cancellation">
       <h2>Vårföreställningar inställda!</h2>
       <p>
@@ -127,7 +161,7 @@
         class="big_image"
         alt="Rebus för spexet 2020"
       />
-    </div>
+    </div>-->
   </div>
 </template>
 

@@ -7,24 +7,12 @@
 
       <p
         class="bparagraph"
-      >På våra föreställningar serveras en full, trerätters middag.</p>
+      >
+        På våra föreställningar serveras en full, trerätters middag. När en meny har 
+        fastställts, kommer man kunna se den här.
+      </p>
 
-      <h3>Förrätt</h3>
-      <h4>Potatis &amp; purjolöksſoppa</h4>
-      <p>Vad bättre att påbörja kvällen med än en värmande soppa? En gräddig rikhet värdig
-en kejsare ger den här enkla rätten mer karaktär än den redan har, och inspirerar
-till vidare aptit för det som komma skall.</p>
 
-      <h3>Huvudätt</h3>
-      <h4>Kycklinggryta med blomkålsris</h4>
-      <p>Efter en kejserlig välkomst, behövs ett jordnära emottagande. Denna kycklinggryta i
-östeuropeisk anda viger samman de enkla frukterna från terra nostra i ett lyckligt giftermål
-av kyckling och grönsaker.</p>
-
-      <h3>Efterrätt</h3>
-      <h4>Päronſmulpaj med vaniljſås</h4>
-      <p>För att avsluta kvällen på fruktsamt vis erbjuds det närmsta uppnåeliga till ett
-Magna Pirum &ndash; i pajform naturligtvis! Himmelskt god som den är, kommer denna stjärna till bakelse bara lämna en sak att önska: en uppfriskande vaniljsås!</p>
 
       <h2>Alternativ kost</h2>
         <p>
