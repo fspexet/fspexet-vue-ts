@@ -127,7 +127,7 @@ h4 {
 }
 
 a {
-  color: green;
+  color: pink;
   font-weight: normal;
   font-style: italic;
   font-size: 21px;

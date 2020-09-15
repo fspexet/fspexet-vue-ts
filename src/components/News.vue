@@ -13,24 +13,21 @@
           då, och vi kan inte med gott samvete sätta upp några höstföreställningar heller. 
           Istället avslutar vi vårt verksamhetsår utan föreställningar och lägger Johannes 
           Kepler på hyllan tills vidare.
-        </p><p>
-          Men frukta icke! Är du Nollan kommer vi livestreama godbitar från tidigare spex 
-          tillsammans med anekdoter, spexiga bilder och annat skoj. Håll utkik idag, den 7 
-          september, efter en länk och ha dina bästa inrop redo! 
         </p><h3>
           Betyder det här att allt vanligt spexande är lagt på is?
         </h3><p> 
-          Självklart inte! Vi siktar på en nystart med ett nytt manus, med ett än så länge 
-          topphemligt tema. Så länge inte pandemin stoppar oss sätts det upp någon gång under 
-          våren, med extra taggade spexare som sett fram i över ett år emot att få ha 
-          föreställningar. 
-        </p><p>
-          Vill du inte bara se vårt nya spex, utan även vara med och sätta upp det? Håll utkik 
-          efter information om aspningsaktiviteter, och gå med i spexet. Vi vill gärna spexa 
-          med just DIG!
+          Självklart inte! Vi siktar på en nystart med ett nytt manus, som tills vidare går 
+          under arbetstemat <a>Totally Pink Batman</a>. Så länge inte pandemin stoppar oss 
+          sätts det upp någon gång under våren, med extra taggade spexare som sett fram i 
+          över ett år emot att få ha föreställningar. 
+        </p><h3>
+          Vill du inte bara se vårt nya spex, utan även vara med och sätta upp det? 
+        </h3><p>
+          Håll utkik efter information om aspningsaktiviteter, och gå med i spexet. Vi vill 
+          gärna spexa med just DIG!
         </p><p>
           Hoppas vi ses på aspningen och på de nya föreställningarna!
-        <br />
+        <br /><br />
         <span style="float:right"><i>Stytet för F-spexet 2020</i></span> <br />
 
         </p>

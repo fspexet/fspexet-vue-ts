@@ -149,7 +149,7 @@ export default {
 
 <style scoped>
 .obs {
-  color: orange;
+  color: yellow;
 }
 iframe{
 width: 100%;
