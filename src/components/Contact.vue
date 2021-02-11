@@ -33,7 +33,7 @@
     </p>
 
     <h3>Förman</h3>
-    <p>Fredrik Albers<br><a href="mailto:forman@f-spexet.se">
+    <p>Carin Lundqvist<br><a href="mailto:forman@f-spexet.se">
         forman@f-spexet.se
       </a>
     </p>
