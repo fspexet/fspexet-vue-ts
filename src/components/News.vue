@@ -1,6 +1,26 @@
 <template>
   <div class="contents">
     <h1>Nyheter</h1>
+    
+    <!--
+    <hr />
+    <div id="rebus">
+      <h2> Rebus släppt! </h2>
+      <p>
+        Äntligen är årets rebus släppt! 2021 må vara annorlunda mot tidigare år men F-spexet upprätthåller sina traditioner!
+        <br />
+      </p>
+      <div id="rebus_bild"> 
+        <img src="../assets/Whiteboard[3]-01.png" class="big_image" alt>
+      </div>      
+      <p>
+        Lösningen läggs upp närmare “föreställningarna”, tills dess är det fritt fram att skicka in gissningar! Skicka in alla gissningar till <a href="mailto:styret@f-spexet.se">styret@f-spexet.se</a>.
+        <br /><br />
+        <span style="float:right"><i>2021-02-13</i></span> <br />
+      </p>
+    </div>
+    -->
+    
     <hr />
     <div id="news_aspiration">
       <h2> Välkommen till ett nytt spexår! </h2>
@@ -28,10 +48,11 @@
         </p><p>
           Hoppas vi ses på aspningen och på de nya föreställningarna!
         <br /><br />
-        <span style="float:right"><i>Stytet för F-spexet 2020</i></span> <br />
+        <span style="float:right"><i>Styret för F-spexet 2020</i></span> <br />
 
         </p>
     </div>
+    
     <!--
       <h2>Spexets temasläppvisa</h2>
       <h3>Text av:Media</h3>
@@ -75,9 +96,11 @@
         <router-link to="/tickets">
           <button>Biljett</button>
         </router-link>
-      -->
-
-    <!--<hr />
+    	</p>
+    -->
+    
+    <!--
+    <hr />
     <div id="news_cancellation">
       <h2>Vårföreställningar inställda!</h2>
       <p>
