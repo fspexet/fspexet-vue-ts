@@ -17,8 +17,8 @@
 
     <h3>Porslin eller annan uthyrning</h3>
     <p>
-      <a href="mailto:skyddsrumet@f-spexet.se">
-        skyddsrumet@f-spexet.se
+      <a href="mailto:skyddsrummet@f-spexet.se">
+        skyddsrummet@f-spexet.se
       </a>
     </p>
 

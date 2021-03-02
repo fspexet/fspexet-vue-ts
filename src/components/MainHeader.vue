@@ -8,7 +8,7 @@
         <h0>MENY</h0>
       </router-link>
       <router-link class="toplink" id="logo" to="/">
-        <img id="logo-image" src="@/assets/logo.png" alt="F-spexet 2020">
+        <img id="logo-image" src="@/assets/logo.png" alt="F-spexet 2021">
       </router-link>
       <router-link class="toplink" to="/about-us">
         <h0>OM OSS</h0>
@@ -23,7 +23,7 @@
 <style scoped>
 header {
   width: max-content;
-  background-color: black;
+  background-color: #000000; <!-- hex #RRGGBB -->
   margin: 5px auto;
 }
 

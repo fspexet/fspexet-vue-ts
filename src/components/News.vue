@@ -1,25 +1,34 @@
 <template>
   <div class="contents">
     <h1>Nyheter</h1>
+    <hr />
+    <div id="temaslapp">
+      <h2> Temasläpp! </h2>
+        <p>
+          Hurra! F-spexet presenterar iår spexet Rockefeller, här får ni en förtitt på årets affisch:
+        </p>
+        <div id="affisch">
+          <img src="../assets/affisch.png" class="big_image" alt>
+        </div>  
+    </div>
     
-    <!--
     <hr />
     <div id="rebus">
-      <h2> Rebus släppt! </h2>
+      <h2> Årets rebus släppt! </h2>
       <p>
-        Äntligen är årets rebus släppt! 2021 må vara annorlunda mot tidigare år men F-spexet upprätthåller sina traditioner!
+        Äntligen är årets rebus släppt! 2021 må vara annorlunda mot tidigare år men F-spexet upprätthåller ändå sina traditioner!
         <br />
       </p>
       <div id="rebus_bild"> 
-        <img src="../assets/Whiteboard[3]-01.png" class="big_image" alt>
-      </div>      
+        <img src="../assets/rebus.png" class="big_image" alt>
+      </div>
       <p>
-        Lösningen läggs upp närmare “föreställningarna”, tills dess är det fritt fram att skicka in gissningar! Skicka in alla gissningar till <a href="mailto:styret@f-spexet.se">styret@f-spexet.se</a>.
+Lösningen ger titeln av årets uppsättning av F-spexet. Maila din gissning till <a href="mailto:rebus@f-spexet.se">rebus@f-spexet.se</a> senast 7 mars. Alla som har gissat rätt blir tillfrågade om de vill stå med i vårt program. Rätt svar presenteras bland annat på vår Facebook-sida under vecka 10.
         <br /><br />
-        <span style="float:right"><i>2021-02-13</i></span> <br />
+        <span style="float:right"><i>2021-02-18</i></span> <br />
       </p>
     </div>
-    -->
+    
     
     <hr />
     <div id="news_aspiration">

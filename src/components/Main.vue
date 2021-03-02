@@ -60,7 +60,7 @@ body {
   background: black;
 }
 .main {
-  background: url(../assets/background.png);
+  background: url(../assets/background_new_modified.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 30px 10px 30px;
@@ -75,6 +75,7 @@ body {
   max-width: 700px;
 }
 
+<!-- Define the fonts for the following components -->
 h1,
 h2,
 h3,
@@ -95,9 +96,9 @@ p {
 }
 
 h0 {
-  color: white;
+  color: #A4A4A4; <!-- hex #RRGGBB -->
   font-family: Josefin, Futura, 'PakType Tehreer', sans;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: bold;
   font-style: normal;
 }

@@ -51,24 +51,32 @@
     </p>
 
     <hr>
-    <h2>Tidigare spex</h2>
-    <p>
-      2021 blir ju inte den första gången f-spexet framträder, vi är ju ändå 16 år gamla det här året.
-      Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
-      <router-link to="/about-us/history">tidigare spex.</router-link>
-    </p>
-
+      <h2>Tidigare spex</h2>
+      <p>
+        2021 blir ju inte den första gången f-spexet framträder, vi är ju ändå 16 år gamla det här året.
+        Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
+        <router-link to="/about-us/history">tidigare spex.</router-link>
+      </p>
     <hr>
     <h2>Samarbeten</h2>
-    <p>
-      F-spexet är en medlemsförening på
-      <a
-        href="http://www.ftek.se/"
-        target="_blank"
-      >Fysikteknologsektionen</a> på Chalmers.
-      Strax över hälften av våra medlemmar varje år går på Teknisk Fysik eller Teknisk Matematik,
-      men det är inget krav för att vara med.
-    </p>
+      <p>
+        F-spexet har flera pågående samarbeten som ni kan läsa om här.
+      </p>
+      <h3> Fysikteknologsektionen </h3>
+        <p>
+          F-spexet är en intresseförening på <a href="http://www.ftek.se/" target="_blank">Fysikteknologsektionen</a> på Chalmers.
+          Strax över hälften av våra medlemmar varje år går på Teknisk Fysik eller Teknisk Matematik,
+          men det är inget krav för att vara med.
+        </p>
+      <h3> Studiefrämjandet </h3>
+        <p>
+          F-spexet har flera studiecirklar under Studiefrämjandet och är väldigt glada över att ha deras återkommande stöd.
+        </p>
+        <div style="inline-block"> 
+          <img center src="../assets/studieframjandet_logga.png" class="big_image" style="Center image" contain height="100px" width="150px">
+        </div>
+
+
   </div>
 </template>
 
