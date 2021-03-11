@@ -23,10 +23,9 @@
 <style scoped>
 header {
   width: max-content;
-  background-color: #000000; <!-- hex #RRGGBB -->
+  background-color: #000000; /* hex #RRGGBB */
   margin: 5px auto;
 }
-
 @media screen and (max-width: 1350px) {
   header {
     overflow-x: hidden;
@@ -53,7 +52,6 @@ header {
     order: 1;
     /* justify-self: auto; */
     }
-
   img {
     width: 100%;
     height: 100%;
@@ -61,7 +59,6 @@ header {
     /* max-height: 350px; */
   }
 }
-
 a.toplink {
   margin-right: 3px;
   text-decoration: none;
@@ -70,5 +67,4 @@ a:hover {
   color: white;
   text-decoration: underline;
 }
-
 </style>
