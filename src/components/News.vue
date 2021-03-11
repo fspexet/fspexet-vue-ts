@@ -5,7 +5,10 @@
     <div id="temaslapp">
       <h2> Temasläpp! </h2>
         <p>
-          Hurra! F-spexet presenterar iår spexet Rockefeller, här får ni en förtitt på årets affisch:
+          Hurra! F-spexet presenterar iår spexet Rockefeller:
+        </p>
+        <p>
+          John D Rockefeller har ägnat hela sin karriär åt att bygga sitt oljemonopol, förhindra konkurrens på den fria marknaden och att få sina barn att bli precis som han. Men en dag krossas den kapitalistiska idyllen plötsligt. Följ med på en hissnande mordgåta i tre akter, med tillhörande menyförslag för att förhöja upplevelsen! Föreställningsdatum släpps i april.
         </p>
         <div id="affisch">
           <img src="../assets/affisch.png" class="big_image" alt>
@@ -42,16 +45,20 @@ Lösningen ger titeln av årets uppsättning av F-spexet. Maila din gissning til
           då, och vi kan inte med gott samvete sätta upp några höstföreställningar heller. 
           Istället avslutar vi vårt verksamhetsår utan föreställningar och lägger Johannes 
           Kepler på hyllan tills vidare.
-        </p><h3>
+        </p>
+        <h3>
           Betyder det här att allt vanligt spexande är lagt på is?
-        </h3><p> 
+        </h3>
+        <p> 
           Självklart inte! Vi siktar på en nystart med ett nytt manus, som tills vidare går 
           under arbetstemat <a>Totally Pink Batman</a>. Så länge inte pandemin stoppar oss 
           sätts det upp någon gång under våren, med extra taggade spexare som sett fram i 
           över ett år emot att få ha föreställningar. 
-        </p><h3>
+        </p>
+        <h3>
           Vill du inte bara se vårt nya spex, utan även vara med och sätta upp det? 
-        </h3><p>
+        </h3>
+        <p>
           Håll utkik efter information om aspningsaktiviteter, och gå med i spexet. Vi vill 
           gärna spexa med just DIG!
         </p><p>

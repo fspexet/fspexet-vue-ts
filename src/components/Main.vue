@@ -60,7 +60,7 @@ body {
   background: black;
 }
 .main {
-  background: url(../assets/background_new_modified.png);
+  background: url(../assets/background_aragon.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 30px 10px 30px;
@@ -95,7 +95,7 @@ p {
   margin-bottom: 15px;
 }
 
-h0 {
+h0 { /* Main header font */
   color: #A4A4A4; <!-- hex #RRGGBB -->
   font-family: Josefin, Futura, 'PakType Tehreer', sans;
   font-size: 35px;
@@ -103,32 +103,32 @@ h0 {
   font-style: normal;
 }
 
-h1 {
+h1 { /* Header 1 font */
   font-variant: small-caps;
   font-size: 48px;
 }
 
-h2 {
+h2 { /* Header 2 font */
   font-size: 32px;
   font-variant: small-caps;
 }
 
-h3 {
+h3 { /* Header 3 font */
   font-size: 26px;
   font-style: italic;
   margin-top: 25px;
   margin-bottom: 5px;
 }
 
-h4 {
+h4 { /* Header 4 font */
   font-size: 24px;
   font-style: italic;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-a {
-  color: pink;
+a { /* Link colour (in general text of type a) */
+  color: #20206A; 
   font-weight: normal;
   font-style: italic;
   font-size: 21px;

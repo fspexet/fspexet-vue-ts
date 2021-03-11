@@ -45,7 +45,7 @@
     <hr>
     <h2>Poster i F-spexet</h2>
     <p>
-      Undrat vilka poster eller grupper som finns i f-spexet, eller vad de gör?
+      Undrat vilka poster eller grupper som finns i F-spexet, eller vad de gör?
       Kanske funderar du på att vara med själv i nästa års spex? Ta då en titt på
       <router-link to="/about-us/groups">poster i F-spexet.</router-link>
     </p>
@@ -53,7 +53,7 @@
     <hr>
       <h2>Tidigare spex</h2>
       <p>
-        2021 blir ju inte den första gången f-spexet framträder, vi är ju ändå 16 år gamla det här året.
+        2021 blir ju inte den första gången F-spexet framträder, vi är ju ändå 16 år gamla det här året.
         Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
         <router-link to="/about-us/history">tidigare spex.</router-link>
       </p>
