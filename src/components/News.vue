@@ -2,6 +2,34 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr />
+	<div id="nyhetsbrev">
+	<p>
+		F-spexet har nu satt upp ett nyhetsbrev som kommer användas för att meddela när datum är släppta för nästa föreställningsperiod; vanligtvis sker detta två gånger per år. Om ni är intresserade kan ni fylla i nyhetsbrevsformuläret <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKw-c3bX41CoAs7UmdRGWVR4QWLk4ntXaOWJo3zgKf-xETBg/viewform?usp=sf_link" target="_blank"    >här</a>.
+	</p>
+	</div>
+	<hr />
+    <div id="datumslapp">
+	<h2> Datum är släppt! </h2>
+	<!--<div>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKw-c3bX41CoAs7UmdRGWVR4QWLk4ntXaOWJo3zgKf-xETBg/viewform?embedded=true" width="640" height="925" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>-->
+	<p class="font-weight-bold">
+	Äntligen släpps föreställningsdatum för F-spexet 2021: Rockefeller! Årets spex handlar om ett familjedrama med karaktärer vars öden förändras för alltid efter ett oförutsett mord. Vi planerar att hålla tre föreställningar:
+	</p>
+<ul>
+<li> premiär lördagen 15:e maj 17:00 </li>
+<li> fredagen 21:a maj  17:30 </li>
+<li> måndagen 7:e juni 17:00 </li>
+</ul>
+	
+	<p>
+	På grund av rådande omständigheter kommer året spex endast att streamas via Youtube på kanalen F-spexet. (Följ den redan nu <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q" target="_blank"    >här</a>!) Men oroa er inte! Mordmysteriet kommer inte vara mindre spännande och dessutom kommer föreställningarna att vara helt GRATIS för alla! För de som vill, kommer det dock finnas möjlighet att stödja F-spexet i form av frivilliga donationer innan samt under föreställningens gång; mer detaljer finns i <router-link to="/tickets">“Biljetter”</router-link>-sidan. Det innebär tyvärr även att vi inte kommer kunna servera mat som vanligt, men ett tillhörande menyförslag med lika god mat som det alltid har varit hittar ni på <router-link to="/menu">Meny</router-link>-sidan.
+	</p>
+        <div id="affisch-datumslapp">
+          <img src="../assets/affisch-datumslapp.png" class="big_image" alt>
+        </div>  
+    </div>
+    <hr />
     <div id="temaslapp">
       <h2> Temasläpp! </h2>
         <p>

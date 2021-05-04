@@ -13,17 +13,15 @@
 
     <hr>
     <h2>Mat och dryck</h2>
-    <p>
-      I middagen ingår förrätt, huvudrätt och efterrätt.
-      Vi bjuder på vatten och har en välfylld bar där vi säljer allt från läsk och mineralvatten till våra fantastiska drinkar.
-      Vill man ha alkohol får man ta med det själv.
-    </p>
-    <p>
-      Om du vill veta mer så kan du kolla på <router-link to="/menu">Menyn.</router-link>
-    </p>
-
+	<p>
+		I år kan vi tyvärr inte erbjua mat men vi kan ge er recepten för maten vi tänkte laga. Recepten hittas <router-link to="/menu">här</router-link>.
+	</p>	
     <hr>
     <h2>Inrop</h2>
+	<p>
+	Likt maten kan vi iår tyvärr inte erbjuda er nöjet att direktregissera skådespelarna på scen, istället rekommenderar vi att ni skriver ner alla inrop som ni kommer på att ni vill göra och använder dem nästa gång vi har föreställningar i person.
+	</p>
+	<!--
     <p>F-spexet har tolkat begreppet rösträtt alldeles helt underbart fel. Vi tillämpar nämligen inrop från själva publiken!</p>
     <p>Genom att ropa regi mot scenen under pågående föreställningen tvingas ensemblen genomföra inropet efter bästa förmåga. Gör det svårt för våra ensemblister, har du en kul idé så tveka ej, ropa in till scen!</p>
     <p>Ifall fantasin tryter kommer här några förslag:</p>
@@ -41,7 +39,7 @@
       <li>Förinta Borås!</li>
       <li>Åk Skidor!</li>
     </ul>
-
+	-->
     <hr>
     <h2>Poster i F-spexet</h2>
     <p>
@@ -58,7 +56,19 @@
         <router-link to="/about-us/history">tidigare spex.</router-link>
       </p>
     <hr>
-    <h2>Samarbeten</h2>
+    <h1>Sociala medier</h1>
+	<p>    
+Om några få föreställningar om året inte räcker så kan ni se vad som händer genom att följa F-spexet på våra sociala medier (eller ännu bättre aspa ^^):
+	</p>
+    <ul>
+<li>  <a href="https://www.facebook.com/FSpexet" target="_blank">Facebook</a> </li>
+<li>  <a href="https://www.instagram.com/fspexet/" target="_blank">Instagram</a> </li>
+<li>  <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q" target="_blank">YouTube</a> </li>
+</ul>
+	<p>
+	Om du är intresserad av att medverka i F-spexet kan ni fylla i vårat <a href="hhttps://docs.google.com/forms/d/e/1FAIpQLScZa0HAjodO61cclqYzyQoQmD7ZKYPTwdt9PFWsLbSyTYFCEQ/viewform?usp=sf_link" target="_blank">aspformulär</a>  och sedan kontaktar vi dig när saker händer.
+<hr>
+    <h1>Samarbeten</h1>
       <p>
         F-spexet har flera pågående samarbeten som ni kan läsa om här.
       </p>

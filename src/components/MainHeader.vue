@@ -2,7 +2,7 @@
   <header>
     <div id="top">
       <router-link class="toplink" to="/tickets">
-        <h0>BILJETTER</h0>
+        <h0>“BILJETTER”</h0>
       </router-link>
       <router-link class="toplink" to="/menu">
         <h0>MENY</h0>
