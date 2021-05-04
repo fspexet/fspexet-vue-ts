@@ -1,0 +1,2 @@
+Syntax help:
+"<!-- text -->" : comment, i.e. "text" will not be executed.
