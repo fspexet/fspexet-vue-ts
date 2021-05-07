@@ -24,6 +24,10 @@
           <a href="https://wiki.f-spexet.se/">Wikin</a>
           <br>
           <a href="https://www.facebook.com/FSpexet">Facebook</a>
+		  <br>
+          <a href="https://www.instagram.com/fspexet">Instagram</a>
+		  <br>
+          <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q">YouTube</a>
       </div>
 
     </div>

@@ -19,7 +19,7 @@
     <hr>
     <h2>Inrop</h2>
 	<p>
-	Likt maten kan vi iår tyvärr inte erbjuda er nöjet att direktregissera skådespelarna på scen, istället rekommenderar vi att ni skriver ner alla inrop som ni kommer på att ni vill göra och använder dem nästa gång vi har föreställningar i person.
+	Likt maten kan vi i år tyvärr inte erbjuda er nöjet att direktregissera skådespelarna på scen, istället rekommenderar vi att ni skriver ner alla inrop som ni kommer på att ni vill göra och använder dem nästa gång vi har föreställningar i person.
 	</p>
 	<!--
     <p>F-spexet har tolkat begreppet rösträtt alldeles helt underbart fel. Vi tillämpar nämligen inrop från själva publiken!</p>
@@ -66,7 +66,7 @@ Om några få föreställningar om året inte räcker så kan ni se vad som hän
 <li>  <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q" target="_blank">YouTube</a> </li>
 </ul>
 	<p>
-	Om du är intresserad av att medverka i F-spexet kan ni fylla i vårat <a href="hhttps://docs.google.com/forms/d/e/1FAIpQLScZa0HAjodO61cclqYzyQoQmD7ZKYPTwdt9PFWsLbSyTYFCEQ/viewform?usp=sf_link" target="_blank">aspformulär</a>  och sedan kontaktar vi dig när saker händer.
+	Om du är intresserad av att medverka i F-spexet kan ni fylla i vårat <a href="https://docs.google.com/forms/d/e/1FAIpQLScZa0HAjodO61cclqYzyQoQmD7ZKYPTwdt9PFWsLbSyTYFCEQ/viewform?usp=sf_link" target="_blank">aspformulär</a>  och sedan kontaktar vi dig när saker händer.
 <hr>
     <h1>Samarbeten</h1>
       <p>

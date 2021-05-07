@@ -3,7 +3,7 @@
     <h1>Biljetter</h1>
     <hr>
     <p class="obs">
-        På grund utav rådande omständigheter är “biljetterna” annorlunda iår, se nedan för mer information.
+        På grund utav rådande omständigheter är “biljetterna” annorlunda i år, se nedan för mer information.
     </p>
     <p>
 	Till skillnad från John D Rockefeller tycker inte vi i F-spexet att pengar är allt. Därför streamar vi årets spex helt gratis! 

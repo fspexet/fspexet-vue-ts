@@ -8,7 +8,7 @@
       <p
         class="bparagraph"
       >
-Vanligtvis brukar vi i F-spexet servera en trerätters middag mellan akterna i föreställningen, men iår fungerar tyvärr inte detta. Det vi kan, och kommer göra, är att rekommendera en meny och ge dig recepten så du kan laga detta själv och njuta till föreställningarna.      
+Vanligtvis brukar vi i F-spexet servera en trerätters middag mellan akterna i föreställningen, men i år fungerar tyvärr inte detta. Det vi kan, och kommer göra, är att rekommendera en meny och ge dig recepten så du kan laga detta själv och njuta till föreställningarna.      
 </p>
 
 <h2> Förrätt </h2>
@@ -33,7 +33,7 @@ I spexet har vi i år grävt djupt ner genom jordskorpans lager i sökan efter d
 <br />
 <ul>
 <li> <a href="https://drive.google.com/file/d/1prEGXZYZVicfZsFJ8tItQagJlRhzI8ir/view?usp=sharing">Huvudrätt - Köttfärs</a> </li>
-<li> <a href="https://drive.google.com/file/d/1fb1jusDo81DAxX1KIwwbm806wn9ksHW_/view?usp=sharing">(vegetarisk) Huvudrätt - Halloumi</a> </li>
+<li> <a href="https://drive.google.com/file/d/1fb1jusDo81DAxX1KIwwbm806wn9ksHW_/view?usp=sharing">(Vegetarisk) Huvudrätt - Halloumi</a> </li>
 <li> <a href="https://drive.google.com/file/d/1ywZQDGB64o_offhz5BTOXpV7ttcF5O04/view?usp=sharing">(Vegansk) Huvudrätt - Linser</a> </li>
 </ul>
 Utöver recepten rekommenderar vi att lasagnen serveras med en trevlig sallad.
@@ -74,7 +74,7 @@ class="big_image" alt>
       <center>
       <h2>Drycker</h2>
 		<p>
-			Vanligtvis har vi en bar där man kan köpa drinkar, tyvärr kan vi inte göra detta iår, men vi rekommenderar varmt att ni dricker något ni tycker om till maten ovan.
+			Vanligtvis har vi en bar där man kan köpa drinkar, tyvärr kan vi inte göra detta i år, men vi rekommenderar varmt att ni dricker något ni tycker om till maten ovan.
 		</p>
       <!--<p>Utöver den inkluderade trerätters middagen har vi även en bar där man kan köpa alkoholfri dryck som läsk eller drinkar.</p>-->
       <!--<p>Om du önskar dricka alkohol på våra föreställningar är du tvungen att ta med eget. Vi har ingen möjlighet till försäljning av alkohol.</p>-->
