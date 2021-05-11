@@ -9,9 +9,20 @@
 	</div>
 	<hr />
 	<div id="program">
+		<h2> Program</h2>
 	<p>
-	Nu har vi släppt programmet för årets spex. I programmet kan man hitta alla sångtexter, beskrivning av karaktärerna, beskrivning av menyn, citat från spexåret, och mer! Programmet hittar ni <a href="https://drive.google.com/file/d/1iE3uNw3MGVI4cKvQMpHy0PHD3D9_3Sev/view?usp=sharing" target="_blank"    >här</a>
+	Nu har vi släppt programmet för årets spex. I programmet kan man hitta alla sångtexter, beskrivning av karaktärerna, beskrivning av menyn, citat från spexåret, och mer! Programmet hittar ni <a href="https://drive.google.com/file/d/1iE3uNw3MGVI4cKvQMpHy0PHD3D9_3Sev/view?usp=sharing" target="_blank"    >här</a>.
 	</p>
+	</div>
+	<hr />
+	<div id="trailer">
+		<h2> Trailer </h2>
+		<p>
+		F-spexet har gjort en trailer för årets spex och ni kan se den här eller direkt på YouTube. Mycket nöje!
+		</p>
+		<center>
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aNNRswSKuLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+		</center>
 	</div>
 	<hr />
     <div id="datumslapp">
@@ -39,7 +50,7 @@
     <div id="temaslapp">
       <h2> Temasläpp! </h2>
         <p>
-          Hurra! F-spexet presenterar iår spexet Rockefeller:
+          Hurra! F-spexet presenterar i år spexet Rockefeller:
         </p>
         <p>
           John D Rockefeller har ägnat hela sin karriär åt att bygga sitt oljemonopol, förhindra konkurrens på den fria marknaden och att få sina barn att bli precis som han. Men en dag krossas den kapitalistiska idyllen plötsligt. Följ med på en hissnande mordgåta i tre akter, med tillhörande menyförslag för att förhöja upplevelsen! Föreställningsdatum släpps i april.
