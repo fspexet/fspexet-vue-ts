@@ -8,7 +8,8 @@
       <p
         class="bparagraph"
       >
-Vanligtvis brukar vi i F-spexet servera en trerätters middag mellan akterna i föreställningen, men i år fungerar tyvärr inte detta. Det vi kan, och kommer göra, är att rekommendera en meny och ge dig recepten så du kan laga detta själv och njuta till föreställningarna.      
+Vanligtvis brukar vi i F-spexet servera en trerätters middag mellan akterna i föreställningen, men för årets höstföreställningar kan vi tyvärr inte erbjuda en full trerätters utan endast huvudrätten och efterrätten nedan. För er som ser på föreställningen via YouTube kan vi fortfarande rekommendera den kompletta menyn nedan!
+
 </p>
 
 <h2> Förrätt </h2>

@@ -2,6 +2,24 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr />
+      <div id="hostforestallningar">
+        <p>
+        Äntligen släpps höstens föreställningsdatum för F-spexet 2021: Rockefeller! Årets spex är ett familjedrama med karaktärer vars öden förändras för alltid efter ett oförutsett mord. Vi planerar att hålla två föreställningar:     
+        </p>
+<ul>
+<li> Lördagen 4:e september 18:00 </li>
+<li> Måndagen 6:e september 18:00 </li>
+</ul>
+<p>
+Föreställningarna kommer hållas fysiskt för studenter på Fysikteknologsektionen vid dessa tillfällen. Biljetter kommer gå att köpa för F-Nollan via ett biljettformulär som släpps under vecka 34. Om det finns lediga platser kvar den 2 september släpps dessa även för pHaddrar och övriga sektionsmedlemmar. Det kommer ingå en tvårätters middag i priset!
+</p>
+<p>
+Alla andra kan se spexet streamas vid samma tider via Youtube-kanalen F-spexet. (Följ den redan nu <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q" target="_blank">här</a>!). Mordmysteriet kommer inte vara mindre spännande digitalt och är dessutom helt GRATIS för alla! Tyvärr medför digitaliseringen att man inte kommer få någon mat serverad, men ni hittar ett tillhörande menyförslag på Meny-sidan om man vill laga sig en egen festmåltid. Vill man stötta F-spexet trots att man sitter hemma i soffan tar F-spexet också emot frivilliga donationer under föreställningens gång; mer detaljer för detta finns på <router-link to="/tickets">“Biljetter”</router-link>-sidan.
+<br /><br />
+        <span style="float:right"><i>2021-08-23</i></span> <br />
+</p>
+      </div>
+    <hr />
 	<div id="nyhetsbrev">
 	<p>
 		F-spexet har nu satt upp ett nyhetsbrev som kommer användas för att meddela när datum är släppta för nästa föreställningsperiod; vanligtvis sker detta två gånger per år. Om ni är intresserade kan ni fylla i nyhetsbrevsformuläret <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKw-c3bX41CoAs7UmdRGWVR4QWLk4ntXaOWJo3zgKf-xETBg/viewform?usp=sf_link" target="_blank"    >här</a>.
