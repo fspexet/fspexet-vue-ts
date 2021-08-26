@@ -11,7 +11,7 @@
 <li> Måndagen 6:e september 18:00 </li>
 </ul>
 <p>
-Föreställningarna kommer hållas fysiskt för studenter på Fysikteknologsektionen vid dessa tillfällen. Biljetter kommer gå att köpa för F-Nollan via ett biljettformulär som släpps under vecka 34. Om det finns lediga platser kvar den 2 september släpps dessa även för pHaddrar och övriga sektionsmedlemmar. Det kommer ingå en tvårätters middag i priset!
+Föreställningarna kommer hållas fysiskt för studenter på Fysikteknologsektionen vid dessa tillfällen, för information om detta se <router-link to="/tickets">“Biljetter”</router-link>-sidan. Biljetter kommer gå att köpa för F-Nollan via ett biljettformulär som släpps under vecka 34. Om det finns lediga platser kvar den 2 september släpps dessa även för pHaddrar och övriga sektionsmedlemmar. Det kommer ingå en tvårätters middag i priset!
 </p>
 <p>
 Alla andra kan se spexet streamas vid samma tider via Youtube-kanalen F-spexet. (Följ den redan nu <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q" target="_blank">här</a>!). Mordmysteriet kommer inte vara mindre spännande digitalt och är dessutom helt GRATIS för alla! Tyvärr medför digitaliseringen att man inte kommer få någon mat serverad, men ni hittar ett tillhörande menyförslag på Meny-sidan om man vill laga sig en egen festmåltid. Vill man stötta F-spexet trots att man sitter hemma i soffan tar F-spexet också emot frivilliga donationer under föreställningens gång; mer detaljer för detta finns på <router-link to="/tickets">“Biljetter”</router-link>-sidan.
