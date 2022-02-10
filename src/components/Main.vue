@@ -60,6 +60,7 @@ body {
   background: black;
 }
 .main {
+  /*background: url(../assets/background_anna_v2.png);*/
   background: url(../assets/background_aragon.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,7 +88,8 @@ ul {
   font-weight: normal;
 }
 
-p {
+p { /* Paragraph font I think */
+  color: #FFFFFF;
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -96,7 +98,7 @@ p {
 }
 
 h0 { /* Main header font */
-  color: #A4A4A4; <!-- hex #RRGGBB -->
+  color: #FFFFFF; <!-- hex #RRGGBB -->
   font-family: Josefin, Futura, 'PakType Tehreer', sans;
   font-size: 35px;
   font-weight: bold;
@@ -104,16 +106,19 @@ h0 { /* Main header font */
 }
 
 h1 { /* Header 1 font */
+  color: #FFFFFF;
   font-variant: small-caps;
   font-size: 48px;
 }
 
 h2 { /* Header 2 font */
+  color: #FFFFFF;
   font-size: 32px;
   font-variant: small-caps;
 }
 
 h3 { /* Header 3 font */
+  color: #FFFFFF;
   font-size: 26px;
   font-style: italic;
   margin-top: 25px;
@@ -121,6 +126,7 @@ h3 { /* Header 3 font */
 }
 
 h4 { /* Header 4 font */
+  color: #FFFFFF;
   font-size: 24px;
   font-style: italic;
   margin-top: 0px;
@@ -134,11 +140,13 @@ a { /* Link colour (in general text of type a) */
   font-size: 21px;
 }
 
-li {
+li { /* List fonts I think */
+  color: #FFFFFF;
   font-size: 20px;
 }
 
 .bparagraph {
+  color: #FFFFFF;
   font-size: 20px;
 }
 
