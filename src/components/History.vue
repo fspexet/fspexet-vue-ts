@@ -2,15 +2,25 @@
   <div class="contents">
     <h1>Tidigare F-Spex</h1>
     <div>
+      <h4>Rockefeller (2021)</h4>
+      <p>
+        F-spexet Rockefeller handlade om den stenrika familjen Rockefeller och mordet på dess överhuvud John D. Rockefeller. 
+      </p>
+      <hr>
+    </div>
+    <div>
       <h4>Johannes Kepler (2020)</h4>
       <p>
         Den unge Johannes Kepler blir inbjuden till kejsare Rudolf II:s hov i Prag, för att studera under hovastronomen 
         Tycho Brahe. Omkring Kepler vecklar djupgående intriger ut sig: en passionerad konstnärlig fejd mellan Giuseppe
         Arcimboldo och Sofonisba Anguissola om titeln hovkonstnär, och en tvist om heliocentrism respektive geocentrism mellan 
         Keplers mentor, Michael Mästlin, och Brahe. Illustrerad Vetenskap kring sekelskiftet år 1600 v.t.
+
+        Tyvärr p.g.a. Covid-19 pandemin blev detta spexet aldrig framfört.
       </p>
       <hr>
-    </div><div>
+    </div>
+    <div>
       <h4>Döden (2019)</h4>
       <p>
         Robert Oppenheimer dör och får äran att se hur kontorsarbetet ser ut i efterlivet, som vikarie till den
@@ -19,7 +29,8 @@
         Ett livligt spex präglat av intressekonflikt, naivitet, och tropisk semester.
       </p>
       <hr>
-    </div><div>
+    </div>
+    <div>
       <h4>Cecilia Vasa (2018)</h4>
       <p>
         Gustav Vasas dotter Cecilia tvingas skaffa sig ett jobb så hon går och blir rik skapare.
