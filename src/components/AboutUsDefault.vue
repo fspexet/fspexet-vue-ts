@@ -3,10 +3,6 @@
     <h1>Om F-spexet</h1>
 
     <hr>
-
-    <p
-      class="bparagraph"
-    >Någon gång kommer F-spexet framföra 2021 års fantastiska uppsättning. Allt om denna finns att läsa om här.</p>
     <h2>Vad är F-spexet?</h2>
     <p>F-spexet är Chalmers F-sektions studentspex. Men vad är ett spex?</p>
     <p>Jo, det är teater fast lite galnare, lite roligare och lite bättre. Det blandas friskt teater med sång, dans, skämt och ordvitsar under tre spexiga akter. Dessutom serverar F-spexet en eminent trerätters middag till föreställningarna. Något så bra får man väl inte missa?</p>
@@ -14,14 +10,10 @@
     <hr>
     <h2>Mat och dryck</h2>
 	<p>
-		I år kan vi tyvärr inte erbjua mat men vi kan ge er recepten för maten vi tänkte laga. Recepten hittas <router-link to="/menu">här</router-link>.
+		Årets meny är ännu inte satt, men när den är det kan den hittas <router-link to="/menu">här</router-link>.
 	</p>	
     <hr>
     <h2>Inrop</h2>
-	<p>
-	Likt maten kan vi i år tyvärr inte erbjuda er nöjet att direktregissera skådespelarna på scen, istället rekommenderar vi att ni skriver ner alla inrop som ni kommer på att ni vill göra och använder dem nästa gång vi har föreställningar i person.
-	</p>
-	<!--
     <p>F-spexet har tolkat begreppet rösträtt alldeles helt underbart fel. Vi tillämpar nämligen inrop från själva publiken!</p>
     <p>Genom att ropa regi mot scenen under pågående föreställningen tvingas ensemblen genomföra inropet efter bästa förmåga. Gör det svårt för våra ensemblister, har du en kul idé så tveka ej, ropa in till scen!</p>
     <p>Ifall fantasin tryter kommer här några förslag:</p>
@@ -39,13 +31,12 @@
       <li>Förinta Borås!</li>
       <li>Åk Skidor!</li>
     </ul>
-	-->
     <hr>
     <h2>Poster i F-spexet</h2>
     <p>
       Undrat vilka poster eller grupper som finns i F-spexet, eller vad de gör?
       Kanske funderar du på att vara med själv i nästa års spex? Ta då en titt på
-      <router-link to="/about-us/groups">poster i F-spexet.</router-link>
+      <router-link to="/about-us/groups">poster i F-spexet</router-link>.
     </p>
 
     <hr>
@@ -53,7 +44,7 @@
       <p>
         2021 blir ju inte den första gången F-spexet framträder, vi är ju ändå 16 år gamla det här året.
         Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
-        <router-link to="/about-us/history">tidigare spex.</router-link>
+        <router-link to="/about-us/history">tidigare spex</router-link>.
       </p>
     <hr>
     <h1>Sociala medier</h1>
@@ -83,7 +74,7 @@ Om några få föreställningar om året inte räcker så kan ni se vad som hän
           F-spexet har flera studiecirklar under Studiefrämjandet och är väldigt glada över att ha deras återkommande stöd.
         </p>
         <div style="inline-block"> 
-          <img center src="../assets/studieframjandet_logga.png" class="big_image" style="Center image" contain height="100px" width="150px">
+          <center><img center src="../assets/studieframjandet_logga.png" class="big_image" style="Center image" contain height="100px" width="150px"></center>
         </div>
 
 

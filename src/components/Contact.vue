@@ -10,7 +10,7 @@
     </p>
 
     <h3>Biljettfrågor</h3>
-    <p>Ebba Grönfors <br> <a href="mailto:kassor@f-spexet.se">
+    <p>Oskar Vallhagen <br> <a href="mailto:kassor@f-spexet.se">
         kassor@f-spexet.se
       </a>
     </p>
@@ -27,19 +27,19 @@
     <h2>Styret</h2>
 
     <h3>Ordförande</h3>
-    <p>Beatriz Bento Hansson<br> <a href="mailto:ordforande@f-spexet.se">
+    <p>Lukas Enarsson<br> <a href="mailto:ordforande@f-spexet.se">
         ordforande@f-spexet.se
       </a>
     </p>
 
     <h3>Förman</h3>
-    <p>Carin Lundqvist<br><a href="mailto:forman@f-spexet.se">
+    <p>Edvin Johansson<br><a href="mailto:forman@f-spexet.se">
         forman@f-spexet.se
       </a>
     </p>
 
     <h3>Kassör</h3>
-    <p>Ebba Grönfors<br><a href="mailto:kassor@f-spexet.se">
+    <p>Oskar Vallhagen<br><a href="mailto:kassor@f-spexet.se">
         kassor@f-spexet.se
       </a>
     </p>

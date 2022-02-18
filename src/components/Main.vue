@@ -60,8 +60,7 @@ body {
   background: black;
 }
 .main {
-  /*background: url(../assets/background_anna_v2.png);*/
-  background: url(../assets/background_aragon.png);
+  background: url(../assets/background_anna_v2.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 30px 10px 30px;
@@ -134,7 +133,7 @@ h4 { /* Header 4 font */
 }
 
 a { /* Link colour (in general text of type a) */
-  color: #20206A; 
+  color: #00BFFF;/*20206A */
   font-weight: normal;
   font-style: italic;
   font-size: 21px;

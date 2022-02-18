@@ -18,6 +18,13 @@
       </div>
 
 
+      <div class="content" id="wiki_2">
+        <h3>Uppdatera hemsidan</h3>
+            <p>
+                För att vara säker på att du ser den senaste versionen av hemsidan rekommenderas att du rensar din cache och laddar om hemsidan. En genväg att göra detta är "ctrl+F5" på icke-Mac system och för Mac fungerar "ctrl+shit+r".
+            
+            </p>
+      </div>
 
       <div class="content" id="wiki">
         <h2>Länkar</h2>

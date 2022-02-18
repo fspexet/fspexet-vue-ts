@@ -2,11 +2,38 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="temaslapp_2022">
+                <p>
+                    F-spexet 2022 presenterar <br /> <br /><center> <font size="7"> Tillbaka till dåtiden </font><br /> eller <br /><font size="7"> Einsteins äventyr i rumtiden </font> </center>
+                </p>
+                <div id="logga_2022">
+                    <img src="../assets/logga_utkast_hemsida.png" class="big_image" alt>
+                </div>
+                <p>
+                    Tycker du att det var bättre förr? I så fall, följ med oss tillbaka till dåtiden ... med en liten omväg till framtiden!
+                    Årets spex handlar om Einstein och hans kollega som reser till framtiden, där Einstein inser att det faktiskt var bättre förr. Tyvärr är tidsmaskinen sönder. Hur ska det här sluta? Kom på någon av våra föreställningar för att få svaret!
+                    <br /><br />
+                    Föreställningsdatum:
+                </p>
+                <ul>
+                    <li>Tisdag, 29 mars, kl 18 (premiär!) </li>
+                    <li>Onsdag, 30 mars, kl 18 </li>
+                    <li>Fredag, 1 april, kl 18 </li>
+                    <li>Lördag, 2 april, kl 17 </li>
+                    <li>Söndag, 3 april, kl 16 (busk!)</li>
+                </ul>
+                <p>
+                    Mer information om biljetter hittar du <router-link to="/tickets">här</router-link>.
+                </p>
+                <br /><br />
+                <span style="float:right"><i style="color:White;">2022-02-18</i></span> <br />
+            </div>
+            <hr />
             <div id="rebus_2022">
                 <p>
                     Årets rebus är här!
                 </p>
-                <div id="rebus_bild"> 
+                <div id="rebusbild"> 
                     <img src="../assets/rebus.png" class="big_image" alt>
                 </div>
                 <p>
