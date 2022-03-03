@@ -5,23 +5,24 @@
     <div id="box">
       <div class="content" id="plats">
         <h2>Var?</h2>
-        <p>Sektionslokalen Focus,
+        <!--<p>Sektionslokalen Focus,
           <br>Kemivägen 11,
           <br>412 58 Göteborg
         </p>
-          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>
-        <!--  <p>Kalle Glader,
+          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>-->
+        <p>F-spexet kommer under våren hållas i</p>
+        <p>Kalle Glader,
           <br>Hugo Grauers gata 4A,
           <br>411 33 Göteborg
         </p>
-          <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a> -->
+          <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
       </div>
 
 
       <div class="content" id="wiki_2">
         <h3>Uppdatera hemsidan</h3>
             <p>
-                För att vara säker på att du ser den senaste versionen av hemsidan rekommenderas att du rensar din cache och laddar om hemsidan. En genväg att göra detta är "ctrl+F5" på icke-Mac system och för Mac fungerar "ctrl+shit+r".
+                För att vara säker på att du ser den senaste versionen av hemsidan rekommenderas att du rensar din cache och laddar om hemsidan. En genväg att göra detta i vissa webläsare är "ctrl+F5" och om detta inte fungerar borde "ctrl+shift+r" fungera.
             
             </p>
       </div>

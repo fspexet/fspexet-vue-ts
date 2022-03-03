@@ -42,8 +42,7 @@
     <hr>
       <h2>Tidigare spex</h2>
       <p>
-        2021 blir ju inte den första gången F-spexet framträder, vi är ju ändå 16 år gamla det här året.
-        Om du är intresserad av vad som spexats förut så kan du läsa lite på våra
+        Om du är intresserad av vad som F-spexet har gjort tidigare kan du läsa lite om våra
         <router-link to="/about-us/history">tidigare spex</router-link>.
       </p>
     <hr>
@@ -57,7 +56,7 @@ Om några få föreställningar om året inte räcker så kan ni se vad som hän
 <li>  <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q" target="_blank">YouTube</a> </li>
 </ul>
 	<p>
-	Om du är intresserad av att medverka i F-spexet kan ni fylla i vårat <a href="https://docs.google.com/forms/d/e/1FAIpQLScZa0HAjodO61cclqYzyQoQmD7ZKYPTwdt9PFWsLbSyTYFCEQ/viewform?usp=sf_link" target="_blank">aspformulär</a>  och sedan kontaktar vi dig när saker händer.
+	Om du är intresserad av att medverka i F-spexet kan ni fylla i vårat <a href="https://forms.gle/VeaiVVkByVVKmAdL8" target="_blank">aspformulär</a> eller mejla <a href="mailto:jagvill@f-spexet.se">jagvill@f-spexet.se</a> och sedan kontaktar vi dig när saker händer.
 <hr>
     <h1>Samarbeten</h1>
       <p>

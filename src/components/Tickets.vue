@@ -25,12 +25,17 @@
         Biljetter kan köpas veckorna innan premiär på följande sätt:
     </p>
     <ul>
-        <li> Via instruktioner på f-spexet.se</li>
+        <li> Genom att fylla i formuläret på denna sida (se nedan)</li>
+        <li> Genom att skicka ett mail till biljetter@f-spexet.se. I mailet behövs information om</li>
+        <ul>
+            <li> Vilken föreställning ni vill gå på</li>
+            <li> Namn, biljettyp och matpreferenser till samtliga i sällskapet.</li>
+            <li> E-post och telefonnummer till kontaktperson. Som kontaktperson räknas den gäst i sällskapet som vi kontaktar angående betalning. Gäller även för allergier och matpreferenser om kontaktuppgifter inte uppges för andra gäster i sällskapet.</li>
+            <li> Annat ni vill att vi ska veta, exempelvis om ni vill sitta tillsammans med något annat sällskap</li>
+        </ul>
         <li> Lunchtid i F-spexets bås på Teknologgården utanför Chalmers kårhus</li>
     </ul>
-    <p>
-        Mer information om biljettinköp kommer snart!
-    </p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxNUIVyOUhhCEEJ_sZ8PB9DkLtnCy5rBGIxyP6u5YiF3-VrA/viewform?usp=sf_link" width="640" height="1489" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
     <p>
         Föreställningarna är i samarbete med Studiefrämjandet.
     </p>

@@ -2,6 +2,16 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="rebuslosning">
+                <p>
+                    Här finns lösningen för rebusen (den är skriven i osynlig text för att se den kan ni markera området nedan):
+                </p>
+                <div style="color:#FFFFFF00">
+Vi ser en tillbringare där man sedan tar bort <em>be</em> och <em>ring</em> och <em>re </em>för repristecknet, vilket ger <em>till</em>. Sedan lägger vi till <em>baka</em> och får <em>Tillbaka</em>. Efter detta ser vi en ny tillbringare. Även där tar vi bort <em>ring</em> och <em>bar</em> för att sedan lägga till <em>te</em> och ta bort <em>te</em>. Då har vi fått ordet <em>Till</em>. Sedan ser vi <em>nu</em> med en pil <em>bakåt</em> vilket blir <em>då</em> och så lägger vi till <em>tid</em> och en <em>en</em> och då har vi årets tema, <em>Tillbaka till dåtiden</em>!
+                </div>
+                <span style="float:right"><i style="color:White;">2022-03-02</i></span> <br />
+            </div>
+            <hr />
             <div id="temaslapp_2022">
                 <p>
                     F-spexet 2022 presenterar <br /> <br /><center> <font size="7"> Tillbaka till dåtiden </font><br /> eller <br /><font size="7"> Einsteins äventyr i rumtiden </font> </center>
