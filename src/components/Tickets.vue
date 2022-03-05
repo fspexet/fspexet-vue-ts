@@ -35,6 +35,8 @@
         </ul>
         <li> Lunchtid i F-spexets bås på Teknologgården utanför Chalmers kårhus</li>
     </ul>
+    <p>
+    Biljettformuläret  finns <a href="https://docs.google.com/forms/d/e/1FAIpQLSfxNUIVyOUhhCEEJ_sZ8PB9DkLtnCy5rBGIxyP6u5YiF3-VrA/viewform?usp=sf_link" target="_blank">här</a> eller inbäddat nedan:
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxNUIVyOUhhCEEJ_sZ8PB9DkLtnCy5rBGIxyP6u5YiF3-VrA/viewform?usp=sf_link" width="640" height="1489" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
     <p>
         Föreställningarna är i samarbete med Studiefrämjandet.
