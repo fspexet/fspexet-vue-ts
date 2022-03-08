@@ -5,8 +5,70 @@
       <h1>Meny</h1>
       <hr>
         <p>
-        Årets meny är ännu inte satt men när den är det kan du hitta den här!
+<!--Förrätt
+Rödbetscarpaccio
+Tunt skivade rödbetor med bland annat sallad på. Den serveras kall, så den är perfekt för dig som inte kan styra din tidsmaskin rätt till servering.
+
+
+
+Huvudrätt
+Fransk potatissallad med kyckling och salsa 
+Utöver att resa i tiden kan tidsmaskinen IKAE även resa i rummet. Därför får ni nu en fransk potatissallad med kyckling och salsa.
+
+
+
+Efterrätt
+Chokladmousse 
+Så god att du önskar att du hade en tidsmaskin så att du kunde åka tillbaka i tiden efteråt för att få en portion till.-->
         </p>
+<h2> Förrätt: Rödbetscarpaccio </h2>
+<p>
+Tunt skivade rödbetor med bland annat sallad på. Den serveras kall, så den är perfekt för dig som inte kan styra din tidsmaskin rätt till servering.
+</p>
+      </center>
+      <center>
+<div id="forratt">
+          <img src="../assets/rodbetor.jpg"
+contain
+height="450px"
+width="675px"
+ class="big_image" alt>
+        </div>
+      </center>
+
+      <center>
+<h2> Huvudrätt: Fransk potatissallad med kyckling och salsa </h2>
+<p>
+Utöver att resa i tiden kan tidsmaskinen IKAE även resa i rummet. Därför får ni nu en fransk potatissallad med kyckling och salsa.
+</p>
+      </center>
+
+      <center>
+<div id="huvudratt">
+          <img src="../assets/franskpotatissallad.jpg"
+contain
+height="450px"
+width="675px"
+ class="big_image" alt>
+        </div>
+      </center>
+
+      <center>
+<h2> Efterrätt: Chokladmousse </h2>
+<p>
+Så god att du önskar att du hade en tidsmaskin så att du kunde åka tillbaka i tiden efteråt för att få en portion till.
+</p>
+      </center>
+
+      <center>
+<div id="efterratt">
+          <img src="../assets/chokladmousse.jpg"
+contain
+height="450px"
+width="675px"
+class="big_image" alt>
+        </div>
+      </center>
       </center>
     </div>
   </div>

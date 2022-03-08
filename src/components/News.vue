@@ -2,9 +2,16 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="meny_slapp">
+                <p>
+                    Menyn för årets föreställningar är nu släppt. Ni hittar den på <router-link to="/menu">Meny</router-link>-sidan.
+                </p>
+                <span style="float:right"><i style="color:White;">2022-03-05</i></span> <br />
+            </div>
+            <hr />
             <div id="rebuslosning">
                 <p>
-                    Här finns lösningen för rebusen (den är skriven i osynlig text för att se den kan ni markera området nedan):
+                    Här finns lösningen för rebusen (den är skriven i osynlig text och för att se den kan ni markera området nedan):
                 </p>
                 <div style="color:#FFFFFF00">
 Vi ser en tillbringare där man sedan tar bort <em>be</em> och <em>ring</em> och <em>re </em>för repristecknet, vilket ger <em>till</em>. Sedan lägger vi till <em>baka</em> och får <em>Tillbaka</em>. Efter detta ser vi en ny tillbringare. Även där tar vi bort <em>ring</em> och <em>bar</em> för att sedan lägga till <em>te</em> och ta bort <em>te</em>. Då har vi fått ordet <em>Till</em>. Sedan ser vi <em>nu</em> med en pil <em>bakåt</em> vilket blir <em>då</em> och så lägger vi till <em>tid</em> och en <em>en</em> och då har vi årets tema, <em>Tillbaka till dåtiden</em>!
@@ -60,8 +67,9 @@ Vi ser en tillbringare där man sedan tar bort <em>be</em> och <em>ring</em> och
             </div>
             <hr />
             <div id="nyhetsbrev">
+                <h2>F-spexets nyhetsbrev</h2>
                 <p>
-                    F-spexet har nu satt upp ett nyhetsbrev som kommer användas för att meddela när datum är släppta för nästa föreställningsperiod; vanligtvis sker detta två gånger per år. Om ni är intresserade kan ni fylla i nyhetsbrevsformuläret <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKw-c3bX41CoAs7UmdRGWVR4QWLk4ntXaOWJo3zgKf-xETBg/viewform?usp=sf_link" target="_blank">här</a>.
+                    F-spexet har nu satt upp ett nyhetsbrev som kommer användas för att meddela när datum är släppta för nästa föreställningsperiod; vanligtvis sker detta två gånger per år. Om ni är intresserade kan ni fylla i nyhetsbrevsformuläret <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZwcwkp9as7b4eM5tsF8Ac-LXYM-ZqjSaN8hek46805rq1Ug/viewform?usp=sf_link" target="_blank">här</a>.
                 </p>
             </div>
         <hr />
