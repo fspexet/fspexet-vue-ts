@@ -23,6 +23,14 @@
         I dessa priser ingår även en trerätters middag!
     </p>
     <p>
+        Förtydligande om F-Nollan, Nollan och Studentpriser:
+    </p>
+    <ul>
+        <li>*F-Nollan (nyantagen Chalmersstudent på F-sektionen) har bokningsförtur till föreställningen 5/9 fram till och med 1/9. Övriga kan dock preliminärboka biljetter även innan 1/9 och få eventuella biljetter i mån av plats.</li>
+        <li>**Som Nollan räknas nyantagen Chalmersstudent (antagen hösten 2022)</li>
+        <li>***Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
+    </ul>
+    <p>
         Biljetter kan köpas på följande sätt:
     </p>
     <ul>
