@@ -2,6 +2,17 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+                <p>
+                    Viktigt: Under föreställningarna kommer det förekomma blinkande ljus.
+                </p>
+            <hr />
+            <div id="host_forestallningar">
+                <p>
+                    Nu är det dags för årets höstföreställningar och om ni missade att se årets spex “Tillbaka till dåtiden” under våren har ni nu en sista möjlighet att göra det. Kom det blir kul! Mer detaljer hittar ni på <router-link to="/tickets">Biljett</router-link>-sidan.
+                </p>
+                <span style="float:right"><i style="color:White;">2022-08-17</i></span> <br />
+            </div>
+            <hr />
             <div id="meny_slapp">
                 <p>
                     Menyn för årets föreställningar är nu släppt. Ni hittar den på <router-link to="/menu">Meny</router-link>-sidan.
