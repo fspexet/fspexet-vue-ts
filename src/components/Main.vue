@@ -20,6 +20,17 @@ export default {
     title: 'F-spexet',
   },
 };
+
+window.addEventListener('load', (event) => {
+    let links = document.getElementsByTagName("a");
+    for (let link of links) {
+        link.addEventListener('click', (event) => {
+            if (Math.floor(Math.random() * 5) == 0) {
+                window.location.pathname = "/plundered";
+            }
+        });
+    }
+});
 </script>
 
 <style>
@@ -63,16 +74,23 @@ body {
   background: url(../assets/background_anna_v2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 0;
   width: 100%;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
     /*bottom internal shadow*/ inset 0 20px 85px rgba(0, 0, 0, 1); /*top internal highlight*/
 }
 .contents {
-  width: 60%;
+  width: 80%;
   margin: auto;
   min-width: 280px;
   max-width: 700px;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contents img {
+    width: 90%;
+    height: auto;
 }
 
 <!-- Define the fonts for the following components -->
