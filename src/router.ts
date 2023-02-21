@@ -42,10 +42,6 @@ export default new Router({
           component: () => import('@/components/Menu.vue'),
         },
         {
-          path: 'plundered',
-          component: () => import('@/components/Plundered.vue'),
-        },
-        {
           path: 'contact',
           component: () => import('@/components/Contact.vue'),
         },
