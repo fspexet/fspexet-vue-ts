@@ -8,7 +8,7 @@
         <h0>MENY</h0>
       </router-link>
       <router-link class="toplink" id="logo" to="/">
-        <img id="logo-image" src="@/assets/logga_utkast_hemsida.png" alt="F-spexet 2022">
+        <img id="logo-image" src="@/assets/logga_2023_text.png" alt="F-spexet 2023">
       </router-link>
       <router-link class="toplink" to="/about-us">
         <h0>OM OSS</h0>

@@ -4,27 +4,14 @@
       <center>
       <h1>Meny</h1>
       <hr>
-        <p>
-<!--Förrätt
-Rödbetscarpaccio
-Tunt skivade rödbetor med bland annat sallad på. Den serveras kall, så den är perfekt för dig som inte kan styra din tidsmaskin rätt till servering.
-
-
-
-Huvudrätt
-Fransk potatissallad med kyckling och salsa 
-Utöver att resa i tiden kan tidsmaskinen IKAE även resa i rummet. Därför får ni nu en fransk potatissallad med kyckling och salsa.
-
-
-
-Efterrätt
-Chokladmousse 
-Så god att du önskar att du hade en tidsmaskin så att du kunde åka tillbaka i tiden efteråt för att få en portion till.-->
-        </p>
-<h2> Förrätt: Rödbetscarpaccio </h2>
-<p>
-Tunt skivade rödbetor med bland annat sallad på. Den serveras kall, så den är perfekt för dig som inte kan styra din tidsmaskin rätt till servering.
-</p>
+      <p>
+      Menyn kommer snart!
+      </p>
+      <!--
+      <h2> Förrätt: Rödbetscarpaccio </h2>
+      <p>
+      Tunt skivade rödbetor med bland annat sallad på. Den serveras kall, så den är perfekt för dig som inte kan styra din tidsmaskin rätt till servering.
+      </p>
       </center>
       <center>
 <div id="forratt">
@@ -69,6 +56,7 @@ width="675px"
 class="big_image" alt>
         </div>
       </center>
+      -->
       </center>
     </div>
   </div>

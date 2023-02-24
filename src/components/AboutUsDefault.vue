@@ -73,7 +73,7 @@ Om några få föreställningar om året inte räcker så kan ni se vad som hän
           F-spexet har flera studiecirklar under Studiefrämjandet och är väldigt glada över att ha deras återkommande stöd.
         </p>
         <div style="inline-block"> 
-          <center><img center src="../assets/studieframjandet_logga.png" class="big_image" style="Center image" contain height="100px" width="150px"></center>
+          <center><img center src="../assets/studieframjandet_logga_vit.png" class="big_image" style="Center image" contain height="100px" width="150px"></center>
         </div>
 
 

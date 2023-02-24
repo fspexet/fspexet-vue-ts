@@ -2,79 +2,32 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="temaslapp_2023">
                 <p>
-                    Viktigt: Under föreställningarna kommer det förekomma blinkande ljus.
+                    F-spexet 2023 presenterar <br /> <br /><center> <font size="7"> Marius Jacob </font><br /> eller <br /><font size="7"> Mästertjuvarna på Operan </font> </center>
                 </p>
-            <hr />
-            <div id="host_forestallningar">
-                <p>
-                    Nu är det dags för årets höstföreställningar och om ni missade att se årets spex “Tillbaka till dåtiden” under våren har ni nu en sista möjlighet att göra det. Kom det blir kul! Mer detaljer hittar ni på <router-link to="/tickets">Biljett</router-link>-sidan.
-                </p>
-                <span style="float:right"><i style="color:White;">2022-08-17</i></span> <br />
-            </div>
-            <hr />
-            <div id="meny_slapp">
-                <p>
-                    Menyn för årets föreställningar är nu släppt. Ni hittar den på <router-link to="/menu">Meny</router-link>-sidan.
-                </p>
-                <span style="float:right"><i style="color:White;">2022-03-05</i></span> <br />
-            </div>
-            <hr />
-            <div id="rebuslosning">
-                <p>
-                    Här finns lösningen för rebusen (den är skriven i osynlig text och för att se den kan ni markera området nedan):
-                </p>
-                <div style="color:#FFFFFF00">
-Vi ser en tillbringare där man sedan tar bort <em>be</em> och <em>ring</em> och <em>re </em>för repristecknet, vilket ger <em>till</em>. Sedan lägger vi till <em>baka</em> och får <em>Tillbaka</em>. Efter detta ser vi en ny tillbringare. Även där tar vi bort <em>ring</em> och <em>bar</em> för att sedan lägga till <em>te</em> och ta bort <em>te</em>. Då har vi fått ordet <em>Till</em>. Sedan ser vi <em>nu</em> med en pil <em>bakåt</em> vilket blir <em>då</em> och så lägger vi till <em>tid</em> och en <em>en</em> och då har vi årets tema, <em>Tillbaka till dåtiden</em>!
-                </div>
-                <span style="float:right"><i style="color:White;">2022-03-02</i></span> <br />
-            </div>
-            <hr />
-            <div id="temaslapp_2022">
-                <p>
-                    F-spexet 2022 presenterar <br /> <br /><center> <font size="7"> Tillbaka till dåtiden </font><br /> eller <br /><font size="7"> Einsteins äventyr i rumtiden </font> </center>
-                </p>
-                <div id="logga_2022">
-                    <img src="../assets/logga_utkast_hemsida.png" class="big_image" alt>
+                <div id="logga_2023">
+                    <img src="../assets/logga_2023.png" class="big_image" alt>
                 </div>
                 <p>
-                    Tycker du att det var bättre förr? I så fall, följ med oss tillbaka till dåtiden ... med en liten omväg till framtiden!
-                    Årets spex handlar om Einstein och hans kollega som reser till framtiden, där Einstein inser att det faktiskt var bättre förr. Tyvärr är tidsmaskinen sönder. Hur ska det här sluta? Kom på någon av våra föreställningar för att få svaret!
+                    Följ med oss till Operahuset i London, där en storslagen föreställning ska sättas upp.
+                    Allt tycks gå som smort, tills den ökände mästerskurken Moriarty dyker upp för att begå årtiondets stöld.
+                    Hur ska det här gå? Jo, det får du veta om du går på årets föreställning!
                     <br /><br />
                     Föreställningsdatum:
                 </p>
                 <ul>
-                    <li>Tisdag, 29 mars, kl 18 (premiär!) </li>
-                    <li>Onsdag, 30 mars, kl 18 </li>
-                    <li>Fredag, 1 april, kl 18 </li>
-                    <li>Lördag, 2 april, kl 17 </li>
-                    <li>Söndag, 3 april, kl 16 (busk!)</li>
+                    <li>Tisdag, 28 mars, kl 18 (premiär!) </li>
+                    <li>Onsdag, 29 mars, kl 18 </li>
+                    <li>Fredag, 31 mars, kl 18 </li>
+                    <li>Lördag, 1 april, kl 17 </li>
+                    <li>Söndag, 2 april, kl 16 (busk!)</li>
                 </ul>
                 <p>
                     Mer information om biljetter hittar du <router-link to="/tickets">här</router-link>.
                 </p>
                 <br /><br />
-                <span style="float:right"><i style="color:White;">2022-02-18</i></span> <br />
-            </div>
-            <hr />
-            <div id="rebus_2022">
-                <p>
-                    Årets rebus är här!
-                </p>
-                <div id="rebusbild"> 
-                    <img src="../assets/rebus.png" class="big_image" alt>
-                </div>
-                <p>
-                    Lösningen ger titeln av årets uppsättning av F-spexet. Maila din
-                    gissning till <a href="mailto:rebus@f-spexet.se">rebus@f-spexet.se</a> senast 17 februari. Vi lottar ut några
-                    biljetter till föreställningen bland de som har gissat rätt. Alla som har
-                    gissat rätt blir även tillfrågade om de vill stå med i vårt program.
-                    Rätt svar presenteras på Focus under lunchen 18 februari samt här på vår hemsida
-                    och våra sociala medier (se sidfoten). Lycka till!
-                </p>
-
-                <br /><br />
-                <span style="float:right"><i style="color:White;">2022-02-10</i></span> <br />
+                <span style="float:right"><i style="color:White;">2023-02-24</i></span> <br />
             </div>
             <hr />
             <div id="nyhetsbrev">

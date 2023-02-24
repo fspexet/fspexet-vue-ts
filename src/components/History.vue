@@ -2,6 +2,14 @@
   <div class="contents">
     <h1>Tidigare F-Spex</h1>
     <div>
+      <h4>Tillbaka till Dåtiden (2022)</h4>
+      <p>
+        Detta spex handlar om Einstein och hans kollega som reser till framtiden, där Einstein inser att det faktiskt var bättre förr.
+        Tyvärr är tidsmaskinen sönder. Hur ska det här sluta?
+      </p>
+      <hr>
+    </div>
+    <div>
       <h4>Rockefeller (2021)</h4>
       <p>
         F-spexet Rockefeller handlade om den stenrika familjen Rockefeller och mordet på dess överhuvud John D. Rockefeller. 

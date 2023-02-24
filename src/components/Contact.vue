@@ -15,7 +15,7 @@
       </a>
     </p>
 
-    <h3>Porslin eller annan uthyrning</h3>
+    <h3>Vill du låna rekvisita eller annan utrustning?</h3>
     <p>
       <a href="mailto:skyddsrummet@f-spexet.se">
         skyddsrummet@f-spexet.se
@@ -27,13 +27,13 @@
     <h2>Styret</h2>
 
     <h3>Ordförande</h3>
-    <p>Lukas Enarsson<br> <a href="mailto:ordforande@f-spexet.se">
+    <p>Daniel Larsson<br> <a href="mailto:ordforande@f-spexet.se">
         ordforande@f-spexet.se
       </a>
     </p>
 
     <h3>Förman</h3>
-    <p>Edvin Johansson<br><a href="mailto:forman@f-spexet.se">
+    <p>Henny Biander<br><a href="mailto:forman@f-spexet.se">
         forman@f-spexet.se
       </a>
     </p>

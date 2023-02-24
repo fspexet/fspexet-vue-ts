@@ -60,9 +60,10 @@ body {
   background: black;
 }
 .main {
-  background: url(../assets/background_anna_v2.png);
+  /*background: url(../assets/background_anna_v2.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #640101;
   padding: 10px 30px 10px 30px;
   width: 100%;
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.5),
