@@ -98,7 +98,7 @@ p { /* Paragraph font I think */
 }
 
 h0 { /* Main header font */
-  color: #FFFFFF; <!-- hex #RRGGBB -->
+  color: #FFFFFF; /* hex #RRGGBB */
   font-family: Josefin, Futura, 'PakType Tehreer', sans;
   font-size: 35px;
   font-weight: bold;
