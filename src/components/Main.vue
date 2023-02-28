@@ -76,7 +76,7 @@ body {
   max-width: 700px;
 }
 
-<!-- Define the fonts for the following components -->
+/* Define the fonts for the following components */
 h1,
 h2,
 h3,
