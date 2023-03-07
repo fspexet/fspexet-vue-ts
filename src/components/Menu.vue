@@ -2,61 +2,35 @@
   <div class="contents">
     <div id="meny">
       <center>
-      <h1>Meny</h1>
-      <hr>
-      <p>
-      Menyn kommer snart!
-      </p>
-      <!--
-      <h2> Förrätt: Rödbetscarpaccio </h2>
-      <p>
-      Tunt skivade rödbetor med bland annat sallad på. Den serveras kall, så den är perfekt för dig som inte kan styra din tidsmaskin rätt till servering.
-      </p>
-      </center>
-      <center>
-<div id="forratt">
-          <img src="../assets/rodbetor.jpg"
-contain
-height="450px"
-width="675px"
- class="big_image" alt>
+        <h1>Meny</h1>
+        <hr>
+
+        <h2> Förrätt: Sötpotatisquiche </h2>
+        <p>
+        Kvällen inleds med en paj från Marius hemland, med en enkel purjolöksfyllning och ett skal av sötpotatis.
+        </p>
+        <div id="forratt">
+          <img src="../assets/forratt_2023.jpg" contain
+            width="80%" class="big_image" alt>
         </div>
-      </center>
 
-      <center>
-<h2> Huvudrätt: Fransk potatissallad med kyckling och salsa </h2>
-<p>
-Utöver att resa i tiden kan tidsmaskinen IKAE även resa i rummet. Därför får ni nu en fransk potatissallad med kyckling och salsa.
-</p>
-      </center>
-
-      <center>
-<div id="huvudratt">
-          <img src="../assets/franskpotatissallad.jpg"
-contain
-height="450px"
-width="675px"
- class="big_image" alt>
+        <h2> Huvudrätt: Hasselbackspotatis med bönbiffar och en kraftig rödvinssås </h2>
+        <p>
+        Har vi nämnt att Doyle även är stjärnkock? I första aktpausen får ni smaka på hans bästa matlagningskonst.
+        </p>
+        <div id="huvudratt">
+          <img src="../assets/huvudratt_2023.jpg" contain
+            width="80%" class="big_image" alt>
         </div>
-      </center>
 
-      <center>
-<h2> Efterrätt: Chokladmousse </h2>
-<p>
-Så god att du önskar att du hade en tidsmaskin så att du kunde åka tillbaka i tiden efteråt för att få en portion till.
-</p>
-      </center>
-
-      <center>
-<div id="efterratt">
-          <img src="../assets/chokladmousse.jpg"
-contain
-height="450px"
-width="675px"
-class="big_image" alt>
+        <h2> Efterrätt: Panna cotta med earl gray-infusion </h2>
+        <p>
+        Avslutningsvis serveras en panna cotta värdig en drottning. Se bara upp så att den inte blir stulen av din bordsgranne!
+        </p>
+        <div id="efterratt">
+          <img src="../assets/efterratt_2023.jpg" contain
+            width="60%" class="big_image" alt>
         </div>
-      </center>
-      -->
       </center>
     </div>
   </div>
