@@ -2,6 +2,31 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="rebus_2023">
+                <p>
+                    För er som missade årets rebus så lägger vi upp den här på hemsidan också.
+                </p>
+                <div id="rebusbild">
+                    <img src="../assets/rebus_2023.png" class="big_image" alt>
+                </div>
+                <p>
+                    Då vårt tema redan är släppt kommer här även rebusens lösning (den är skriven i osynlig text och för att se den kan ni markera området nedan):
+                </p>
+                <div style="color:#FFFFFF00">
+                    Uppochnedvänd Luigi blir Waluigi<br />
+                    Waluigi transponat konjugat blir Mario<br />
+                     Mario + Snake + . - snake.io = <em>Mar</em><br />
+                    e^(i*pi/2) + USA - A = <em>ius</em><br />
+                    Janalys + lampa - lys(ande) lampa = Jana<br />
+                    Jana + CTRL - Tr(appa) - NaCl = <em>Ja</em><br />
+                    Al + Locka + o (formen på hålet) + hål - alkohol + K (K-sektionens skyddshelgon) - Loka = <em>c</em><br />
+                    OP + BMX - m(assa) - xp = <em>ob</em><br />
+                    Årets tema är alltså: <em>Marius Jacob</em>!
+                </div>
+                <br />
+                <span style="float:right"><i style="color:White;">2023-03-07</i></span> <br />
+            </div>
+            <hr />
             <div id="temaslapp_2023">
                 <p>
                     F-spexet 2023 presenterar <br /> <br /><center> <font size="7"> Marius Jacob </font><br /> eller <br /><font size="7"> Mästertjuvarna på Operan </font> </center>
