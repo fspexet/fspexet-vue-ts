@@ -23,7 +23,7 @@ Då laddas det ner olika mjukvaror som det här projektet är beroende av.
 ## Testa lokalt
 För att testa hemsidans innehåll lokalt på datorn, kör:
 ```
-npm run serve
+npm run dev
 ```
 Då hostas hemsidan lokalt på datorn som också kan besökas lokalt (se länken i kommandofönstret).
 
