@@ -2,6 +2,18 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="höst_2023">
+                <p>
+                    Hej! Nu närmar sig våra höstföreställningar, som kommer ske den 4, 5 och 7 september.
+                </p>
+                <p>
+                    Oavsett om ni missade vårens föreställningar, vill se årets uppsättning igen, eller just upptäckte oss så är ni välkomna!
+                </p>
+                <p>
+                    Mer information om biljetter hittar du <router-link to="/tickets">här</router-link>.
+                </p>
+            </div>
+            <hr />
             <div id="rebus_2023">
                 <p>
                     För er som missade årets rebus så lägger vi upp den här på hemsidan också.

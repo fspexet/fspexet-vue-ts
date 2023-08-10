@@ -1,31 +1,31 @@
 <template>
-  <footer>
+  <footer>vår
     <hr>
     <h1 id="domain">F-spexet.se</h1>
     <div id="box">
       <div class="content" id="plats">
         <h2>Var?</h2>
-        <p>F-spexet kommer under våren hållas i</p>
-        <!--<p>Sektionslokalen Focus,
+        <p>F-spexet kommer under hösten hållas i</p>
+        <p>Sektionslokalen Focus,
           <br>Kemivägen 11,
           <br>412 58 Göteborg
         </p>
-          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>-->
+          <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>
+        <!--
         <p>Kalle Glader,
           <br>Hugo Grauers gata 4B,
           <br>411 33 Göteborg
         </p>
           <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
+        -->
       </div>
 
       <div class="content" id="datum">
         <h2>När?</h2>
         <ul>
-        <li>Tisdag 28 mars kl 18:00 (premiär!) </li>
-        <li>Onsdag 29 mars kl 18:00 </li>
-        <li>Fredag 31 mars kl 18:00 </li>
-        <li>Lördag 1 april kl 17:00 </li>
-        <li>Söndag 2 april kl 16:00 (busk!) </li>
+        <li>Måndag 4 september kl 18 (nollanföreställning) </li>
+        <li>Tisdag 5 september kl 18 </li>
+        <li>Torsdag 7 september kl 18 </li>
         </ul>
       </div>
 

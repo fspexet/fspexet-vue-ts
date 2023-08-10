@@ -10,7 +10,7 @@
     <hr>
     <h2>Mat och dryck</h2>
 	<p>
-		Årets meny är ännu inte satt, men när den är det kan den hittas <router-link to="/menu">här</router-link>.
+		När menyn för årets spex är satt kan den ses <router-link to="/menu">här</router-link>.
 	</p>	
     <hr>
     <h2>Inrop</h2>
