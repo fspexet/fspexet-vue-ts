@@ -16,8 +16,8 @@
     <ul>
         <li>F-Nollan*: 50 kr (endast 4/9) </li>
         <li>Nollan**: 100 kr </li>
-        <li>Student***: 130 kr </li>
-        <li>Ordinarie: 250 kr </li>
+        <li>Student***: 140 kr </li>
+        <li>Ordinarie: 275 kr </li>
     </ul>
     <p>
         I dessa priser ingår även en trerätters middag!
@@ -41,7 +41,8 @@
         </li>
         <li>
             <p>
-                Genom att fylla i biljettformuläret (formuläret publiceras här när biljettförsäljningen startar)
+                Genom att fylla i biljettformuläret:
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevk1ChkqRreAPzIQIKvFCmsCJWQbe9lXbDlyVdC6C3d_AmeA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
             </p>
         </li>
         <li>
