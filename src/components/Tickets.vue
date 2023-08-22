@@ -41,7 +41,7 @@
         </li>
         <li>
             <p>
-                Genom att fylla i biljettformuläret:
+                Genom att fylla i biljettformuläret <a href="https://docs.google.com/forms/d/e/1FAIpQLSevk1ChkqRreAPzIQIKvFCmsCJWQbe9lXbDlyVdC6C3d_AmeA/viewform" target="_blank">här</a> som också finns inbäddat nedan:
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevk1ChkqRreAPzIQIKvFCmsCJWQbe9lXbDlyVdC6C3d_AmeA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
             </p>
         </li>
