@@ -3,6 +3,10 @@
     <h1>Biljetter</h1>
     <hr>
     <p>
+        Nu är F-spexet 2023 slut, men nästa år kommer vi tillbaka med en ny uppsättning! Mer info kommer när våren 2024 närmar sig.
+    </p>
+    <!--
+    <p>
         Höstens föreställningar är:
     </p>
     <ul>
@@ -69,6 +73,7 @@
     <p>
         Om ni inte kan komma till er bokade plats vill vi gärna att ni hör av er till <a href="mailto:biljetter@f-spexet.se">biljetter@f-spexet.se</a> och avbokar er biljett. Avbokningar som sker innan 23:59 dagen innan föreställningen återbetalas.
     </p>
+    -->
   </div>
 </template>
 

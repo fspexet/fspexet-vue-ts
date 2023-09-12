@@ -2,6 +2,27 @@
     <div class="contents">
         <h1>Nyheter</h1>
             <hr />
+            <div id="aspning_2023">
+                <p>
+                    Tack till alla som kom och tittade på oss under våra höstföreställningar!
+                </p>
+                <p>
+                    Nu när höstföreställningarna är över har det blivit dags att dra igång aspning och invalet för nästa års spex.
+                </p>
+                <p>
+                    Om du är nyfiken på hur det är att vara med i spexet, eller bara tycker det är kul att hänga med spexare, rekommenderar vi starkt att komma på någon (eller flera) av våra aspaktiviteter. I år är det:
+                </p>
+                <ul>
+                    <li>Bullkväll 14/9 drop in från kl 17:00 på Focus</li>
+                    <li>Spelkväll 17/9 kl 14:01 i Signes</li>
+                    <li>Aspexpressen 19/9 kl 17:31 i Signes</li>
+                </ul>
+                <p>
+                    Om du redan nu vet att du vill söka till nästa års spex kan du fylla i <a href="https://forms.gle/4NuS3VPo2i1tC4wv7" target="_blank">våran asplapp</a> eller maila <a href="mailto:jagvill@f-spexet.se">jagvill@f-spexet.se</a>.
+                    Undrar du något om aspningen kan du skicka oss en fråga på <a href="mailto:styret@f-spexet.se">styret@f-spexet.se</a>.
+                </p>
+            </div>
+            <hr />
             <div id="höst_2023">
                 <p>
                     Hej! Nu närmar sig våra höstföreställningar, som kommer ske den 4, 5 och 7 september.

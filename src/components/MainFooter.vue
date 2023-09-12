@@ -1,8 +1,9 @@
 <template>
-  <footer>vår
+  <footer>
     <hr>
     <h1 id="domain">F-spexet.se</h1>
     <div id="box">
+      <!--
       <div class="content" id="plats">
         <h2>Var?</h2>
         <p>F-spexet kommer under hösten hållas i</p>
@@ -18,6 +19,7 @@
         </p>
           <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
         -->
+        <!--
       </div>
 
       <div class="content" id="datum">
@@ -28,6 +30,7 @@
         <li>Torsdag 7 september kl 18 </li>
         </ul>
       </div>
+      -->
 
       <div class="content" id="wiki_2">
         <h2>Uppdatera hemsidan</h2>

@@ -5,6 +5,8 @@
         <h1>Meny</h1>
         <hr>
 
+        <p>Menyn för F-spexet 2024 kommer läggas upp här när den väl är satt.</p>
+        <!--
         <h2> Förrätt: Sötpotatisquiche </h2>
         <p>
         Kvällen inleds med en paj från Marius hemland, med en enkel purjolöksfyllning och ett skal av sötpotatis.
@@ -31,6 +33,7 @@
           <img src="../assets/efterratt_2023.jpg" contain
             width="60%" class="big_image" alt>
         </div>
+        -->
       </center>
     </div>
   </div>

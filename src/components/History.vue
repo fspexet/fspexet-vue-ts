@@ -2,6 +2,14 @@
   <div class="contents">
     <h1>Tidigare F-Spex</h1>
     <div>
+      <h4>Marius Jacob (2023)</h4>
+      <p>
+        Spexet handlade om gentlemannatjuven Marius Jacob och hans mentor Moriarty,
+        som besöker den kungliga operan där de planerar att begå årets stöld: att under en föreställning stjäla den drottning Viktorias krona.
+      </p>
+      <hr>
+    </div>
+    <div>
       <h4>Tillbaka till Dåtiden (2022)</h4>
       <p>
         Detta spex handlar om Einstein och hans kollega som reser till framtiden, där Einstein inser att det faktiskt var bättre förr.
