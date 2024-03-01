@@ -1,10 +1,10 @@
 <template>
   <div id="main">
-    <main-header/>
+    <main-header />
     <div class="main">
       <router-view></router-view>
     </div>
-    <main-footer/>
+    <main-footer />
   </div>
 </template>
 <script lang="ts">
@@ -60,7 +60,7 @@ body {
   background: black;
 }
 .main {
-  background: url(../assets/background_2023.png);
+  background: url(../assets/background_default.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-color: #640101;*/
@@ -88,8 +88,9 @@ ul {
   font-weight: normal;
 }
 
-p { /* Paragraph font I think */
-  color: #FFFFFF;
+p {
+  /* Paragraph font I think */
+  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -97,56 +98,63 @@ p { /* Paragraph font I think */
   margin-bottom: 15px;
 }
 
-h0 { /* Main header font */
-  color: #FFFFFF; /* hex #RRGGBB */
+h0 {
+  /* Main header font */
+  color: #ffffff; /* hex #RRGGBB */
   font-family: Josefin, Futura, 'PakType Tehreer', sans;
   font-size: 35px;
   font-weight: bold;
   font-style: normal;
 }
 
-h1 { /* Header 1 font */
-  color: #FFFFFF;
+h1 {
+  /* Header 1 font */
+  color: #ffffff;
   font-variant: small-caps;
   font-size: 48px;
 }
 
-h2 { /* Header 2 font */
-  color: #FFFFFF;
+h2 {
+  /* Header 2 font */
+  color: #ffffff;
   font-size: 32px;
   font-variant: small-caps;
 }
 
-h3 { /* Header 3 font */
-  color: #FFFFFF;
+h3 {
+  /* Header 3 font */
+  color: #ffffff;
   font-size: 26px;
   font-style: italic;
   margin-top: 25px;
   margin-bottom: 5px;
 }
 
-h4 { /* Header 4 font */
-  color: #FFFFFF;
+h4 {
+  /* Header 4 font */
+  color: #ffffff;
   font-size: 24px;
   font-style: italic;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-a { /* Link colour (in general text of type a) */
-  color: #00BFFF;/*20206A */
+a {
+  /* Link colour (in general text of type a) */
+  color: #00bfff; /*20206A */
   font-weight: normal;
   font-style: italic;
   font-size: 21px;
 }
 
-li { /* List fonts I think */
-  color: #FFFFFF;
+li {
+  /* List fonts I think */
+  color: #ffffff;
   font-size: 20px;
 }
 
 .bparagraph {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
 }
 

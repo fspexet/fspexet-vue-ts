@@ -1,5 +1,7 @@
 html,
 body,
+
+
 #app,
 #main {
   min-height: 100%;
@@ -12,6 +14,19 @@ body,
   min-height: 100vh;
   flex-direction: column;
 }
+
+.contents {
+  /* Fancy neon borders */
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #f0ff1b,
+    0 0 0.8rem #f0ff1b, 0 0 2.8rem #f0ff1b, inset 0 0 1.3rem #f0ff1b;
+}
+
+
 footer {
   margin-top: auto;
   margin-bottom: 0;
