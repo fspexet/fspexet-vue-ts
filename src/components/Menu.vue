@@ -3,9 +3,11 @@
     <div id="meny">
       <center>
         <h1>Meny</h1>
-        <hr>
+        <hr />
 
-        <p>Menyn för F-spexet 2024 kommer läggas upp här när den väl är satt.</p>
+        <p>
+          Menyn för F-spexet 2024 kommer läggas upp här när den väl är satt.
+        </p>
         <!--
         <h2> Förrätt: Sötpotatisquiche </h2>
         <p>
@@ -48,16 +50,19 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-style: italic;
+}
+
 h3,
 h4 {
   text-rendering: optimiseLegibility;
-  -ms-font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
-  -webkit-font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
-  -moz-font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
-  font-feature-settings: "dlig", "hlig", "swsh", "cv04", "cv05";
+  -ms-font-feature-settings: 'dlig', 'hlig', 'swsh', 'cv04', 'cv05';
+  -webkit-font-feature-settings: 'dlig', 'hlig', 'swsh', 'cv04', 'cv05';
+  -moz-font-feature-settings: 'dlig', 'hlig', 'swsh', 'cv04', 'cv05';
+  font-feature-settings: 'dlig', 'hlig', 'swsh', 'cv04', 'cv05';
 }
 h3 {
-
   font-variant: small-caps;
 }
 </style>

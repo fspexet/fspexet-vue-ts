@@ -1,101 +1,33 @@
 <template>
-    <div class="contents">
-        <h1>Nyheter</h1>
-            <hr />
-            <div id="aspning_2023">
-                <p>
-                    Tack till alla som kom och tittade på oss under våra höstföreställningar!
-                </p>
-                <p>
-                    Nu när höstföreställningarna är över har det blivit dags att dra igång aspning och invalet för nästa års spex.
-                </p>
-                <p>
-                    Om du är nyfiken på hur det är att vara med i spexet, eller bara tycker det är kul att hänga med spexare, rekommenderar vi starkt att komma på någon (eller flera) av våra aspaktiviteter. I år är det:
-                </p>
-                <ul>
-                    <li>Bullkväll 14/9 drop in från kl 17:00 på Focus</li>
-                    <li>Spelkväll 17/9 kl 14:01 i Signes</li>
-                    <li>Aspexpressen 19/9 kl 17:31 i Signes</li>
-                </ul>
-                <p>
-                    Om du redan nu vet att du vill söka till nästa års spex kan du fylla i <a href="https://forms.gle/4NuS3VPo2i1tC4wv7" target="_blank">våran asplapp</a> eller maila <a href="mailto:jagvill@f-spexet.se">jagvill@f-spexet.se</a>.
-                    Undrar du något om aspningen kan du skicka oss en fråga på <a href="mailto:styret@f-spexet.se">styret@f-spexet.se</a>.
-                </p>
-            </div>
-            <hr />
-            <div id="höst_2023">
-                <p>
-                    Hej! Nu närmar sig våra höstföreställningar, som kommer ske den 4, 5 och 7 september.
-                </p>
-                <p>
-                    Oavsett om ni missade vårens föreställningar, vill se årets uppsättning igen, eller just upptäckte oss så är ni välkomna!
-                </p>
-                <p>
-                    Mer information om biljetter hittar du <router-link to="/tickets">här</router-link>.
-                </p>
-            </div>
-            <hr />
-            <div id="rebus_2023">
-                <p>
-                    För er som missade årets rebus så lägger vi upp den här på hemsidan också.
-                </p>
-                <div id="rebusbild">
-                    <img src="../assets/rebus_2023.png" class="big_image" alt>
-                </div>
-                <p>
-                    Då vårt tema redan är släppt kommer här även rebusens lösning (den är skriven i osynlig text och för att se den kan ni markera området nedan):
-                </p>
-                <div style="color:#FFFFFF00">
-                    Uppochnedvänd Luigi blir Waluigi<br />
-                    Waluigi transponat konjugat blir Mario<br />
-                     Mario + Snake + . - snake.io = <em>Mar</em><br />
-                    e^(i*pi/2) + USA - A = <em>ius</em><br />
-                    Janalys + lampa - lys(ande) lampa = Jana<br />
-                    Jana + CTRL - Tr(appa) - NaCl = <em>Ja</em><br />
-                    Al + Locka + o (formen på hålet) + hål - alkohol + K (K-sektionens skyddshelgon) - Loka = <em>c</em><br />
-                    OP + BMX - m(assa) - xp = <em>ob</em><br />
-                    Årets tema är alltså: <em>Marius Jacob</em>!
-                </div>
-                <br />
-                <span style="float:right"><i style="color:White;">2023-03-07</i></span> <br />
-            </div>
-            <hr />
-            <div id="temaslapp_2023">
-                <p>
-                    F-spexet 2023 presenterar <br /> <br /><center> <font size="7"> Marius Jacob </font><br /> eller <br /><font size="7"> Mästertjuvarna på Operan </font> </center>
-                </p>
-                <div id="logga_2023">
-                    <img src="../assets/logga_2023.png" class="big_image" alt>
-                </div>
-                <p>
-                    Följ med oss till Operahuset i London, där en storslagen föreställning ska sättas upp.
-                    Allt tycks gå som smort, tills den ökände mästerskurken Moriarty dyker upp för att begå årtiondets stöld.
-                    Hur ska det här gå? Jo, det får du veta om du går på årets föreställning!
-                    <br /><br />
-                    Föreställningsdatum:
-                </p>
-                <ul>
-                    <li>Tisdag, 28 mars, kl 18 (premiär!) </li>
-                    <li>Onsdag, 29 mars, kl 18 </li>
-                    <li>Fredag, 31 mars, kl 18 </li>
-                    <li>Lördag, 1 april, kl 17 </li>
-                    <li>Söndag, 2 april, kl 16 (busk!)</li>
-                </ul>
-                <p>
-                    Mer information om biljetter hittar du <router-link to="/tickets">här</router-link>.
-                </p>
-                <br /><br />
-                <span style="float:right"><i style="color:White;">2023-02-24</i></span> <br />
-            </div>
-            <hr />
-            <div id="nyhetsbrev">
-                <h2>F-spexets nyhetsbrev</h2>
-                <p>
-                    F-spexet har nu satt upp ett nyhetsbrev som kommer användas för att meddela när datum är släppta för nästa föreställningsperiod; vanligtvis sker detta två gånger per år. Om ni är intresserade kan ni fylla i nyhetsbrevsformuläret <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZwcwkp9as7b4eM5tsF8Ac-LXYM-ZqjSaN8hek46805rq1Ug/viewform?usp=sf_link" target="_blank">här</a>.
-                </p>
-            </div>
-        <hr />
+  <div class="contents">
+    <h1>Nyheter</h1>
+    <hr />
+    <div id="rebus">
+      <p>Nu är det dags! F-spexet 2024: Pesten, sveper fram genom Göteborg</p>
+      <p>
+        Men hur löser man årets rebus? Du behöver inte längre undra för nu skall
+        vi presentera lösningen:
+      </p>
+      <p>
+        bilderna föreställer då en PENNA, ett ANN (Artificielt neuralt nätverk)
+        som är spegelvänt, en OST, ett O, nemos FENA, och två betyg som inom det
+        svenska systemet motsvaras av F respektiva A.
+        <br />
+        <br />
+        Tillsammans blir detta: PENNA - NNA + OST - O + FENA - F - A => PE + ST
+        + EN = Pesten
+      </p>
+      <img src="@/assets/rebus2024.png" />
     </div>
+    <hr />
+    <div id="nystart">
+      <p>
+        Nu är spexet snart här igen. Förbered dig på att tänka skarpt för att
+        lösa årets nya rebus som läggs upp I början av Februari
+      </p>
+    </div>
+    <hr />
+  </div>
 </template>
 
 <style scoped>
