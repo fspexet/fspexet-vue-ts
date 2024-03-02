@@ -17,7 +17,7 @@
         Tillsammans blir detta: PENNA - NNA + OST - O + FENA - F - A => PE + ST
         + EN = Pesten
       </p>
-      <img src="@/assets/rebus2024.png" />
+      <img src="@/assets/rebus_2024.png" />
     </div>
     <hr />
     <div id="nystart">
