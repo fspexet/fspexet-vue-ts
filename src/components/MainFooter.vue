@@ -29,9 +29,10 @@
         <h2>Uppdatera hemsidan</h2>
         <p>
           För att vara säker på att du ser den senaste versionen av hemsidan
-          rekommenderas att du rensar din cache och laddar om hemsidan. En
-          genväg att göra detta de vanligaste webläsare är "ctrl+F5" och om
-          detta inte fungerar borde "ctrl+shift+r" fungera.
+          rekommenderas att du rensar din cache och laddar om hemsidan. Några
+          vanliga genvägar för att göra detta i en webbläsare är "ctrl+F5" eller
+          "ctrl+shift+r". På mobil är enklast lösning ofta att öppna i ett
+          privat fönster.
         </p>
       </div>
 

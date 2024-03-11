@@ -61,8 +61,8 @@
     <ul>
       <li>
         <p>
-          Lunchtid vardagar i F-spexets bås på Teknologgården utanför Chalmers
-          kårhus eller på biljettformuläret som läggs upp på hemsidan senare
+          Lunchtid vardagar veckorna 12-14 i F-spexets bås på Teknologgården
+          utanför Chalmers kårhus
         </p>
       </li>
       <!--
