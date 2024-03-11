@@ -2,6 +2,31 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr />
+    <div id="info">
+      <p>
+        Florens gator står stilla när Pesten drar drar fram. Alla håller sig
+        undan och man kan höra en nål falla i tystna... vänta. Är det en fest
+        orkester som hörs i katedralen? Varför reser sig det där liket? Och är
+        det någon annan som tycker det luktar som gammal ost här?<br />
+        Vill du veta mer får du dyka på en av våra föreställiningar som sker
+        den:
+      </p>
+
+      <ul>
+        <li>Tisdag 9 April kl 18</li>
+        <li>Onsdag 10 April kl 18</li>
+        <li>Fredag 12 April kl 18</li>
+        <li>Lördag 13 April kl 17</li>
+        <li>Söndag 14 April kl 16</li>
+      </ul>
+    </div>
+    <p>
+      Information hur du skaffar dig biljett hittas från biljettknappen längst
+      upp på hemsidan.
+    </p>
+
+    <hr />
+
     <div id="rebus">
       <p>Nu är det dags! F-spexet 2024: Pesten, sveper fram genom Göteborg</p>
       <p>
@@ -19,14 +44,16 @@
       </p>
       <img src="@/assets/rebus_2024.png" />
     </div>
+
+    <!--  
     <hr />
-    <div id="nystart">
+      <div id="nystart">
       <p>
         Nu är spexet snart här igen. Förbered dig på att tänka skarpt för att
         lösa årets nya rebus som läggs upp I början av Februari
       </p>
     </div>
-    <hr />
+     -->
   </div>
 </template>
 
