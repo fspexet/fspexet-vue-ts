@@ -5,37 +5,63 @@
         <h1>Meny</h1>
         <hr />
 
+        <!--
         <p>
           Menyn för F-spexet 2024 kommer läggas upp här när den väl är satt.
         </p>
-        <!--
-        <h2> Förrätt: Sötpotatisquiche </h2>
+      -->
+        <h2>Syrlig kronärtskockspasta</h2>
         <p>
-        Kvällen inleds med en paj från Marius hemland, med en enkel purjolöksfyllning och ett skal av sötpotatis.
+          Denna spritsiga förrätt är inte bara god utan dess friska doft gör
+          även ett utmärkt jobb med att dölja lukterna från alla pestsjuka här i
+          Florens. Kvällen inleds med en paj från Marius hemland, med en enkel
+          purjolöksfyllning och ett skal av sötpotatis.
         </p>
         <div id="forratt">
-          <img src="../assets/forratt_2023.jpg" contain
-            width="80%" class="big_image" alt>
+          <img
+            src="../assets/forratt_2023.jpg"
+            contain
+            width="80%"
+            class="big_image"
+            alt
+          />
         </div>
 
-        <h2> Huvudrätt: Hasselbackspotatis med bönbiffar och en kraftig rödvinssås </h2>
+        <h2>
+          Beas örtmarninerade fileér med skärseld rostade rotfrukter
+        </h2>
+
         <p>
-        Har vi nämnt att Doyle även är stjärnkock? I första aktpausen får ni smaka på hans bästa matlagningskonst.
+          Dessa filéer är marinerade i en sådan smakrik marinad att Bea “lovar”
+          att de är pestbotande. De serveras med krispiga rotfrukter, rostade i
+          självaste skärselden, samt en örtig sås.
         </p>
         <div id="huvudratt">
-          <img src="../assets/huvudratt_2023.jpg" contain
-            width="80%" class="big_image" alt>
+          <img
+            src="../assets/huvudratt_2023.jpg"
+            contain
+            width="80%"
+            class="big_image"
+            alt
+          />
         </div>
 
-        <h2> Efterrätt: Panna cotta med earl gray-infusion </h2>
+        <h2>
+          Mannagrynstårta med grädde färgad av blod från Arns fiender
+        </h2>
         <p>
-        Avslutningsvis serveras en panna cotta värdig en drottning. Se bara upp så att den inte blir stulen av din bordsgranne!
+          Denna krämiga avslutning på middagen är det Arn som står för, receptet
+          fick han med sig hem från en av hans många affärsresor.
         </p>
         <div id="efterratt">
-          <img src="../assets/efterratt_2023.jpg" contain
-            width="60%" class="big_image" alt>
+          <img
+            src="../assets/efterratt_2023.jpg"
+            contain
+            width="60%"
+            class="big_image"
+            alt
+          />
         </div>
-        -->
       </center>
     </div>
   </div>
