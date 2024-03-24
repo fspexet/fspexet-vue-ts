@@ -18,15 +18,17 @@
           Florens. Kvällen inleds med en paj från Marius hemland, med en enkel
           purjolöksfyllning och ett skal av sötpotatis.
         </p>
-        <div id="forratt">
-          <img
+        <!--
+          <div id="forratt">
+            <img
             src="../assets/forratt.jpg"
             contain
             width="80%"
             class="big_image"
             alt
-          />
-        </div>
+            />
+          </div>
+        -->
 
         <h2>
           Huvudrätt
@@ -40,6 +42,7 @@
           att de är pestbotande. De serveras med krispiga rotfrukter, rostade i
           självaste skärselden, samt en örtig sås.
         </p>
+        <!--
         <div id="huvudratt">
           <img
             src="../assets/huvudratt.jpg"
@@ -49,6 +52,7 @@
             alt
           />
         </div>
+      -->
 
         <h2>
           Efterrätt
@@ -61,16 +65,17 @@
           Denna krämiga avslutning på middagen är det Arn som står för, receptet
           fick han med sig hem från en av hans många affärsresor.
         </p>
+        <!--
         <div id="efterratt">
           <img
-            src="../assets/efterratt.jpg"
-            contain
-            width="60%"
-            class="big_image"
-            alt
+          src="../assets/efterratt.jpg"
+          contain
+          width="60%"
+          class="big_image"
+          alt
           />
         </div>
-      </center>
+      --></center>
     </div>
   </div>
 </template>
