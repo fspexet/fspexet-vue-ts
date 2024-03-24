@@ -10,7 +10,8 @@
           Menyn för F-spexet 2024 kommer läggas upp här när den väl är satt.
         </p>
       -->
-        <h2>Syrlig kronärtskockspasta</h2>
+        <h2>Förrätt</h2>
+        <h3>Syrlig kronärtskockspasta</h3>
         <p>
           Denna spritsiga förrätt är inte bara god utan dess friska doft gör
           även ett utmärkt jobb med att dölja lukterna från alla pestsjuka här i
@@ -19,7 +20,7 @@
         </p>
         <div id="forratt">
           <img
-            src="../assets/forratt_2023.jpg"
+            src="../assets/forratt.jpg"
             contain
             width="80%"
             class="big_image"
@@ -28,8 +29,11 @@
         </div>
 
         <h2>
-          Beas örtmarninerade fileér med skärseld rostade rotfrukter
+          Huvudrätt
         </h2>
+        <h3>
+          Beas örtmarninerade fileér med skärseld rostade rotfrukter
+        </h3>
 
         <p>
           Dessa filéer är marinerade i en sådan smakrik marinad att Bea “lovar”
@@ -38,7 +42,7 @@
         </p>
         <div id="huvudratt">
           <img
-            src="../assets/huvudratt_2023.jpg"
+            src="../assets/huvudratt.jpg"
             contain
             width="80%"
             class="big_image"
@@ -47,15 +51,19 @@
         </div>
 
         <h2>
-          Mannagrynstårta med grädde färgad av blod från Arns fiender
+          Efterrätt
         </h2>
+        <p></p>
+        <h3>
+          Mannagrynstårta med grädde färgad av blod från Arns fiender
+        </h3>
         <p>
           Denna krämiga avslutning på middagen är det Arn som står för, receptet
           fick han med sig hem från en av hans många affärsresor.
         </p>
         <div id="efterratt">
           <img
-            src="../assets/efterratt_2023.jpg"
+            src="../assets/efterratt.jpg"
             contain
             width="60%"
             class="big_image"
@@ -78,6 +86,11 @@ export default {
 <style scoped>
 h1 {
   font-style: italic;
+}
+
+h2,
+h3 {
+  margin: 0;
 }
 
 h3,
