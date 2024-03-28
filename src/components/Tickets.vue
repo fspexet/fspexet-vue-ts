@@ -14,12 +14,16 @@
       Vårens föreställningar presenteras alla i Kalle Glader, se info ruta
       längst ner för adress, och kommer ske under följande datum:
     </p>
+    <p>
+      Platser uppdaterat vid: 2024-03-26
+    </p>
+
     <ul>
-      <li>Tisdag 9 April kl 18</li>
-      <li>Onsdag 10 April kl 18</li>
-      <li>Fredag 12 April kl 18</li>
-      <li>Lördag 13 April kl 17</li>
-      <li>Söndag 14 April kl 16</li>
+      <li>Tisdag 9 April kl 18 (45 platser kvar)</li>
+      <li>Onsdag 10 April kl 18(60 platser kvar)</li>
+      <li>Fredag 12 April kl 18(75 platser kvar)</li>
+      <li>Lördag 13 April kl 17(14 platser kvar)</li>
+      <li>Söndag 14 April kl 16(60 platser kvar)</li>
     </ul>
     <p>
       Biljettpriser:
