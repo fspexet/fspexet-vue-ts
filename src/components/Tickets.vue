@@ -12,19 +12,46 @@
     -->
     <p>
       Vårens föreställningar presenteras alla i Kalle Glader, se info ruta
-      längst ner för adress, och kommer ske under följande datum:
-    </p>
-    <p>
-      Platser uppdaterat vid: 2024-03-26
+      längst ner på webbsidan för adress, och kommer spelas upp följande dagar:
     </p>
 
-    <ul>
-      <li>Tisdag 9 April kl 18 (45 platser kvar)</li>
-      <li>Onsdag 10 April kl 18(60 platser kvar)</li>
-      <li>Fredag 12 April kl 18(75 platser kvar)</li>
-      <li>Lördag 13 April kl 17(14 platser kvar)</li>
-      <li>Söndag 14 April kl 16(60 platser kvar)</li>
-    </ul>
+    <table>
+      <tr>
+        <th>Datum</th>
+        <th>Tid</th>
+      </tr>
+      <tr>
+        <td>Tisdag 9:e April</td>
+        <td>18:00</td>
+      </tr>
+      <tr>
+        <td>Onsdag 10:e April</td>
+        <td>18:00</td>
+      </tr>
+      <tr>
+        <td>Fredag 12:e April</td>
+        <td>18:00</td>
+      </tr>
+      <tr>
+        <td>Lördag 13:e April</td>
+        <td>17:00</td>
+      </tr>
+      <tr>
+        <td>Söndag 14:e April</td>
+        <td>16:00</td>
+        <td>Busk</td>
+      </tr>
+    </table>
+
+    <!-- Tidigare design metod, sparat som info
+      <ul>
+        <li>Tisdag 9 April kl 18 </li>
+        <li>Onsdag 10 April kl 18</li>
+        <li>Fredag 12 April kl 18</li>
+        <li>Lördag 13 April kl 17</li>
+        <li>Söndag 14 April kl 16</li>
+      </ul>
+    -->
     <p>
       Biljettpriser:
     </p>
@@ -150,6 +177,20 @@ export default {
 .obs {
   color: yellow;
 }
+
+table {
+  color: white;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 iframe {
   width: 100%;
   height: 400px;
