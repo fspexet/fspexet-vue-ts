@@ -5,14 +5,13 @@
     <div id="box">
       <div class="content" id="plats">
         <h2>Var?</h2>
-        <!--
         <p>F-spexet kommer under hösten hållas i</p>
         <p>Sektionslokalen Focus, <br />Kemivägen 11, <br />412 58 Göteborg</p>
         <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>
-      -->
+        <!--
         <p>Kalle Glader, <br />Hugo Grauers gata 4B, <br />411 33 Göteborg</p>
         <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
-      </div>
+      --></div>
 
       <!--        
         <div class="content" id="datum">

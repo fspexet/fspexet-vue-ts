@@ -3,7 +3,7 @@
     <div id="meny">
       <center>
         <h1>Meny</h1>
-        <hr />
+        <hr class="top" />
 
         <!--
         <p>
@@ -15,8 +15,7 @@
         <p>
           Denna spritsiga förrätt är inte bara god utan dess friska doft gör
           även ett utmärkt jobb med att dölja lukterna från alla pestsjuka här i
-          Florens. Kvällen inleds med en paj från Marius hemland, med en enkel
-          purjolöksfyllning och ett skal av sötpotatis.
+          Florens.
         </p>
         <!--
           <div id="forratt">
@@ -29,7 +28,7 @@
             />
           </div>
         -->
-
+        <hr />
         <h2>
           Huvudrätt
         </h2>
@@ -43,8 +42,8 @@
           självaste skärselden, samt en örtig sås.
         </p>
         <!--
-        <div id="huvudratt">
-          <img
+          <div id="huvudratt">
+            <img
             src="../assets/huvudratt.jpg"
             contain
             width="80%"
@@ -54,6 +53,7 @@
         </div>
       -->
 
+        <hr />
         <h2>
           Efterrätt
         </h2>
@@ -91,6 +91,7 @@ export default {
 <style scoped>
 h1 {
   font-style: italic;
+  margin-bottom: 0.2em;
 }
 
 h2,
@@ -108,5 +109,15 @@ h4 {
 }
 h3 {
   font-variant: small-caps;
+}
+hr.top {
+  border: 2px;
+  color: white;
+  text-align: center;
+  border-style: solid;
+}
+
+hr {
+  width: 50%;
 }
 </style>
