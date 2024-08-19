@@ -27,7 +27,7 @@
       <tr>
         <td>Måndag 9:e September</td>
         <td>18:00</td>
-        <td>Förtur för F-nollan</td>
+        <td>Förtur åt F-nollan fram till 6/9</td>
       </tr>
       <tr>
         <td>Tisdag 10:e September</td>
@@ -56,7 +56,7 @@
       <li>F-Nollan*: 50 kr (endast 4/9)</li>
       <li>Nollan**: 100 kr</li>
       -->
-      <li>F-Nollan*: 50 kr (endast 4/9)</li>
+      <li>F-Nollan*: 50 kr (endast 9/9)</li>
       <li>Nollan**: 100 kr</li>
       <li>Student***: 140 kr</li>
       <li>Ordinarie: 275 kr</li>
@@ -64,20 +64,25 @@
     <p>
       I dessa priser ingår även en trerätters middag!
     </p>
+    <!--  kommentar för nollan förtur
+    -->
     <p>
-      Förtydligande om Studentpriser:
+      F-nollan* har bokningsförtur till föreställningen 9/9 fram till och med
+      6/9. Övriga gäster kan boka innan det för att läggas på en väntlista för
+      att få biljett i mån av plats. Besked meddelas senast 7/9.
+    </p>
+    <p>
+      Förtydligande om anmärkningar:
     </p>
     <ul>
       <!--  kommentar som används för att spara infon om nollan priser
       -->
       <li>
-        *F-Nollan (nyantagen Chalmersstudent på F-sektionen) har bokningsförtur
-        till föreställningen 4/9 fram till och med 1/9. Övriga kan dock
-        preliminärboka biljetter även innan 1/9 och få eventuella biljetter i
-        mån av plats. Besked meddelas senast 2/9.
+        *Som F-Nollan räknas nyantagen Chalmersstudent på F-sektionen (antagen
+        hösten 2024)
       </li>
       <li>
-        **Som Nollan räknas nyantagen Chalmersstudent (antagen hösten 2023)
+        **Som Nollan räknas nyantagen Chalmersstudent (antagen hösten 2024)
       </li>
       <li>
         ***Som student räknas alla som är till och med 24 år och/eller som har
@@ -98,13 +103,13 @@
       -->
       <li>
         <p>
-          Genom att fylla i biljettformuläret
+          Genom att fylla i biljettformuläret via länken
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdNYMPk6UcilK6YN7HjvibrP_4RtcGr97vpBjtS_-Qpgrv_vg/viewform"
             target="_blank"
             >här</a
           >
-          som också finns inbäddat nedan:
+          eller genom det inbäddade formuläret nedan:
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdNYMPk6UcilK6YN7HjvibrP_4RtcGr97vpBjtS_-Qpgrv_vg/viewform?embedded=true"
             width="700"

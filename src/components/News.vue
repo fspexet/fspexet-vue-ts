@@ -8,7 +8,7 @@
         Nu är det dags igen för F-spexet Pesten at hosta sig upp på scen. Om du
         inte såg oss i våras är nu sista chansen.
         <br />
-        Vi sätter upp föresätllningar följande datum:
+        Vi sätter upp föreställningar följande datum:
       </p>
       <li>Måndag 9 September kl 18</li>
       <li>Tisdag 10 September kl 18</li>
