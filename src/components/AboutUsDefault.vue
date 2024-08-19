@@ -18,6 +18,11 @@
       När menyn för årets spex är satt kan den ses
       <router-link to="/menu">här</router-link>.
     </p>
+    <p>
+      Utöver trerätters middagen så säljer vi läsk och alkoholfria drinkar I
+      våran bar.
+    </p>
+
     <hr />
     <h2>Inrop</h2>
     <p>
@@ -43,6 +48,8 @@
       <li>Taket läcker!</li>
       <li>Förinta Borås!</li>
       <li>Åk Skidor!</li>
+      <li>HÅRDARE!</li>
+      <!--tillagt Pesten -->
     </ul>
     <hr />
     <h2>Poster i F-spexet</h2>
