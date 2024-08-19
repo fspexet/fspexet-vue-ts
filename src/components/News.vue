@@ -2,12 +2,40 @@
   <div class="contents">
     <h1>Nyheter</h1>
     <hr />
+
+    <div id="start_höst">
+      <p>
+        Nu är det dags igen för F-spexet Pesten at hosta sig upp på scen. Om du
+        inte såg oss i våras är nu sista chansen.
+        <br />
+        Vi sätter upp föresätllningar följande datum:
+      </p>
+      <li>Måndag 9 September kl 18</li>
+      <li>Tisdag 10 September kl 18</li>
+      <li>Onsdag 11 September kl 18</li>
+    </div>
+    <p>Delad pest är dubbel pest, hoppas vi ses på föreställningarna!</p>
+    <hr />
+
+    <div id="avslutning_vår">
+      <p>
+        Våran föreställnings period för våren är nu tyvär slut. <br />Men likt
+        influensa så kommer vi tillbaka igen till hösten! Troligen sker det
+        kring tidig September men mer exakt datum uppdateras efter sommaren.
+      </p>
+      <p>
+        Så berätta för dina vänner eller kom och besök oss en andra gång.
+      </p>
+    </div>
+    <hr />
+
     <div id="info">
       <p>
         Florens gator står stilla när Pesten drar drar fram. Alla håller sig
         undan och man kan höra en nål falla i tystna... vänta. Är det en fest
         orkester som hörs i katedralen? Varför reser sig det där liket? Och är
-        det någon annan som tycker det luktar som gammal ost här?<br />
+        det någon annan som tycker det luktar som gammal ost här?
+        <br />
         Vill du veta mer får du dyka på en av våra föreställiningar som sker
         den:
       </p>
