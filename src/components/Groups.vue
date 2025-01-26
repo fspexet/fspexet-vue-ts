@@ -171,7 +171,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Poster',
+    title: 'F-Spexet - Poster',
   },
 };
 </script>

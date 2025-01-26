@@ -172,24 +172,21 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Biljetter',
+    title: 'F-Spexet - Biljetter',
   },
 };
 </script>
 <style scoped>
-.obs {
-  color: yellow;
-}
 
 table {
-  color: white;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   margin: auto;
 }
 td,
 th {
-  border: 1px solid #dddddd;
+  border: 1px solid;
+  border-color: #dddddd;
   text-align: left;
   padding: 8px;
 }

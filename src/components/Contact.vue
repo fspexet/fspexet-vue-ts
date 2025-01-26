@@ -69,7 +69,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Kontakta Oss',
+    title: 'F-Spexet - Kontakta Oss',
   },
 };
 </script>

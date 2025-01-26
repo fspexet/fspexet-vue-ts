@@ -1,6 +1,5 @@
 <template>
   <footer>
-    <hr />
     <h1 id="domain">F-spexet.se</h1>
     <div id="box">
       <div class="content" id="plats">
@@ -8,10 +7,12 @@
         <p>F-spexet kommer under hösten hållas i</p>
         <p>Sektionslokalen Focus, <br />Kemivägen 11, <br />412 58 Göteborg</p>
         <a href="https://goo.gl/maps/MjCnfJkefUu6JHhR6">Google maps</a>
-        <!--
-        <p>Kalle Glader, <br />Hugo Grauers gata 4B, <br />411 33 Göteborg</p>
-        <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a>
-      --></div>
+
+        <!-- <p>Kalle Glader, <br />Hugo Grauers gata 4B, <br />411 33 Göteborg</p>
+        <a href="https://goo.gl/maps/vGRffRGxgRMErT4RA">Google maps</a> -->
+      </div>
+
+      <div class="vertical_divider"></div>
 
       <!--        
         <div class="content" id="datum">
@@ -35,6 +36,8 @@
         </p>
       </div>
 
+      <div class="vertical_divider"></div>
+
       <div class="content" id="wiki">
         <h2>Länkar</h2>
         <a href="https://wiki.f-spexet.se/">Wikin</a>
@@ -52,9 +55,11 @@
 </template>
 
 <style scoped>
+
 footer {
   margin-top: auto;
   margin-bottom: 0;
+  padding: 5rem 0;
 }
 
 #domain {
@@ -67,26 +72,28 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-}
 
-button a {
-  color: black;
+  margin-top: 2rem;
+  gap: 2rem;
 }
 
 .content {
-  border-radius: 30px;
-  width: 20%;
+  width: 300px;
   margin: 10px;
   min-width: 250px;
-  padding: 10px 20px;
-  padding-bottom: 10px;
-  background-color: #151515;
 }
 
 h2,
 p {
-  color: white;
   margin-top: 5px;
   margin-bottom: 00px;
 }
+
+.vertical_divider {
+  width: 1px;
+  margin: 1rem 0;
+  background: white;
+  display: flex;
+}
+
 </style>

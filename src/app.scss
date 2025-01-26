@@ -1,7 +1,99 @@
+@font-face {
+  font-family: EB Garamond;
+  font-style: normal;
+  src: url(../assets/fonts/EBGaramond12-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: EB Garamond;
+  font-style: italic;
+  src: url(../assets/fonts/EBGaramond12-Italic.otf) format('opentype');
+}
+@font-face {
+  font-family: EB Garamond SC;
+  src: url(../assets/fonts/EBGaramondSC12-Regular.otf) format('opentype');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  color: white;
+  background: rgb(10, 10, 10);
+}
+.main {
+  padding: 10px 30px 10px 30px;
+  width: 100%;
+}
+.contents {
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+}
+
+/* Define the fonts for the following components */
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  font-weight: normal;
+}
+
+p {
+  font-style: normal;
+  font-variant: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Main header font */
+h0 {
+  color: inherit;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-variant: small-caps;
+}
+
+h2 {
+  font-variant: small-caps;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 html,
 body,
-
-
 #app,
 #main {
   min-height: 100%;
@@ -15,24 +107,6 @@ body,
   flex-direction: column;
 }
 
-.contents {
-  /* Fancy neon borders */
-  border: 0.1rem solid #fff;
-  border-radius: 2rem;
-  padding: 1em;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #f0ff1b,
-    0 0 0.8rem #f0ff1b, 0 0 2.8rem #f0ff1b, inset 0 0 1.3rem #f0ff1b;
-}
-
-/*Desktop only */
-@media screen and (min-width:800px){
-  .contents{  
-    padding-left:4em;  
-    padding-right:4em;  
-  }
-}
-
-
 footer {
   margin-top: auto;
   margin-bottom: 0;
@@ -40,15 +114,17 @@ footer {
 footer > h1 {
   margin: 0;
 }
+
 .toplink {
   display: inline-block;
   vertical-align: middle;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 #logo-image {
   padding-left: 10px;
   padding-right: 10px;
   vertical-align: middle;
-  width: 350px;
+  width: 150px;
 }

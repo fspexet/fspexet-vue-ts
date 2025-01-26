@@ -7,7 +7,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Om oss',
+    title: 'F-Spexet - Om oss',
   },
 };
 </script>

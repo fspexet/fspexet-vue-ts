@@ -83,7 +83,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Meny',
+    title: 'F-Spexet - Meny',
   },
 };
 </script>
@@ -112,7 +112,6 @@ h3 {
 }
 hr.top {
   border: 2px;
-  color: white;
   text-align: center;
   border-style: solid;
 }

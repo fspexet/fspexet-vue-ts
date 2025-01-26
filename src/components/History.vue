@@ -210,7 +210,7 @@
 <script lang="ts">
 export default {
   metaInfo: {
-    title: 'Tidigare Spex',
+    title: 'F-Spexet - Tidigare Spex',
   },
 };
 </script>

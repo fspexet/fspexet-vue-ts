@@ -13,7 +13,7 @@ export default new Router({
       children: [
         {
           path: '',
-          component: () => import('@/components/News.vue'),
+          component: () => import('@/components/FrontPage.vue'),
         },
         {
           path: 'tickets',
