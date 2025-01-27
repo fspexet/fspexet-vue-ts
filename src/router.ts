@@ -38,10 +38,6 @@ export default new Router({
           ],
         },
         {
-          path: 'menu',
-          component: () => import('@/components/Menu.vue'),
-        },
-        {
           path: 'contact',
           component: () => import('@/components/Contact.vue'),
         },

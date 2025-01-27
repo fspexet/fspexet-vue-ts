@@ -1,8 +1,8 @@
 <template>
   <div class="contents">
     <h1>Om F-spexet</h1>
-
     <hr />
+
     <h2>Vad är F-spexet?</h2>
     <p>F-spexet är Chalmers F-sektions studentspex. Men vad är ett spex?</p>
     <p>
@@ -12,18 +12,12 @@
       till föreställningarna. Något så bra får man väl inte missa?
     </p>
 
-    <hr />
     <h2>Mat och dryck</h2>
-    <p>
-      När menyn för årets spex är satt kan den ses
-      <router-link to="/menu">här</router-link>.
-    </p>
     <p>
       Utöver trerätters middagen så säljer vi läsk och alkoholfria drinkar I
       våran bar.
     </p>
 
-    <hr />
     <h2>Inrop</h2>
     <p>
       F-spexet har tolkat begreppet rösträtt alldeles helt underbart fel. Vi
@@ -51,7 +45,7 @@
       <li>HÅRDARE!</li>
       <!--tillagt Pesten -->
     </ul>
-    <hr />
+
     <h2>Poster i F-spexet</h2>
     <p>
       Undrat vilka poster eller grupper som finns i F-spexet, eller vad de gör?
@@ -68,15 +62,17 @@
       <a href="mailto:jagvill@f-spexet.se">jagvill@f-spexet.se</a> och sedan
       kontaktar vi dig när saker händer.
     </p>
-    <hr />
+
     <h2>Tidigare spex</h2>
     <p>
       Om du är intresserad av vad som F-spexet har gjort tidigare kan du läsa
       lite om våra
       <router-link to="/about-us/history">tidigare spex</router-link>.
     </p>
-    <hr />
+
     <h1>Sociala medier</h1>
+    <hr />
+
     <p>
       Om några få föreställningar om året inte räcker så kan ni se vad som
       händer genom att följa F-spexet på våra sociala medier (eller ännu bättre
@@ -87,21 +83,18 @@
         <a href="https://www.facebook.com/FSpexet" target="_blank">Facebook</a>
       </li>
       <li>
-        <a href="https://www.instagram.com/fspexet/" target="_blank"
-          >Instagram</a
-        >
+        <a href="https://www.instagram.com/fspexet/" target="_blank">Instagram</a>
       </li>
       <li>
         <a
           href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q"
           target="_blank"
-          >YouTube</a
-        >
+        >YouTube</a>
       </li>
     </ul>
 
-    <hr />
     <h1>Samarbeten</h1>
+    <hr />
     <p>
       F-spexet har flera pågående samarbeten som ni kan läsa om här.
     </p>
@@ -117,20 +110,27 @@
       F-spexet har flera studiecirklar under Studiefrämjandet och är väldigt
       glada över att ha deras återkommande stöd.
     </p>
-    <div style="inline-block">
-      <center>
-        <img
-          center
-          src="../assets/studieframjandet_logga_vit.png"
-          class="big_image"
-          style="Center image"
-          contain
-          height="100px"
-          width="150px"
-        />
-      </center>
+
+    <div class="center">
+      <img
+        src="../assets/studieframjandet_logga_vit.png"
+        alt="Studiefrämjandet"
+        width="150px"
+      />
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+h1 {
+  margin-top: 2em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>

@@ -1,40 +1,45 @@
 @font-face {
   font-family: EB Garamond;
   font-style: normal;
-  src: url(../assets/fonts/EBGaramond12-Regular.otf) format('opentype');
+  src: url(./assets/fonts/EBGaramond12-Regular.otf) format('opentype');
 }
 @font-face {
   font-family: EB Garamond;
   font-style: italic;
-  src: url(../assets/fonts/EBGaramond12-Italic.otf) format('opentype');
+  src: url(./assets/fonts/EBGaramond12-Italic.otf) format('opentype');
 }
 @font-face {
   font-family: EB Garamond SC;
-  src: url(../assets/fonts/EBGaramondSC12-Regular.otf) format('opentype');
+  src: url(./assets/fonts/EBGaramondSC12-Regular.otf) format('opentype');
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
+
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   color: white;
   background: rgb(10, 10, 10);
 }
-.main {
+
+.main-body {
   padding: 10px 30px 10px 30px;
   width: 100%;
+  margin-bottom: 5rem;
 }
+
 .contents {
   width: 100%;
   margin: auto;
@@ -56,14 +61,6 @@ p {
   font-variant: normal;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-/* Main header font */
-h0 {
-  color: inherit;
-  font-size: 1.5em;
-  font-weight: bold;
-  font-style: normal;
 }
 
 h1 {
@@ -92,19 +89,13 @@ a {
   text-decoration: underline;
 }
 
-html,
-body,
-#app,
-#main {
-  min-height: 100%;
-  margin: 0;
-}
-
-#main {
-  width: 100%;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+#app {
+  background-size: 50vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(@/assets/stars.jpg);
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: darken;
 }
 
 footer {

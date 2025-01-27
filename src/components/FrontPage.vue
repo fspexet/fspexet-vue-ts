@@ -1,43 +1,20 @@
-<script>
+<script lang="ts">
   import { ref } from 'vue';
+  import { formatDurationAsArray } from "@/helper-functions";
 
-  function formatDuration(duration) {
-    duration = Math.max(0, duration);
-    const millis = Math.abs(duration.valueOf());
-    const days = Math.floor(millis / 1000 / 60 / 60 / 24);
-    const hours = Math.floor(millis / 1000 / 60 / 60 - days * 24);
-    const minutes = Math.floor(millis / 1000 / 60 - days * 24 * 60 - hours * 60);
-    const seconds = Math.floor(millis / 1000 - days * 24 * 60 * 60 - hours * 60 * 60 - minutes * 60);
-    
-    const output = [];
-    output.push(`${days}`);
-    output.push(`${hours.toString().padStart(2, "0")}`);
-    output.push(`${minutes.toString().padStart(2, "0")}`);
-    output.push(`${seconds.toString().padStart(2, "0")}`);
-
-    if (
-        days === 0 &&
-        hours === 0 &&
-        minutes === 0 &&
-        seconds === 0
-    ) {
-        output.push("0 sekunder");
-    }
-
-    return output;
-}
+  let interval: number;
 
   export default {
     setup() {
-      const releaseDate = new Date("2025-01-25T00:00Z");
-      const countdownLabel = ref("")
+      const releaseDate = new Date("2025-03-01Z+1");
+      const countdownLabel = ref([ "00", "00", "00", "00" ]);
 
       const f = () => {
         const now = new Date();
-        const duration = new Date(releaseDate - now);
-        countdownLabel.value = formatDuration(duration);
+        const duration = new Date(releaseDate.valueOf() - now.valueOf());
+        countdownLabel.value = formatDurationAsArray(duration);
       };
-      setInterval(f, 1000);
+      interval = setInterval(f, 1000);
       f();
 
       return {
@@ -46,7 +23,7 @@
     },
 
     beforeDestroy() {
-
+      clearInterval(interval);
     }
   }
 
@@ -55,10 +32,7 @@
 <template>
   <div class="contents">
     <div class="next_spex_header">
-      <span class="header_small">Nästa spex</span>
-      <span class="header_big">2025 Q2</span>
-
-      <span class="header_small">Temat släpps om</span>
+      <span class="heading_small">Årets spex har premiär om</span>
       <div class="countdown_clock">
         <span class="digit">{{ countdownLabel[0] }}</span>
         <span>:</span>
@@ -85,38 +59,51 @@
 .next_spex_header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 0.5rem;
 
-  min-height: 25vh;
+  margin-top: 15%;
+  min-height: 55vh;
 }
 
-.header_small {
+.heading_small {
   font-size: 2rem;
-}
-
-.header_big {
-  font-size: 5rem;
-  font-weight: bold;
 }
 
 .countdown_clock {
-  font-size: 2rem;
+  font-size: min(4vw, 2rem);
   display: grid;
   grid-template-columns: repeat(7, auto);
-  /* grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; */
   place-items: center;
   gap: 0.0em 0.5em;
 }
 
 .countdown_clock .digit {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 3em;
+  animation: float_around infinite alternate-reverse 10s;
 }
+
+.countdown_clock .digit:nth-child(1) { animation-delay: 0; }
+.countdown_clock .digit:nth-child(2) { animation-delay: 2534ms; }
+.countdown_clock .digit:nth-child(3) { animation-delay: 5821ms; }
+.countdown_clock .digit:nth-child(4) { animation-delay: 7928ms; }
 
 .countdown_clock .label {
   font-size: 0.75em;
+}
+
+@keyframes float_around {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -5px) rotate(-2deg);
+  }
+  100% {
+    transform: translate(0, 5px) rotate(3deg);
+  }
 }
 
 </style>
