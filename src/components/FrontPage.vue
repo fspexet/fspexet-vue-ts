@@ -68,6 +68,7 @@
 
 .heading_small {
   font-size: 2rem;
+  text-align: center;
 }
 
 .countdown_clock {

@@ -53,7 +53,6 @@ footer {
 
   margin-top: auto;
 
-  padding: 0 1rem;
   padding-top: 4rem;
   padding-bottom: 5rem;
 

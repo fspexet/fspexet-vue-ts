@@ -19,7 +19,9 @@ export default {
     <h1>Biljetter</h1>
     <hr />
 
-    <p>Något bra om biljetter och sånt</p>
+    <p>Vårens föreställningar kommer att framföras i <a
+      href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8"
+      target="_blank">Kalle Glader</a>!</p>
     <p>OBS: Under föreställningen förekommer starkt blinkande ljus.</p>
     <p>Föreställningarna sätts upp i samarbete med Studiefrämjandet.</p>
 

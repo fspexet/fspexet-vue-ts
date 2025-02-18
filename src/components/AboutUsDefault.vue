@@ -40,7 +40,7 @@
       <li>I falsett!</li>
       <li>Golvet är lava!</li>
       <li>Taket läcker!</li>
-      <li>Danskare!</li>
+      <li>Korståg!</li>
       <li>Förinta Borås!</li>
       <li>Åk Skidor!</li>
       <li>HÅRDARE!</li>
@@ -55,10 +55,8 @@
       <router-link to="/about-us/groups">poster i F-spexet</router-link>.
     </p>
     <p>
-      Om du är intresserad av att medverka i F-spexet kan ni fylla i vårat
-      <a href="https://forms.gle/udPSJsRaapmMFBws7" target="_blank"
-        >aspformulär</a
-      >
+      Om du är intresserad av att medverka i F-spexet kan ni fylla i vårt
+      aspformulär under en föreställning
       eller mejla
       <a href="mailto:jagvill@f-spexet.se">jagvill@f-spexet.se</a> och sedan
       kontaktar vi dig när saker händer.
