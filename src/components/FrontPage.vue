@@ -6,7 +6,7 @@
 
   export default {
     setup() {
-      const releaseDate = new Date("2025-03-01Z+1");
+      const releaseDate = new Date("2025-02-28T13:00:00");
       const countdownLabel = ref([ "00", "00", "00", "00" ]);
 
       const f = () => {
@@ -32,7 +32,7 @@
 <template>
   <div class="contents">
     <div class="next_spex_header">
-      <span class="heading_small">Årets spex har premiär om</span>
+      <span class="heading_small">Årets spex har temasläpp om</span>
       <div class="countdown_clock">
         <span class="digit">{{ countdownLabel[0] }}</span>
         <span>:</span>
@@ -82,13 +82,15 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 3em;
-  animation: float_around infinite alternate-reverse 10s;
+  /*animation: float_around infinite alternate-reverse 10s;*/
 }
 
+/* 
 .countdown_clock .digit:nth-child(1) { animation-delay: 0; }
 .countdown_clock .digit:nth-child(2) { animation-delay: 2534ms; }
 .countdown_clock .digit:nth-child(3) { animation-delay: 5821ms; }
 .countdown_clock .digit:nth-child(4) { animation-delay: 7928ms; }
+*/
 
 .countdown_clock .label {
   font-size: 0.75em;

@@ -40,6 +40,7 @@
       <li>I falsett!</li>
       <li>Golvet är lava!</li>
       <li>Taket läcker!</li>
+      <li>Danskare!</li>
       <li>Förinta Borås!</li>
       <li>Åk Skidor!</li>
       <li>HÅRDARE!</li>
@@ -76,7 +77,7 @@
     <p>
       Om några få föreställningar om året inte räcker så kan ni se vad som
       händer genom att följa F-spexet på våra sociala medier (eller ännu bättre
-      aspa ^^):
+      aspa):
     </p>
     <ul>
       <li>
@@ -90,6 +91,12 @@
           href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q"
           target="_blank"
         >YouTube</a>
+      </li>
+      <li>
+        <a
+          href="https://wiki.f-spexet.se"
+          target="_blank"
+          >Wiki</a>
       </li>
     </ul>
 

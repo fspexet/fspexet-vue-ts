@@ -25,39 +25,37 @@ export default {
 
     <h2>Priser</h2>
     <ul>
-      <li>F-Nollan*: 50 kr (endast första föreställningen)</li>
-      <li>Nollan**: 100 kr</li>
-      <li>Student***: 140 kr</li>
+      <li>Student*: 150 kr</li>
       <li>Ordinarie: 275 kr</li>
     </ul>
     <p>I dessa priser ingår även en trerätters middag!</p>
 
-    <p>
-      F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för
-      att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.
-    </p>
+    <!-- <p> -->
+      <!-- F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för -->
+      <!-- att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen. -->
+    <!-- </p> -->
 
     <p>Förtydligande om anmärkningar:</p>
     <ul class="clarifications">
-      <li>* Som F-Nollan räknas nyantagen Chalmersstudent på F-sektionen (antagen hösten {{ nollanYear }})</li>
-      <li>** Som Nollan räknas nyantagen Chalmersstudent (antagen hösten {{ nollanYear }})</li>
-      <li>*** Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
+      <li>* Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
     </ul>
     <h2>Köp biljett</h2>
     <p>Köp er biljett på ett av följande sätt:</p>
     <ul>
       <li>
         <p>
-          Lunchtid vardagar vecka 36 i F-spexets bås på Teknologgården utanför Chalmers kårhus
+          Lunchtid på vardagar veckorna innan premiär i F-spexets bås på Teknologgården utanför Chalmers kårhus,
+          <!-- Lunchtid vardagar vecka 36 i F-spexets bås på Teknologgården utanför Chalmers kårhus -->
         </p>
       </li>
 
       <li>
         <p>
-          Genom att fylla i <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdNYMPk6UcilK6YN7HjvibrP_4RtcGr97vpBjtS_-Qpgrv_vg/viewform"
-            target="_blank"
-          >biljettformuläret</a>.
+          Genom att fylla i biljettformuläret som kommer här närmre premiären.
+          <!-- Genom att fylla i <a -->
+            <!-- href="https://docs.google.com/forms/d/e/1FAIpQLSdNYMPk6UcilK6YN7HjvibrP_4RtcGr97vpBjtS_-Qpgrv_vg/viewform" -->
+            <!-- target="_blank" -->
+          <!-- >biljettformuläret</a>. -->
         </p>
       </li>
       <li>

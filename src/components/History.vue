@@ -4,18 +4,9 @@
     <div>
       <h4>Pesten (2024)</h4>
       <p>
-        Nämen, Det är ju oss!
+      <br/>
       </p>
-      <hr />
-    </div>
-    <div>
-      <h4>Marius Jacob (2023)</h4>
-      <p>
-        Spexet handlade om gentlemannatjuven Marius Jacob och hans mentor
-        Moriarty, som besöker den kungliga operan där de planerar att begå årets
-        stöld: att under en föreställning stjäla drottning Viktorias krona.
-      </p>
-      <hr />
+      <hr/>
     </div>
     <div>
       <h4>Marius Jacob (2023)</h4>

@@ -11,12 +11,14 @@
       <div class="box">
         <h2>Jag vill veta mer!</h2>
         <p>Om några få föreställningar om året inte räcker så kan ni se vad som händer genom att följa F-spexet på våra sociala medier: </p>
-        <span>
+        <span style="margin-top: 0.5em; display: block;">
           <a href="https://www.instagram.com/fspexet">Instagram</a>
           &#183;
           <a href="https://www.facebook.com/FSpexet">Facebook</a>
           &#183;
           <a href="https://www.youtube.com/channel/UCtnqDd2Japmk7zmVAbHtK-Q">YouTube</a>
+          &#183;
+          <a href="https://wiki.f-spexet.se">Wiki</a>
         </span>
       </div>
 

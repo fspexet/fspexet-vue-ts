@@ -1,12 +1,20 @@
 <template>
   <div id="app-container">
-    <main-header />
-    <div class="main-body">
-      <router-view></router-view>
+    <div id="mainpage">
+      <main-header />
+      <div class="main-body">
+        <router-view></router-view>
+      </div>
     </div>
     <main-footer />
   </div>
 </template>
+
+<style>
+#mainpage {
+  min-height: 100vh;
+}
+</style>
 
 <script lang="ts">
 import Header from '@/components/MainHeader.vue';
