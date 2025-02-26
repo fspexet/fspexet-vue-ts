@@ -32,7 +32,9 @@
 <template>
   <div>
     <div class="sky"></div>
-    <div class="water-surface"></div>
+    <div class="water-surface">
+      <img src="@/assets/logos/boat.svg" class="boat" />
+    </div>
     <div class="water">
       <img src="@/assets/light-ray.png" class="light-ray" />
     </div>
@@ -48,9 +50,16 @@
   }
 
   .water-surface {
+    position: relative;
     height: 20vw;
     background: linear-gradient(0deg, rgb(25, 32, 50) 0%, rgb(52, 58, 84) 100%);
     border-bottom: 20px solid white;
+  }
+
+  .boat {
+    position: absolute;
+    right: 10%;
+    top: -90%;
   }
 
   .water {
@@ -66,7 +75,7 @@
     width: 100%;
     filter: blur(10px);
     transform: translateY(-300px);
-    opacity: 0.4;
+    opacity: 0.1;
   }
 
 </style>

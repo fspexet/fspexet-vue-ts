@@ -2,23 +2,27 @@
   <header>
     <div class="menu">
       <router-link class="menu_button" to="/">
-        PREMIÄR
+        <img class="board" src="@/assets/logos/plankor.svg" />
+        <span>PREMIÄR</span>
       </router-link>
       <router-link class="menu_button" to="/tickets">
-        BILJETTER
+        <img class="board" src="@/assets/logos/plankor.svg" />
+        <span>BILJETTER</span>
       </router-link>
-      <router-link class="menu_button" id="logo" to="/">
+      <router-link class="menu_logo_button" id="logo" to="/">
         <img
           id="logo-image"
-          src="@/assets/logos/current_logo.svg"
+          src="@/assets/logos/logga_hemsida.svg"
           alt="F-spexets logga för 2025"
         />
       </router-link>
       <router-link class="menu_button" to="/about-us">
-        OM OSS
+        <img class="board" src="@/assets/logos/plankor.svg" />
+        <span>OM OSS</span>
       </router-link>
       <router-link class="menu_button" to="/contact">
-        KONTAKT
+        <img class="board" src="@/assets/logos/plankor.svg" />
+        <span>KONTAKT</span>
       </router-link>
     </div>
   </header>
@@ -28,26 +32,45 @@
 
 header {
   position: absolute;
-  width: max-content;
   margin: 5px auto;
+
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .menu_button {
-  color: inherit;
+  color: white;
+  text-shadow: 0 0 15px black;
+  box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.2);
   font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
+
+  text-decoration: none;
+
+  width: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.menu_button {
-  margin-right: 3px;
-  text-decoration: none;
+.menu_button .board {
+  width: 150px;
+  position: absolute;
+}
+
+.menu_button span {
+  z-index: 1;
 }
 
 .menu_button:hover {
