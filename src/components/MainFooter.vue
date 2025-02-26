@@ -38,8 +38,8 @@
     </div>
 
     <div class="logos">
-      <img src="@/assets/logga_default.png" alt="F-spexets logga" width="100">
-      <img src="@/assets/studieframjandet_logga_vit.png" alt="Studiefrämjandets logga" width="100">
+      <img src="@/assets/logos/logga_default.png" alt="F-spexets logga" width="100">
+      <img src="@/assets/logos/studieframjandet_logga_vit.png" alt="Studiefrämjandets logga" width="100">
     </div>
     <h1 id="domain">F-spexet.se</h1>
   </footer>
@@ -48,8 +48,8 @@
 <style scoped>
 
 footer {
+  color: white;
   background: rgb(37, 37, 37);
-  /* color: rgb(170, 170, 170); */
 
   margin-top: auto;
 
@@ -58,6 +58,10 @@ footer {
   padding-bottom: 5rem;
 
   gap: 2rem;
+}
+
+a {
+  color: white;
 }
 
 h2,

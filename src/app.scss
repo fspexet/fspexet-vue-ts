@@ -30,12 +30,11 @@ html {
 }
 
 body {
-  color: white;
-  background: rgb(10, 10, 10);
+  color: black;
+  background: white;
 }
 
 .main-body {
-  padding: 10px 30px 10px 30px;
   width: 100%;
   margin-bottom: 5rem;
 }
@@ -84,18 +83,9 @@ h4 {
 }
 
 a {
-  color: white;
+  color: black;
   font-style: italic;
   text-decoration: underline;
-}
-
-#app {
-  background-size: 50vw auto;
-  background-position: center;
-  background-attachment: fixed;
-  background-image: url(@/assets/stars.jpg);
-  background-color: rgba(0, 0, 0, 0.8);
-  background-blend-mode: darken;
 }
 
 footer {

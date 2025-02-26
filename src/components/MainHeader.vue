@@ -10,8 +10,8 @@
       <router-link class="menu_button" id="logo" to="/">
         <img
           id="logo-image"
-          src="@/assets/logga_default.png"
-          alt="F-spexets logga"
+          src="@/assets/logos/current_logo.svg"
+          alt="F-spexets logga för 2025"
         />
       </router-link>
       <router-link class="menu_button" to="/about-us">
@@ -27,6 +27,7 @@
 <style scoped>
 
 header {
+  position: absolute;
   width: max-content;
   margin: 5px auto;
 }

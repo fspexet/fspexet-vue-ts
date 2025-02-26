@@ -30,82 +30,43 @@
 </script>
 
 <template>
-  <div class="contents">
-    <div class="next_spex_header">
-      <span class="heading_small">Årets spex har temasläpp om</span>
-      <div class="countdown_clock">
-        <span class="digit">{{ countdownLabel[0] }}</span>
-        <span>:</span>
-        <span class="digit">{{ countdownLabel[1] }}</span>
-        <span>:</span>
-        <span class="digit">{{ countdownLabel[2] }}</span>
-        <span>:</span>
-        <span class="digit">{{ countdownLabel[3] }}</span>
-
-        <span class="label">dagar</span>
-        <span></span>
-        <span class="label">timmar</span>
-        <span></span>
-        <span class="label">minuter</span>
-        <span></span>
-        <span class="label">sekunder</span>
-      </div>
+  <div>
+    <div class="sky"></div>
+    <div class="water-surface"></div>
+    <div class="water">
+      <img src="@/assets/light-ray.png" class="light-ray" />
     </div>
   </div>
 </template>
 
 <style scoped>
 
-.next_spex_header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-
-  margin-top: 15%;
-  min-height: 55vh;
-}
-
-.heading_small {
-  font-size: 2rem;
-}
-
-.countdown_clock {
-  font-size: min(4vw, 2rem);
-  display: grid;
-  grid-template-columns: repeat(7, auto);
-  place-items: center;
-  gap: 0.0em 0.5em;
-}
-
-.countdown_clock .digit {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 3em;
-  /*animation: float_around infinite alternate-reverse 10s;*/
-}
-
-/* 
-.countdown_clock .digit:nth-child(1) { animation-delay: 0; }
-.countdown_clock .digit:nth-child(2) { animation-delay: 2534ms; }
-.countdown_clock .digit:nth-child(3) { animation-delay: 5821ms; }
-.countdown_clock .digit:nth-child(4) { animation-delay: 7928ms; }
-*/
-
-.countdown_clock .label {
-  font-size: 0.75em;
-}
-
-@keyframes float_around {
-  0% {
-    transform: translate(0, 0);
+  .sky {
+    height: 50vw;
+    background: rgb(36,62,131);
+    background: linear-gradient(180deg, rgb(153 176 238) 2%, rgba(220, 250, 255, 1) 100%);
   }
-  50% {
-    transform: translate(0, -5px) rotate(-2deg);
+
+  .water-surface {
+    height: 20vw;
+    background: linear-gradient(0deg, rgb(25, 32, 50) 0%, rgb(52, 58, 84) 100%);
+    border-bottom: 20px solid white;
   }
-  100% {
-    transform: translate(0, 5px) rotate(3deg);
+
+  .water {
+    height: 100vw;
+    background: rgb(22,16,0);
+    background: linear-gradient(0deg, rgba(22, 16, 0, 1) 0%, rgb(26 57 62) 100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
-}
+
+  .light-ray {
+    width: 100%;
+    filter: blur(10px);
+    transform: translateY(-300px);
+    opacity: 0.4;
+  }
 
 </style>
