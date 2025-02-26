@@ -11,7 +11,7 @@
     <h3>Biljettfrågor</h3>
     <p>
       <!-- Csenge Pápai<br /> -->
-      <a href="mailto:kassor@f-spexet.se">kassor@f-spexet.se</a>
+      <a href="mailto:biljetter@f-spexet.se">kassor@f-spexet.se</a>
     </p>
 
     <h3>Vill du låna rekvisita eller annan utrustning?</h3>
