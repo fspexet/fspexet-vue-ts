@@ -42,6 +42,7 @@
   }
 
   h1 {
+    font-size: min(8vw, 5em);
     margin: 0.25em;
   }
 
@@ -69,9 +70,9 @@
 
   .boat {
     position: absolute;
-    width: 25vw;
-    right: 10%;
-    top: -16vw;
+    width: 20vw;
+    right: 10vw;
+    bottom: 2vw;
   }
 
   .water-surface .seal {
@@ -82,13 +83,14 @@
   }
 
   .water {
-    height: 100vw;
+    min-height: 100vw;
     background: rgb(22,16,0);
     background: linear-gradient(0deg, rgba(22, 16, 0, 1) 0%, rgb(26 57 62) 100%);
     color: white;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    padding: 1em;
 
     position: relative;
   }
@@ -98,6 +100,7 @@
     filter: blur(2px) brightness(0.5);
     right: 5vw;
     top: 5vw;
+    width: 20vw;
   }
 
   .light-ray {
@@ -117,6 +120,7 @@
   }
 
   .text-box h1 {
+    margin-top: 1em;
     text-align: center;
   }
 
