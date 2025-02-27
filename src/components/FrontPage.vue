@@ -42,17 +42,18 @@
   }
 
   h1 {
-    font-size: min(8vw, 5em);
+    font-size: min(9vw, 5em);
     margin: 0.25em;
   }
 
   h2 {
-    font-size: 2em;
+    font-size: min(5vw, 2em);
     margin: 0;
   }
 
   .sky {
     height: 30vw;
+    min-height: 40vh;
   
     display: flex;
     flex-direction: column;
@@ -62,10 +63,12 @@
   }
 
   .water-surface {
-    position: relative;
     height: 20vw;
+    min-height: 20vh;
+
+    position: relative;
     background: linear-gradient(0deg, rgb(25, 32, 50) 0%, rgb(52, 58, 84) 100%);
-    border-bottom: 20px solid white;
+    border-bottom: 2vw solid white;
   }
 
   .boat {
@@ -115,13 +118,30 @@
 
   .text-box {
     max-width: 800px;
-    margin-top: 5em;
     z-index: 1;
   }
 
   .text-box h1 {
     margin-top: 1em;
     text-align: center;
+  }
+
+  @media screen and (max-width: 800px) {
+    .sky {
+      justify-content: start;
+      padding-top: 5vh;
+    }
+    
+    .water-surface .seal {
+      display: none;
+    }
+
+    .boat {
+      width: 40vw;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 10vw;
+    }
   }
 
 </style>

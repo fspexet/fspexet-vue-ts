@@ -2,11 +2,11 @@
   <header>
     <div class="menu">
       <router-link class="menu_button" to="/">
-        <img class="board" src="@/assets/logos/plankor.svg" />
+        <img class="board" src="@/assets/logos/planka.svg" />
         <span>HEM</span>
       </router-link>
       <router-link class="menu_button" to="/tickets">
-        <img class="board" src="@/assets/logos/plankor.svg" />
+        <img class="board" src="@/assets/logos/planka.svg" />
         <span>BILJETTER</span>
       </router-link>
       <router-link class="menu_logo_button" id="logo" to="/">
@@ -17,11 +17,11 @@
         />
       </router-link>
       <router-link class="menu_button" to="/about-us">
-        <img class="board" src="@/assets/logos/plankor.svg" />
+        <img class="board" src="@/assets/logos/planka.svg" />
         <span>OM OSS</span>
       </router-link>
       <router-link class="menu_button" to="/contact">
-        <img class="board" src="@/assets/logos/plankor.svg" />
+        <img class="board" src="@/assets/logos/planka.svg" />
         <span>KONTAKT</span>
       </router-link>
     </div>
@@ -35,6 +35,8 @@ header {
   min-height: 150px;
   display: flex;
   justify-content: center;
+
+  font-family: auto;
 }
 
 .menu {
@@ -48,7 +50,7 @@ header {
   color: white;
   text-shadow: 0 0 15px black;
   box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.2);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
