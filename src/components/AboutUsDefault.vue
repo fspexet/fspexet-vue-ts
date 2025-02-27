@@ -120,7 +120,7 @@
 
     <div class="center">
       <img
-        src="../assets/studieframjandet_logga_vit.png"
+        src="../assets/logos/studieframjandet_logga_svart.png"
         alt="Studiefrämjandet"
         width="150px"
       />

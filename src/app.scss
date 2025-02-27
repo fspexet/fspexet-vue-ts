@@ -34,8 +34,20 @@ body {
   background: black;
 }
 
+#mainpage {
+  min-height: 100vh;
+}
+
+#mainpage {
+  background: rgb(36,62,131);
+  background: linear-gradient(180deg, rgb(153 176 238) 2vh, rgba(220, 250, 255, 1) 100vh);
+
+  /* background: linear-gradient(180deg, rgb(20, 23, 31) 2vh, rgb(11, 15, 16) 100vh); */
+}
+
 .main-body {
   width: 100%;
+  padding-bottom: 5em;
 }
 
 .contents {

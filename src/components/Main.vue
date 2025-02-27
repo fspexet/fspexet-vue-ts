@@ -10,12 +10,6 @@
   </div>
 </template>
 
-<style>
-#mainpage {
-  min-height: 100vh;
-}
-</style>
-
 <script lang="ts">
 import Header from '@/components/MainHeader.vue';
 import Footer from '@/components/MainFooter.vue';

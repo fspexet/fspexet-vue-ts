@@ -6,9 +6,12 @@
     </div>
     <div class="water-surface">
       <img src="@/assets/logos/boat.svg" class="boat" />
+      <img src="@/assets/seal2.svg" class="seal" />
     </div>
     <div class="water">
       <img src="@/assets/light-ray.png" class="light-ray" />
+      <img src="@/assets/seal1.svg" class="seal">
+
       <div class="text-box">
         <h1>This is a heading</h1>
         <p>lorm ismum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui, possimus inventore tempora ullam asperiores itaque obcaecati, voluptate suscipit quia ipsum, illo blanditiis architecto ad numquam incidunt quos iusto. Dolore?</p>
@@ -28,17 +31,6 @@
   </div>
 </template>
 
-<style>
-
-  #mainpage {
-    background: rgb(36,62,131);
-    background: linear-gradient(180deg, rgb(153 176 238) 2vh, rgba(220, 250, 255, 1) 100vh);
-
-    /* background: linear-gradient(180deg, rgb(20, 23, 31) 2vh, rgb(11, 15, 16) 100vh); */
-  }
-
-</style>
-
 <style scoped>
 
   img {
@@ -47,6 +39,15 @@
     -moz-user-drag: none;
     -o-user-drag: none;
     user-drag: none;
+  }
+
+  h1 {
+    margin: 0.25em;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin: 0;
   }
 
   .sky {
@@ -73,6 +74,13 @@
     top: -16vw;
   }
 
+  .water-surface .seal {
+    position: absolute;
+    width: 8vw;
+    left: 8vw;
+    top: 2vw;
+  }
+
   .water {
     height: 100vw;
     background: rgb(22,16,0);
@@ -83,6 +91,13 @@
     justify-content: center;
 
     position: relative;
+  }
+
+  .water .seal {
+    position: absolute;
+    filter: blur(2px) brightness(0.5);
+    right: 5vw;
+    top: 5vw;
   }
 
   .light-ray {
