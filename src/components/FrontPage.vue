@@ -1,39 +1,8 @@
-<script lang="ts">
-  import { ref } from 'vue';
-  import { formatDurationAsArray } from "@/helper-functions";
-
-  let interval: number;
-
-  export default {
-    setup() {
-      const releaseDate = new Date("2025-02-28T13:00:00");
-      const countdownLabel = ref([ "00", "00", "00", "00" ]);
-
-      const f = () => {
-        const now = new Date();
-        const duration = new Date(releaseDate.valueOf() - now.valueOf());
-        countdownLabel.value = formatDurationAsArray(duration);
-      };
-      interval = setInterval(f, 1000);
-      f();
-
-      return {
-        countdownLabel
-      }
-    },
-
-    beforeDestroy() {
-      clearInterval(interval);
-    }
-  }
-
-</script>
-
 <template>
   <div>
     <div class="sky">
       <h2>F-spexet 2025 presenterar</h2>
-      <h1>Ernest & Earharts Äventyrsbyrå AB</h1>
+      <h1>Ernest & Earharts<br>Äventyrsbyrå AB</h1>
     </div>
     <div class="water-surface">
       <img src="@/assets/logos/boat.svg" class="boat" />
@@ -41,20 +10,47 @@
     <div class="water">
       <img src="@/assets/light-ray.png" class="light-ray" />
       <div class="text-box">
-        <h2>This is a heading</h2>
+        <h1>This is a heading</h1>
         <p>lorm ismum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui, possimus inventore tempora ullam asperiores itaque obcaecati, voluptate suscipit quia ipsum, illo blanditiis architecto ad numquam incidunt quos iusto. Dolore?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cum vero maiores nostrum eos? Illum odit, accusamus ipsam vitae excepturi natus culpa optio beatae, hic ad a soluta nostrum veritatis!</p>
+
+        <h1>This is a heading</h1>
+        <p>lorm ismum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui, possimus inventore tempora ullam asperiores itaque obcaecati, voluptate suscipit quia ipsum, illo blanditiis architecto ad numquam incidunt quos iusto. Dolore?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cum vero maiores nostrum eos? Illum odit, accusamus ipsam vitae excepturi natus culpa optio beatae, hic ad a soluta nostrum veritatis!</p>
+      
+        <button class="cta">
+          <router-link to="/tickets">
+            Köp biljetter
+          </router-link>
+        </button>
       </div>
     </div>
   </div>
 </template>
 
+<style>
+
+  #mainpage {
+    background: rgb(36,62,131);
+    background: linear-gradient(180deg, rgb(153 176 238) 2vh, rgba(220, 250, 255, 1) 100vh);
+
+    /* background: linear-gradient(180deg, rgb(20, 23, 31) 2vh, rgb(11, 15, 16) 100vh); */
+  }
+
+</style>
+
 <style scoped>
 
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+
   .sky {
-    height: 50vw;
-    background: rgb(36,62,131);
-    background: linear-gradient(180deg, rgb(153 176 238) 2%, rgba(220, 250, 255, 1) 100%);
+    height: 30vw;
   
     display: flex;
     flex-direction: column;
@@ -72,8 +68,9 @@
 
   .boat {
     position: absolute;
+    width: 25vw;
     right: 10%;
-    top: -90%;
+    top: -16vw;
   }
 
   .water {
@@ -100,6 +97,12 @@
 
   .text-box {
     max-width: 800px;
+    margin-top: 5em;
+    z-index: 1;
+  }
+
+  .text-box h1 {
+    text-align: center;
   }
 
 </style>

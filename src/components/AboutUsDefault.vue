@@ -131,7 +131,7 @@
 <style scoped>
 
 h1 {
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 .center {

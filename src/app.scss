@@ -31,7 +31,7 @@ html {
 
 body {
   color: black;
-  background: white;
+  background: black;
 }
 
 .main-body {
@@ -59,12 +59,13 @@ p {
   font-variant: normal;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-size: 1.125em;
 }
 
 h1 {
   font-variant: small-caps;
   font-size: 5em;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -81,6 +82,11 @@ h4 {
   font-style: italic;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid currentColor;
 }
 
 a {
@@ -110,4 +116,19 @@ footer > h1 {
   vertical-align: middle;
   width: 150px;
   height: 150px;
+}
+
+button.cta {
+  background: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 1em 2em;
+  font-weight: bold;
+  transition: scale 100ms;
+}
+
+button.cta:hover {
+  scale: 1.05;
 }

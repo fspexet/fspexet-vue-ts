@@ -3,7 +3,7 @@
     <div class="menu">
       <router-link class="menu_button" to="/">
         <img class="board" src="@/assets/logos/plankor.svg" />
-        <span>PREMIÄR</span>
+        <span>HEM</span>
       </router-link>
       <router-link class="menu_button" to="/tickets">
         <img class="board" src="@/assets/logos/plankor.svg" />
@@ -31,9 +31,6 @@
 <style scoped>
 
 header {
-  position: absolute;
-  margin: 5px auto;
-
   width: 100%;
   height: 150px;
   display: flex;
