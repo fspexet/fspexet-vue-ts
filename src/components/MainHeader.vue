@@ -54,8 +54,9 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
-
   text-decoration: none;
+
+  transition: transform 100ms;
 
   width: 100px;
   position: relative;
@@ -75,6 +76,7 @@ header {
 
 .menu_button:hover {
   text-decoration: underline;
+  transform: rotate(-3deg) scale(1.05);
 }
 
 @media screen and (max-width: 800px) {
