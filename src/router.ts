@@ -20,6 +20,10 @@ export default new Router({
           component: () => import('@/components/Tickets.vue'),
         },
         {
+          path: 'menu',
+          component: () => import('@/components/Menu.vue'),
+        },
+        {
           path: 'about-us',
           component: () => import('@/components/AboutUs.vue'),
           children: [

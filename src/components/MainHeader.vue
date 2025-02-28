@@ -1,13 +1,17 @@
 <template>
   <header>
     <div class="menu">
-      <router-link class="menu_button" to="/">
+      <!-- <router-link class="menu_button" to="/">
         <img class="board" src="@/assets/logos/planka.svg" />
         <span>HEM</span>
-      </router-link>
+      </router-link> -->
       <router-link class="menu_button" to="/tickets">
         <img class="board" src="@/assets/logos/planka.svg" />
         <span>BILJETTER</span>
+      </router-link>
+      <router-link class="menu_button" to="/menu">
+        <img class="board" src="@/assets/logos/planka.svg" />
+        <span>MENY</span>
       </router-link>
       <router-link class="menu_logo_button" id="logo" to="/">
         <img
