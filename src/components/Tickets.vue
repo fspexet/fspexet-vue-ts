@@ -18,14 +18,13 @@ export default {
   <div class="contents">
     <h1>Biljetter</h1>
     <hr />
-
-    <p>Något bra om biljetter och sånt</p>
+    <p>Vårens föreställningar kommer att framföras i <a href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8" target="_blank">Kalle Glader</a>!</p>
     <p>OBS: Under föreställningen förekommer starkt blinkande ljus.</p>
     <p>Föreställningarna sätts upp i samarbete med Studiefrämjandet.</p>
 
     <h2>Priser</h2>
     <ul>
-      <li>Student*: 150 kr</li>
+      <li>Student<a href="#clarifications">*</a>: 150 kr</li>
       <li>Ordinarie: 275 kr</li>
     </ul>
     <p>I dessa priser ingår även en trerätters middag!</p>
@@ -35,10 +34,6 @@ export default {
       <!-- att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen. -->
     <!-- </p> -->
 
-    <p>Förtydligande om anmärkningar:</p>
-    <ul class="clarifications">
-      <li>* Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
-    </ul>
     <h2>Köp biljett</h2>
     <p>Köp er biljett på ett av följande sätt:</p>
     <ul>
@@ -51,11 +46,10 @@ export default {
 
       <li>
         <p>
-          Genom att fylla i biljettformuläret som kommer här närmre premiären.
-          <!-- Genom att fylla i <a -->
-            <!-- href="https://docs.google.com/forms/d/e/1FAIpQLSdNYMPk6UcilK6YN7HjvibrP_4RtcGr97vpBjtS_-Qpgrv_vg/viewform" -->
-            <!-- target="_blank" -->
-          <!-- >biljettformuläret</a>. -->
+          Genom att fylla i <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdjs07yTSbgI8r4A14zjiQRy8yBombD3e7nyeeOy-6eG-jaiA/viewform?usp=dialog"
+            target="_blank"
+          >biljettformuläret</a>.
         </p>
       </li>
       <li>
@@ -98,6 +92,10 @@ export default {
       avbokar er biljett. Avbokningar som sker innan 23:59 dagen innan
       föreställningen återbetalas.
     </p>
+
+    <ul class="clarifications" id="clarifications">
+      <li>* Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
+    </ul>
   </div>
 </template>
 
@@ -106,6 +104,9 @@ export default {
 .clarifications {
   list-style-type: none;
   padding: 0;
+  font-style: italic;
+  font-size: 0.75em;
+  margin-top: 5em;
 }
 
 table {

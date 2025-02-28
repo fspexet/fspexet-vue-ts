@@ -20,7 +20,7 @@ export default {
     'main-footer': Footer,
   },
   metaInfo: {
-    title: 'F-spexet',
+    title: 'F-Spexet 2025',
   },
 };
 </script>

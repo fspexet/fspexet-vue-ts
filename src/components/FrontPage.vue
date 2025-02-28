@@ -1,3 +1,34 @@
+<script lang="ts">
+  import { ref } from 'vue';
+  import { formatDurationAsArray } from "@/helper-functions";
+
+  const premiereDate = new Date("2025-04-01T17:00:00Z");
+  let interval: number;
+
+  export default {
+    setup() {
+      const countdownLabel = ref([ "00", "00", "00", "00" ]);
+
+      const f = () => {
+        const now = new Date();
+        const duration = new Date(premiereDate.valueOf() - now.valueOf());
+        countdownLabel.value = formatDurationAsArray(duration);
+      };
+      interval = setInterval(f, 1000);
+      f();
+
+      return {
+        countdownLabel
+      }
+    },
+
+    beforeDestroy() {
+      clearInterval(interval);
+    }
+  }
+
+</script>
+
 <template>
   <div>
     <div class="sky">
@@ -6,26 +37,59 @@
     </div>
     <div class="water-surface">
       <img src="@/assets/logos/boat.svg" class="boat" />
-      <img src="@/assets/seal2.svg" class="seal" />
+      <div class="ice_container">
+        <img src="@/assets/isflak.svg" class="ice" />
+        <img src="@/assets/seal2.svg" class="seal" />
+      </div>
     </div>
     <div class="water">
       <img src="@/assets/light-ray.png" class="light-ray" />
-      <img src="@/assets/seal1.svg" class="seal">
+      <img src="@/assets/seal1.svg" class="seal" />
 
       <div class="text-box">
-        <h1>This is a heading</h1>
-        <p>lorm ismum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui, possimus inventore tempora ullam asperiores itaque obcaecati, voluptate suscipit quia ipsum, illo blanditiis architecto ad numquam incidunt quos iusto. Dolore?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cum vero maiores nostrum eos? Illum odit, accusamus ipsam vitae excepturi natus culpa optio beatae, hic ad a soluta nostrum veritatis!</p>
+        <h1>Välkommen till F-spexet 2025</h1>
+        <p>Vårens föreställningar kommer att framföras i <a href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8" target="_blank">Kalle Glader</a> dessa datum</p>
+        <ul>
+          <li>Tisdag 1 April kl 18 (Premiär!)</li>
+          <li>Onsdag 2 April kl 18</li>
+          <li>Fredag 4 April kl 18</li>
+          <li>Lördag 5 April kl 17</li>
+          <li>Söndag 6 April kl 16 (Busk!)</li>
+        </ul>
 
-        <h1>This is a heading</h1>
-        <p>lorm ismum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui, possimus inventore tempora ullam asperiores itaque obcaecati, voluptate suscipit quia ipsum, illo blanditiis architecto ad numquam incidunt quos iusto. Dolore?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cum vero maiores nostrum eos? Illum odit, accusamus ipsam vitae excepturi natus culpa optio beatae, hic ad a soluta nostrum veritatis!</p>
-      
+        Priser:
+        <ul>
+          <li>Student<a href="/tickets#clarifications">*</a>: 150 kr</li>
+          <li>Ordinarie: 275 kr</li>
+        </ul>
+        <p>I dessa priser ingår även en trerätters middag!</p>
+
         <button class="cta">
           <router-link to="/tickets">
-            Köp biljetter
+            Köp biljetter här!
           </router-link>
         </button>
+
+        <div class="countdown_clock_wrapper">
+          <h2>F-Spexet har premiär om</h2>
+          <div class="countdown_clock">
+            <span class="digit">{{ countdownLabel[0] }}</span>
+            <span>:</span>
+            <span class="digit">{{ countdownLabel[1] }}</span>
+            <span>:</span>
+            <span class="digit">{{ countdownLabel[2] }}</span>
+            <span>:</span>
+            <span class="digit">{{ countdownLabel[3] }}</span>
+
+            <span class="label">dagar</span>
+            <span></span>
+            <span class="label">timmar</span>
+            <span></span>
+            <span class="label">minuter</span>
+            <span></span>
+            <span class="label">sekunder</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -33,12 +97,24 @@
 
 <style scoped>
 
+  a {
+    color: white;
+  }
+
+  .cta a {
+    color: black;
+  }
+
   img {
     -webkit-user-drag: none;
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
     user-drag: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
   }
 
   h1 {
@@ -68,7 +144,7 @@
 
     position: relative;
     background: linear-gradient(0deg, rgb(25, 32, 50) 0%, rgb(52, 58, 84) 100%);
-    border-bottom: 2vw solid white;
+    /* border-bottom: 2vw solid white; */
   }
 
   .boat {
@@ -78,11 +154,24 @@
     bottom: 2vw;
   }
 
-  .water-surface .seal {
+  .water-surface .ice_container {
     position: absolute;
-    width: 8vw;
     left: 8vw;
     top: 2vw;
+  }
+
+  .ice_container > img {
+    position: absolute;
+  }
+
+  .ice_container .seal {
+    width: 8vw;
+    left: 7vw;
+    top: -4vw;
+  }
+
+  .ice_container .ice {
+    width: 20vw;
   }
 
   .water {
@@ -94,6 +183,9 @@
     display: flex;
     justify-content: center;
     padding: 1em;
+
+    margin-bottom: -5em;
+    padding-bottom: 5em;
 
     position: relative;
   }
@@ -132,7 +224,7 @@
       padding-top: 5vh;
     }
     
-    .water-surface .seal {
+    .water-surface .ice_container {
       display: none;
     }
 
@@ -142,6 +234,32 @@
       transform: translateX(-50%);
       bottom: 10vw;
     }
+  }
+
+  .countdown_clock_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .countdown_clock {
+    width: fit-content;
+    font-size: min(4vw, 2rem);
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    place-items: center;
+    gap: 0.0em 0.5em;
+  }
+
+  .countdown_clock .digit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .countdown_clock .label {
+    font-size: 0.75em;
   }
 
 </style>

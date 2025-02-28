@@ -72,6 +72,10 @@ a,
   opacity: 0.6;
 }
 
+h1 {
+  font-size: 4em;
+}
+
 h1, h2 {
   font-weight: bold;
   opacity: 0.85;
