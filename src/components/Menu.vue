@@ -1,14 +1,24 @@
 <template>
     <div class="contents">
         <h1>Meny</h1>
-        <h3>Förrätt</h3>
-        <p>Havstoast med tångrom och gräddfil</p>
+        <hr>
 
-        <h3>Varmrätt</h3>
-        <p>Pasta med svampsås</p>
+        <div class="menu_content">
+            <div class="course">
+                <h3>Förrätt</h3>
+                <p>Havstoast med tångrom och gräddfil</p>
+            </div>
 
-        <h3>Efterrätt</h3>
-        <p>Flädermousse med hallonkompott</p>
+            <div class="course">
+                <h3>Varmrätt</h3>
+                <p>Pasta med svampsås</p>
+            </div>
+
+            <div class="course">
+                <h3>Efterrätt</h3>
+                <p>Flädermousse med hallonkompott</p>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -22,9 +32,16 @@
 
 <style scoped>
 
+.menu_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
 h3 {
     font-size: 2em;
-    margin-top: 1.5em;
+    margin: 0;
 }
 
 </style>
