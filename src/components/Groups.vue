@@ -69,15 +69,6 @@
     </p>
     <hr>
 
-    <h3>Producent</h3>
-    <p>
-      Producenten ser till att spexet har en enhetlig konstnärlig vision, och har på så
-      sätt ett finger med i såväl rekvisita som kupletter, och samordnar mellan grupperna
-      överlag. Producenten väljer i mångt och mycket sin egen stil och den ene Producenten
-      är inte den andre lik.
-    </p>
-    <hr>
-
     <h3>Regissör</h3>
     <p>
       Regissörens uppgift är att leda Skådespelarnas rep, samt gnälla och tjata på Skådespelarna

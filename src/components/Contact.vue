@@ -4,15 +4,14 @@
     <hr />
 
     <p>
-      Nu är det ju så att det kan finnas några som vill ha tag i spexarna. Ett
-      alternativ är ju då att ställa sig på lämpligt ställe i fysikhuset och
-      ropa, men du har nog mer framgång med någon av våra mailadresser.
+      Vill du få tag i en spexare? Ställ dig på lämpligt ställe i fysikhuset och
+      ropa, <it>eller</it>, kontakta oss via någon av följande mejl!
     </p>
 
     <h3>Biljettfrågor</h3>
     <p>
       <!-- Csenge Pápai<br /> -->
-      <a href="mailto:kassor@f-spexet.se">kassor@f-spexet.se</a>
+      <a href="mailto:biljetter@f-spexet.se">kassor@f-spexet.se</a>
     </p>
 
     <h3>Vill du låna rekvisita eller annan utrustning?</h3>
