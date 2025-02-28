@@ -49,7 +49,7 @@
       <div class="text-box">
         <h1>Välkommen till F-spexet 2025</h1>
         <p>Vårens föreställningar kommer att framföras i <a href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8" target="_blank">Kalle Glader</a> dessa datum</p>
-        <ul>
+        <ul class="days">
           <li>Tisdag 1 April kl 18 (Premiär!)</li>
           <li>Onsdag 2 April kl 18</li>
           <li>Fredag 4 April kl 18</li>
@@ -71,7 +71,7 @@
         </button>
 
         <div class="countdown_clock_wrapper">
-          <h2>F-Spexet har premiär om</h2>
+          <h2>Premiär om</h2>
           <div class="countdown_clock">
             <span class="digit">{{ countdownLabel[0] }}</span>
             <span>:</span>
@@ -223,7 +223,7 @@
       justify-content: start;
       padding-top: 5vh;
     }
-    
+  
     .water-surface .ice_container {
       display: none;
     }
