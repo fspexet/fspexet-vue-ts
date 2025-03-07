@@ -77,7 +77,8 @@ header {
   z-index: 1;
 }
 
-.menu_button:hover {
+.menu_button:hover,
+.menu_logo_button:hover {
   text-decoration: underline;
   transform: rotate(-3deg) scale(1.05);
 }
