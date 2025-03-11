@@ -131,17 +131,24 @@ footer > h1 {
   height: 150px;
 }
 
-button.cta {
-  background: white;
-  color: black;
+.cta {
+  display: inline-block;
+  background: rgb(67, 100, 247);
+  color: white;
   cursor: pointer;
   border: none;
   border-radius: 8px;
   padding: 1em 2em;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
   transition: scale 100ms;
 }
 
-button.cta:hover {
+.cta > * {
+  color: inherit;
+}
+
+.cta:hover {
   scale: 1.05;
 }

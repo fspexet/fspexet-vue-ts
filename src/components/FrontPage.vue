@@ -64,11 +64,9 @@
         </ul>
         <p>I dessa priser ingår även en trerätters middag!</p>
 
-        <button class="cta">
-          <router-link to="/tickets">
-            Köp biljetter här!
-          </router-link>
-        </button>
+        <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSdjs07yTSbgI8r4A14zjiQRy8yBombD3e7nyeeOy-6eG-jaiA/viewform?usp=dialog" target="_blank">
+          Köp biljetter här!
+        </a>
 
         <div class="countdown_clock_wrapper">
           <h2>Premiär om</h2>
