@@ -11,4 +11,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // File formats are case-sensative so we add JPG here
+  assetsInclude: ['**/*.JPG'],
 })
