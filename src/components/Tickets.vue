@@ -46,11 +46,11 @@ export default {
           <td></td>
         </tr>
 
-        <tr>
+        <tr class="sold_out">
           <td>Fredag 4 April</td>
           <td>18:00</td>
           <td>Kalle Glader</td>
-          <td></td>
+          <td>Utsåld!</td>
         </tr>
 
         <tr>
@@ -167,6 +167,12 @@ export default {
 
 <style scoped>
 
+  .sold_out {
+    text-decoration: line-through;
+    color: #ff7474;
+  }
+
+
 .clarifications {
   list-style-type: none;
   padding: 0;
@@ -184,6 +190,9 @@ table {
   overflow: hidden;
 
   border: 1px solid rgb(202, 202, 202);
+}
+
+tabel > tr > td:last-child {
 }
 
 thead {

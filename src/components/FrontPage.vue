@@ -52,7 +52,7 @@
         <ul class="days">
           <li>Tisdag 1 April kl 18 (Premiär!)</li>
           <li>Onsdag 2 April kl 18</li>
-          <li>Fredag 4 April kl 18</li>
+          <li class="sold_out">Fredag 4 April kl 18</li>
           <li>Lördag 5 April kl 17</li>
           <li>Söndag 6 April kl 16 (Busk!)</li>
         </ul>
