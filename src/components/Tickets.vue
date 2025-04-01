@@ -53,7 +53,7 @@ export default {
           <td>Utsåld!</td>
         </tr>
 
-        <tr>
+        <tr class="sold_out">
           <td>Lördag 5 April</td>
           <td>17:00</td>
           <td>Kalle Glader</td>
