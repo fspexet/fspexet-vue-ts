@@ -1,8 +1,13 @@
 <script lang="ts">
   import { ref } from 'vue';
-  import { formatDurationAsArray } from "@/helper-functions";
+  import { formatDurationAsArray, getPrettyDay, prettySemester } from "@/helper-functions";
+  import EVENT from '@/event';
 
-  const premiereDate = new Date("2025-04-01T17:00:00Z");
+  const performance = EVENT.performances[0];
+  // Antag att alla föreställningar är när det är sommartid
+  const premiereDate = new Date(`${performance.day}T${performance.time}+0200`);
+  // Vid vintertid:
+  // const premiereDate = new Date(`${performance.day}T${performance.time}+0100`);
   let interval: number;
 
   export default {
@@ -17,8 +22,13 @@
       interval = setInterval(f, 1000);
       f();
 
+      const semester = prettySemester(EVENT) + "ens";
+
       return {
-        countdownLabel
+        countdownLabel,
+        EVENT,
+        getPrettyDay,
+        semester,
       }
     },
 
@@ -36,35 +46,44 @@
       <h1>Ernest & Earharts<br>Äventyrsbyrå AB</h1>
     </div>
     <div class="water-surface">
-      <img src="@/assets/logos/boat.svg" class="boat" />
+      <img src="@/assets/front-page-art/boat.svg" class="boat" />
       <div class="ice_container">
-        <img src="@/assets/isflak.svg" class="ice" />
-        <img src="@/assets/seal2.svg" class="seal" />
+        <img src="@/assets/front-page-art/isflak.svg" class="ice" />
+        <img src="@/assets/front-page-art/seal2.svg" class="seal" />
       </div>
     </div>
     <div class="water">
-      <img src="@/assets/light-ray.png" class="light-ray" />
-      <img src="@/assets/seal1.svg" class="seal" />
+      <img src="@/assets/front-page-art/light-ray.png" class="light-ray" />
+      <img src="@/assets/front-page-art/seal1.svg" class="seal" />
 
       <div class="text-box">
         <h1>Välkommen till F-spexet 2025</h1>
-        <p>Vårens föreställningar kommer att framföras i <a href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8" target="_blank">Kalle Glader</a> dessa datum</p>
+        <p>
+          {{ semester }} föreställningar kommer att framföras i
+          <a :href="EVENT.location.maps" target="_blank">
+            {{ EVENT.location.name }}
+          </a>
+          dessa datum:
+        </p>
         <ul class="days">
-          <li>Tisdag 1 April kl 18 (Premiär!)</li>
-          <li>Onsdag 2 April kl 18</li>
-          <li class="sold_out">Fredag 4 April kl 18</li>
-          <li>Lördag 5 April kl 17</li>
-          <li>Söndag 6 April kl 16 (Busk!)</li>
+          <li v-for="p in EVENT.performances" :key="p.day" :class="p.sold_out ? 'sold_out' : ''">
+            {{ getPrettyDay(p) }} kl {{ p.time }} <span v-if="p.note">({{ p.note }})</span>
+          </li>
         </ul>
 
-        Priser:
+        <p>Priser:</p>
         <ul>
-          <li>Student<a href="/tickets#clarifications">*</a>: 150 kr</li>
-          <li>Ordinarie: 275 kr</li>
+          <li v-for="p in EVENT.prices" :key="p.name">
+            {{ p.name }}
+            <a v-if="p.note" href="/tickets#clarifications">
+              {{ "*".repeat(1 + EVENT.prices.filter(p => p.note).findIndex(q => q.name === p.name)) }}
+            </a>
+            : {{ p.price }} kr
+          </li>
         </ul>
         <p>I dessa priser ingår även en trerätters middag!</p>
 
-        <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSdjs07yTSbgI8r4A14zjiQRy8yBombD3e7nyeeOy-6eG-jaiA/viewform?usp=dialog" target="_blank">
+        <a class="cta" :href="EVENT.tickets.form_link" target="_blank">
           Köp biljetter här!
         </a>
 
@@ -108,7 +127,6 @@
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
-    user-drag: none;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -139,6 +157,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .sky > * {
+    z-index: 10;
   }
 
   .water-surface {
