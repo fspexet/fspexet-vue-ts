@@ -1,14 +1,21 @@
 <script lang="ts">
 
+import EVENT from '@/event';
+import { getPrettyDay, prettySemester } from '@/helper-functions';
+
 export default {
   metaInfo: {
     title: 'F-Spexet - Biljetter',
   },
 
   setup() {
-    // Året för nollan slår om typ 1 juli varje år (det är inte alltid 181 dagar från 1 jan till 1 juli)
-    const nollanYear = new Date(new Date().valueOf() - 181 * 24 * 60 * 60 * 1000).getFullYear();
-    return { nollanYear }
+    const semester = prettySemester(EVENT) + "ens";
+
+    return {
+      EVENT,
+      getPrettyDay,
+      semester,
+    }
   }
 };
 
@@ -18,7 +25,12 @@ export default {
   <div class="contents">
     <h1>Biljetter</h1>
     <hr />
-    <p>Vårens föreställningar kommer att framföras i <a href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8" target="_blank">Kalle Glader</a>! Föreställningarna sätts upp i samarbete med Studiefrämjandet. OBS ⚠️: Under föreställningen förekommer starkt blinkande ljus.</p>
+    <p>
+      {{ semester }} föreställningar kommer att framföras i
+      <a :href="EVENT.location.maps" target="_blank">
+        {{ EVENT.location.name }}
+      </a>!
+      Föreställningarna sätts upp i samarbete med Studiefrämjandet. OBS ⚠️: Under föreställningen förekommer starkt blinkande ljus.</p>
 
     <h2>Föreställningsdatum</h2>
     <table>
@@ -32,57 +44,38 @@ export default {
       </thead>
 
       <tbody>
-        <tr>
-          <td>Tisdag 1 April</td>
-          <td>18:00</td>
-          <td>Kalle Glader</td>
-          <td>Premiär!</td>
-        </tr>
-
-        <tr>
-          <td>Onsdag 2 April</td>
-          <td>18:00</td>
-          <td>Kalle Glader</td>
-          <td></td>
-        </tr>
-
-        <tr class="sold_out">
-          <td>Fredag 4 April</td>
-          <td>18:00</td>
-          <td>Kalle Glader</td>
-          <td>Utsåld!</td>
-        </tr>
-
-        <tr class="sold_out">
-          <td>Lördag 5 April</td>
-          <td>17:00</td>
-          <td>Kalle Glader</td>
-          <td></td>
-        </tr>
-
-        <tr>
-          <td>Söndag 6 April</td>
-          <td>16:00</td>
-          <td>Kalle Glader</td>
-          <td>Busk!</td>
+        <tr v-for="p in EVENT.performances" :key="p.day" :class="p.sold_out ? 'sold_out' : ''">
+          <td>{{ getPrettyDay(p) }}</td>
+          <td>{{ p.time }}</td>
+          <td>{{ EVENT.location.name }}</td>
+          <td>{{ p.sold_out ? "Utsåld!" : "" }} {{ p.note }}</td>
         </tr>
       </tbody>
     </table>
+
+    <p v-if="EVENT.generalPerformanceNote">
+      {{ EVENT.generalPerformanceNote }}
+    </p>
 
     <h2>Priser</h2>
     <p>I dessa priser ingår föreställning samt en trerätters middag!</p>
     <table>
       <thead>
         <tr>
-          <th>Student<a href="#clarifications">*</a></th>
-          <th>Ordinarie</th>
+          <th v-for="p in EVENT.prices" :key="p.name">
+            {{ p.name }}
+            <a v-if="p.note" href="#clarifications">
+              {{ "*".repeat(1 + EVENT.prices.filter(p => p.note).findIndex(q => q.name === p.name)) }}
+            </a>
+          </th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td>150 kr</td>
-          <td>275 kr</td>
+          <td v-for="p in EVENT.prices" :key="p.name">
+            {{ p.price }} kr
+          </td>
         </tr>
       </tbody>
     </table>
@@ -91,7 +84,7 @@ export default {
 
     <h2>Köp biljetter</h2>
     <p>Fyll i formuläret nedan och sedan skickas en betalningslänk via mejl:</p>
-    <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSdjs07yTSbgI8r4A14zjiQRy8yBombD3e7nyeeOy-6eG-jaiA/viewform?usp=dialog" target="_blank">
+    <a class="cta" :href="EVENT.tickets.form_link" target="_blank">
       Köp biljetter här!
     </a>
 
@@ -101,11 +94,6 @@ export default {
     <br>
     <br>
     <hr>
-
-    <!-- <p> -->
-      <!-- F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för -->
-      <!-- att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen. -->
-    <!-- </p> -->
 
     <h2>Biljetter kan även köpas...</h2>
     <ul>
@@ -160,18 +148,14 @@ export default {
     </p>
 
     <ul class="clarifications" id="clarifications">
-      <li>* Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
+      <li v-for="(p, index) in EVENT.prices.filter(p => p.note)" :key="p.name">
+        {{ "*".repeat(index + 1) }} {{ p.note }}
+      </li>
     </ul>
   </div>
 </template>
 
 <style scoped>
-
-  .sold_out {
-    text-decoration: line-through;
-    color: #ff7474;
-  }
-
 
 .clarifications {
   list-style-type: none;
@@ -192,9 +176,6 @@ table {
   border: 1px solid rgb(202, 202, 202);
 }
 
-tabel > tr > td:last-child {
-}
-
 thead {
   background: rgb(202, 202, 202);
 }
@@ -208,9 +189,13 @@ th {
   padding: 12px 16px;
 }
 
-iframe {
-  width: 100%;
-  height: 400px;
+tr.sold_out > td {
+  text-decoration: line-through;
+  color: #ff7474;
+}
+
+tr.sold_out > td:nth-child(4) {
+  text-decoration: none;
 }
 
 </style>

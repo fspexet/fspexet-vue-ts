@@ -1,16 +1,12 @@
 <template>
   <header>
     <div class="menu">
-      <!-- <router-link class="menu_button" to="/">
-        <img class="board" src="@/assets/logos/planka.svg" />
-        <span>HEM</span>
-      </router-link> -->
       <router-link class="menu_button" to="/tickets">
-        <img class="board" src="@/assets/logos/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/planka.svg" />
         <span>BILJETTER</span>
       </router-link>
       <router-link class="menu_button" to="/menu">
-        <img class="board" src="@/assets/logos/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/planka.svg" />
         <span>MENY</span>
       </router-link>
       <router-link class="menu_logo_button" id="logo" to="/">
@@ -21,11 +17,11 @@
         />
       </router-link>
       <router-link class="menu_button" to="/about-us">
-        <img class="board" src="@/assets/logos/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/planka.svg" />
         <span>OM OSS</span>
       </router-link>
       <router-link class="menu_button" to="/contact">
-        <img class="board" src="@/assets/logos/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/planka.svg" />
         <span>KONTAKT</span>
       </router-link>
     </div>
@@ -41,6 +37,9 @@ header {
   justify-content: center;
 
   font-family: auto;
+
+  position: relative;
+  z-index: 100;
 }
 
 .menu {

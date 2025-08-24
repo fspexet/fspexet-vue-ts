@@ -103,14 +103,14 @@
     <p>
       F-spexet har flera pågående samarbeten som ni kan läsa om här.
     </p>
-    <h3>Fysikteknologsektionen</h3>
+    <h2>Fysikteknologsektionen</h2>
     <p>
       F-spexet är en intresseförening på
       <a href="http://www.ftek.se/" target="_blank">Fysikteknologsektionen</a>
       på Chalmers. Strax över hälften av våra medlemmar varje år går på Teknisk
       Fysik eller Teknisk Matematik, men det är inget krav för att vara med.
     </p>
-    <h3>Studiefrämjandet</h3>
+    <h2>Studiefrämjandet</h2>
     <p>
       F-spexet har flera studiecirklar under Studiefrämjandet och är väldigt
       glada över att ha deras återkommande stöd.

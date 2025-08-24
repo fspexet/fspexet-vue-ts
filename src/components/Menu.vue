@@ -7,19 +7,19 @@
             <div class="course">
                 <h3>Förrätt</h3>
                 <p>Havstoast med tångrom och gräddfil</p>
-                <img src="@/assets/menu-pictures/forratt_small.JPG" alt="Förrätt" />
+                <img src="@/assets/food-pictures/forratt_small.JPG" alt="Förrätt" />
             </div>
 
             <div class="course">
                 <h3>Varmrätt</h3>
                 <p>Pasta med svampsås</p>
-                <img src="@/assets/menu-pictures/huvudratt_small.JPG" alt="Varmrätt" />
+                <img src="@/assets/food-pictures/huvudratt_small.JPG" alt="Varmrätt" />
             </div>
 
             <div class="course">
                 <h3>Efterrätt</h3>
                 <p>Flädermousse med hallonkompott</p>
-                <img src="@/assets/menu-pictures/efterratt_small.JPG" alt="Eferrätt" />
+                <img src="@/assets/food-pictures/efterratt_small.JPG" alt="Eferrätt" />
             </div>
         </div>
     </div>

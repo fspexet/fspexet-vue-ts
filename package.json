@@ -8,6 +8,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@peterek/vite-plugin-favicons": "^1.0.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.7.14",
     "vue-class-component": "^6.0.0",

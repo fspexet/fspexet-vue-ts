@@ -5,7 +5,7 @@
 
     <p>
       Vill du få tag i en spexare? Ställ dig på lämpligt ställe i fysikhuset och
-      ropa, <it>eller</it>, kontakta oss via någon av följande mejl!
+      ropa, <i>eller</i>, kontakta oss via någon av följande mejl!
     </p>
 
     <h3>Biljettfrågor</h3>
