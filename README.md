@@ -30,6 +30,6 @@ Då hostas hemsidan lokalt på datorn som också kan besökas lokalt (se länken
 Så länge detta program kör kommer testhemsidan att automatiskt byggas och uppdateras när du gör ändringar i dina lokala filer. Du kan då testa ändringar utan att behöva starta om programmet!
 
 ## Vilka filer ska jag uppdatera?
-* Tider, datum, lokal, priser, etc finns i filen `/src/events.ts`.
+* Tider, datum, lokal, priser, etc finns i filen `/src/event.ts`.
 * Bilder och dylikt ligger i mappen `/src/assets/`.
 * Filer som beskriver sidinnehållet finns att hitta i mappen `/src/components/`.
