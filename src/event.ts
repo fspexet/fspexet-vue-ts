@@ -4,7 +4,7 @@ const nollanYear = new Date(new Date().valueOf() - 181 * 24 * 60 * 60 * 1000).ge
 const AUTUMN_EVENT: SpexEvent = {
   semester: "autumn",
   tickets: {
-    form_link: "https://docs.google.com/forms/d/e/1FAIpQLSdjs07yTSbgI8r4A14zjiQRy8yBombD3e7nyeeOy-6eG-jaiA/viewform?usp=dialog"
+    form_link: "https://docs.google.com/forms/d/e/1FAIpQLSclJ3yahpsin0XDOHUp1kQ0ewaYjjOgtKfbWTB7dtpTyiPsNw/viewform?usp=sharing&ouid=111267810821293790900"
   },
   location: {
     name: "Kalle Glader",
@@ -29,12 +29,12 @@ const AUTUMN_EVENT: SpexEvent = {
   generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
   prices: [
     {
-      name: "F-nollan",
+      name: "F-nollan (endast 8/9)",
       price: 50,
       note: `Gäller F-nollan år ${nollanYear}`,
     },
     {
-      name: "Nollan",
+      name: "Nollan (endast 8/9)",
       price: 100
     },
     {
