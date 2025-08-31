@@ -1,16 +1,25 @@
 // Året för nollan slår om typ 1 juli varje år (det är inte alltid 181 dagar från 1 jan till 1 juli men det stämmer typ)
 const nollanYear = new Date(new Date().valueOf() - 181 * 24 * 60 * 60 * 1000).getFullYear();
 
+const KALLE_GLADER: SpexLocation = {
+  name: "Kalle Glader",
+  maps: "https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8",
+  address: "Hugo Grauers gata 4C, 411 33 Göteborg",
+}
+
+const FOCUS: SpexLocation = {
+  name: "Focus",
+  maps: "https://maps.app.goo.gl/Ts2zRVzNoDAZ9TsY9",
+  address: "Kemivägen 11, 412 58 Göteborg",
+  preposition: "på"
+}
+
 const AUTUMN_EVENT: SpexEvent = {
   semester: "autumn",
   tickets: {
     form_link: "https://docs.google.com/forms/d/e/1FAIpQLSclJ3yahpsin0XDOHUp1kQ0ewaYjjOgtKfbWTB7dtpTyiPsNw/viewform?usp=sharing&ouid=111267810821293790900"
   },
-  location: {
-    name: "Kalle Glader",
-    maps: "https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8",
-    address: "Hugo Grauers gata 4C, 411 33 Göteborg",
-  },
+  location: FOCUS,
   performances: [
     {
       day: "2025-09-08",
@@ -70,6 +79,11 @@ export interface SpexLocation {
   name: string;
   maps: string;
   address?: string;
+  /**
+   * I stället för att skriva "framförs i Focus" går det att sätta
+   * `preposition` till "på" för att skriva "framförs på Focus".
+   */
+  preposition?: string;
 }
 
 export interface SpexPerformance {
