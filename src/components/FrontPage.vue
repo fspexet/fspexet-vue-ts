@@ -59,7 +59,7 @@
       <div class="text-box">
         <h1>Välkommen till F-spexet 2025</h1>
         <p>
-          {{ semester }} föreställningar kommer att framföras i
+          {{ semester }} föreställningar kommer att framföras {{ EVENT.location.preposition ?? "i" }}
           <a :href="EVENT.location.maps" target="_blank">
             {{ EVENT.location.name }}
           </a>

@@ -26,7 +26,7 @@ export default {
     <h1>Biljetter</h1>
     <hr />
     <p>
-      {{ semester }} föreställningar kommer att framföras i
+      {{ semester }} föreställningar kommer att framföras {{ EVENT.location.preposition ?? "i" }}
       <a :href="EVENT.location.maps" target="_blank">
         {{ EVENT.location.name }}
       </a>!
