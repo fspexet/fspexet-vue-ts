@@ -8,7 +8,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@peterek/vite-plugin-favicons": "^1.0.0",
+    "@peterek/vite-plugin-favicons": "^2.1.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.7.14",
     "vue-class-component": "^6.0.0",
@@ -18,10 +18,10 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue2": "^2.2.0",
+    "@vitejs/plugin-vue2": "^2.3.3",
     "prettier": "^1.15.3",
     "sass": "^1.58.3",
     "typescript": "^4.9.5",
-    "vite": "^4.5.5"
+    "vite": "^7.1.5"
   }
 }
