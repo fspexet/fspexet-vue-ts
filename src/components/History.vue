@@ -11,7 +11,11 @@
     <div>
       <h4>Pesten (2024)</h4>
       <p>
-      <br/>
+        I ett historiskt, festligt infekterat Florens där alltifrån påvar till
+        pestläkare försöker sprida sina idéer följer spexet läkaraspiranten
+        Beatrice. I sin kamp mot pesten måste hon dock hantera dåliga handledare,
+        desillusionerade riddare, sin egen (o)dödlighet, och inte minst, Dante
+        Alighieri.
       </p>
       <hr/>
     </div>
