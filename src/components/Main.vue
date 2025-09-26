@@ -17,6 +17,8 @@
 </style>
 
 <script lang="ts">
+import 'primeicons/primeicons.css'
+
 import Header from '@/components/MainHeader.vue';
 import Footer from '@/components/MainFooter.vue';
 

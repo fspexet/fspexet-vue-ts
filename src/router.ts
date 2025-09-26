@@ -5,10 +5,15 @@ Vue.use(Router);
 export default new Router({
   mode: 'history',
   base: import.meta.env.BASE_URL,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    }
+    return { x: 0, y: 0 }
+  },
   routes: [
     {
       path: '/',
-      name: 'home',
       component: () => import('@/components/Main.vue'),
       children: [
         {
@@ -35,12 +40,20 @@ export default new Router({
               path: 'history',
               component: () => import('@/components/History.vue'),
             },
+            {
+              path: 'history/:year',
+              component: () => import('@/components/ViewOldSpex.vue'),
+            },
           ],
         },
         {
           path: 'contact',
           component: () => import('@/components/Contact.vue'),
         },
+        {
+          path: '*',
+          component: () => import('@/components/404.vue'),
+        }
       ],
     },
   ],

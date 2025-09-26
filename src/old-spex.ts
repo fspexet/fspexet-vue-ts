@@ -1,0 +1,51 @@
+export const spex_names = [
+  "Billy the Kid",
+  "Hera",
+  "Agatha Christie",
+  "Beowulf",
+  "Fantomen på operan",
+  "Mary Read",
+  "Medici och Pazzi",
+  "Thor Heyerdahl",
+  "Ludwig Emil Grimm",
+  "Kubakrisen",
+  "Zelda Fitzgerald",
+  "UR",
+  "Jules Verne",
+  "Cecilia Vasa",
+  "Döden",
+  "Johannes Kepler",
+  "Rockefeller",
+  "Tillbaka till Dåtiden",
+  "Marius Jacob",
+  "Pesten",
+  "Ernest & Earharts Äventyrsbyrå AB",
+];
+
+export const spex_descriptions = [
+  "Billy the Kid har återvänt till sin hemstad för att undgå lagens långa arm (eller finna sin ungdoms kärlek?). Men är Lerum sig likt, och vad är det som har hänt egentligen?",
+  "Hera, hustru till den notoriskt otrogne Zeus, smider planer för att hämnas på honom och hans oäktingar Herakles och Dionysos. Resultatet blir omvälvande för de flesta på Olympen, och vem som råkar värst ut i slutändan kan diskuteras...",
+  "2007 års produktion hette Agatha Christie - en mordgåta i flera stycken.",
+  "Beowulf är ett engelskt epos och sedemera så viktig att den kom att bli Englands nationalepos, trots att den handlar om vår skandinaviska hjälte.\n\nLegenden tros ha uppkommit någon gång mellan 700- och 1000-talet och behandla hjälten Beowulfs bravader under 500-talet. Monstret Grendel härjar i dänernas rike och kung Hrothgar kräver hjältens hjälp, som betalning för en skuld. Han lyckas ha ihjäl det elaka monstret på bakfyllan, då hon invaderat kungens slott efter en fest han haft. Likt vanliga tonåringar hade även Grendel en sur mamma som kommer på besök och även denna best lyckas Beowulf bekämpa.\n\nHjälten lyckas bli kung hos danernas grannar, men hemsöks av en drake utan namn. Eftersom han är kung blir han tvungen att ta itu med hotet, men det blir för mycket för honom och han trillar av pinn tillsammans med draken. Så slutar sagan.",
+  "2009 års spex handlade om Fantomen på operan.",
+  "2010 års F-Spex handlade om Mary Read, en kvinna på 1700-talet som klädde ut sig till man och blev pirat i kapten John 'Calico Jack' Rackhams besättning.",
+  "2011 års drama i tre akter och tre rätter för oss till Venedig framåt renässansens slut där släkterna Medici och Pazzi ständigt grälar.",
+  "2012 års F-Spex tog med gästerna på resa till mayaindianernas förglömda värld tillsammans med Thor Heyerdahls. Läs mer på F-spexet Thor Heyerdahls hemsida.",
+  "2013 års F-Spex utspelar sig i sagans värld där Ludwig - den tredje av de två bröderna Grimm - möter en ung häxa, en förbannad drottning, narren med de bästa skämten, en modig häst och sisådär 98 grodor.",
+  "2014 års F-Spex sträckte sig hela vägen från Moskva i öster till USA och Kuba i väster, och täckte in nästan alla de tillfällen som gör anspråk på att kallas \"det viktigaste ögonblicket i den moderna historien\".",
+  "2015 års F-Spex tog oss till Gertrude Steins salonger, hjärtat i Paris kulturliv under det glada 20-talet, och frågan alla ställer sig är: vem var det egentligen som skrev F. Scott Fitzgeralds Den Store Gatsby?",
+  "2016 års F-Spex tog oss till UR i forntiden.",
+  "I 2017 års F-spex fick vi följa med den oentusiastiska juristen Jules Verne, hans vänner, och Sigmund Freud, på en segling under havet till ett mystiskt föremål alla vill åt.",
+  "Gustav Vasas dotter Cecilia tvingas skaffa sig ett jobb så hon går och blir rik skapare. Ursäkta jag menade rikskapare ett yrke mer välkänt som pirat. Medan hon gett sig iväg på äventyr så sätter hennes far upp ett giftermål med hennes bror Erik och drottningen av England. En spännande berättelse som slutade med ärtsoppa.",
+  "Robert Oppenheimer dör och får äran att se hur kontorsarbetet ser ut i efterlivet, som vikarie till den antropomorfiska representationen av döden. Han fångas i mitten av en maktkamp mellan Azrael, Hel, och Hades, som har hand om var sin del av dödsriket - de Abrahamitiska troernas, Asatrons, respektive Hellenismens. Ett livligt spex präglat av intressekonflikt, naivitet, och tropisk semester.",
+  "Den unge Johannes Kepler blir inbjuden till kejsare Rudolf II:s hov i Prag, för att studera under hovastronomen Tycho Brahe. Omkring Kepler vecklar djupgående intriger ut sig: en passionerad konstnärlig fejd mellan Giuseppe Arcimboldo och Sofonisba Anguissola om titeln hovkonstnär, och en tvist om heliocentrism respektive geocentrism mellan Keplers mentor, Michael Mästlin, och Brahe. Illustrerad Vetenskap kring sekelskiftet år 1600 v.t. Tyvärr blev detta spexet aldrig framfört på grund av Covid-19 pandemin.",
+  "F-spexet Rockefeller handlade om den stenrika familjen Rockefeller och mordet på dess överhuvud John D. Rockefeller.",
+  "Detta spex handlar om Einstein och hans kollega som reser till framtiden, där Einstein inser att det faktiskt var bättre förr. Tyvärr är tidsmaskinen sönder. Hur ska det här sluta?",
+  "Spexet handlade om gentlemannatjuven Marius Jacob och hans mentor Moriarty, som besöker den kungliga operan där de planerar att begå årets stöld: att under en föreställning stjäla drottning Viktorias krona.",
+  "I ett historiskt, festligt infekterat Florens där alltifrån påvar till pestläkare försöker sprida sina idéer följer spexet läkaraspiranten Beatrice. I sin kamp mot pesten måste hon dock hantera dåliga handledare, desillusionerade riddare, sin egen (o)dödlighet, och inte minst, Dante Alighieri.",
+  "Ernest och Earhart's äventyrsbyrå anordnar en expedition till sydpolen vars mål är att hitta den mystiska figur som ryktas bo där.",
+];
+
+if (spex_names.length !== spex_descriptions.length) {
+  throw new Error("Names don't match descriptions: " + spex_names.length + " names and " + spex_descriptions.length + " descriptions!");
+}

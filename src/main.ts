@@ -4,6 +4,11 @@ import router from './router';
 import store from './store';
 import './registerServiceWorker';
 import Meta from 'vue-meta';
+
+import Collaborations from './components/Collaborations.vue';
+
+Vue.component('Collaborations', Collaborations)
+
 Vue.use(Meta);
 
 Vue.config.productionTip = false;

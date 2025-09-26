@@ -3,12 +3,6 @@
 export default {
   metaInfo: {
     title: 'F-Spexet - Biljetter',
-  },
-
-  setup() {
-    // Året för nollan slår om typ 1 juli varje år (det är inte alltid 181 dagar från 1 jan till 1 juli)
-    const nollanYear = new Date(new Date().valueOf() - 181 * 24 * 60 * 60 * 1000).getFullYear();
-    return { nollanYear }
   }
 };
 
@@ -17,49 +11,20 @@ export default {
 <template>
   <div class="contents">
     <h1>Biljetter</h1>
-    <hr />
+    <p style="margin-bottom: 5em;">Årets föreställningar är nu över och det går inte längre att köpa biljetter. Nästa års föreställningar har premiär på våren. Kom tillbaka då och köp biljetter.</p>
 
-    <p>Vårens föreställningar kommer att framföras i <a
-      href="https://maps.app.goo.gl/bAT5aQCVxnEr4QkB8"
-      target="_blank">Kalle Glader</a>!</p>
-    <p>OBS: Under föreställningen förekommer starkt blinkande ljus.</p>
-    <p>Föreställningarna sätts upp i samarbete med Studiefrämjandet.</p>
-
-    <h2>Priser</h2>
-    <ul>
-      <li>Student*: 150 kr</li>
-      <li>Ordinarie: 275 kr</li>
-    </ul>
-    <p>I dessa priser ingår även en trerätters middag!</p>
-
-    <!-- <p> -->
-      <!-- F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för -->
-      <!-- att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen. -->
-    <!-- </p> -->
-
-    <p>Förtydligande om anmärkningar:</p>
-    <ul class="clarifications">
-      <li>* Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.</li>
-    </ul>
     <h2>Köp biljett</h2>
-    <p>Köp er biljett på ett av följande sätt:</p>
-    <ul>
-      <li>
-        <p>
-          Lunchtid på vardagar veckorna innan premiär i F-spexets bås på Teknologgården utanför Chalmers kårhus,
-          <!-- Lunchtid vardagar vecka 36 i F-spexets bås på Teknologgården utanför Chalmers kårhus -->
-        </p>
-      </li>
+    <p>När biljetter blir tillgängliga köps de genom att fylla i formuläret nedan. Sedan skickas en betalningslänk via mejl.</p>
+    <div class="center">
+      <button title="Biljetter släpps till våren" disabled class="cta" style="margin-top: 0;">
+        Köp biljetter här!
+        <i class="pi pi-external-link"></i>
+      </button>
+    </div>
 
-      <li>
-        <p>
-          Genom att fylla i biljettformuläret som kommer här närmre premiären.
-          <!-- Genom att fylla i <a -->
-            <!-- href="https://docs.google.com/forms/d/e/1FAIpQLSdNYMPk6UcilK6YN7HjvibrP_4RtcGr97vpBjtS_-Qpgrv_vg/viewform" -->
-            <!-- target="_blank" -->
-          <!-- >biljettformuläret</a>. -->
-        </p>
-      </li>
+    <h2>Biljetter kan även köpas...</h2>
+    <ul>
+      <li>Lunchtid på vardagar veckorna innan premiär i F-spexets bås på Teknologgården utanför Chalmers kårhus.</li>
       <li>
         <p>
           Om du vill göra en större bokning eller inte lyckas köpa via
@@ -88,10 +53,6 @@ export default {
         </ul>
       </li>
     </ul>
-    <p>
-      Vid frågor, kontakta
-      <a href="mailto:biljetter@f-spexet.se">biljetter@f-spexet.se</a>.
-    </p>
 
     <h2>Avbokning</h2>
     <p>
@@ -99,6 +60,12 @@ export default {
       till <a href="mailto:biljetter@f-spexet.se">biljetter@f-spexet.se</a> och
       avbokar er biljett. Avbokningar som sker innan 23:59 dagen innan
       föreställningen återbetalas.
+    </p>
+
+    <h2>Kontakt</h2>
+    <p>
+      Vid frågor, kontakta
+      <a href="mailto:biljetter@f-spexet.se">biljetter@f-spexet.se</a>.
     </p>
   </div>
 </template>

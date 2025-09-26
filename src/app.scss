@@ -1,27 +1,22 @@
 @font-face {
-  font-family: EB Garamond;
+  src: url(./assets/fonts/Noto_Sans/normal.ttf) format('truetype');
+  font-family: Noto Sans;
   font-style: normal;
-  src: url(./assets/fonts/EBGaramond12-Regular.otf) format('opentype');
-}
-@font-face {
-  font-family: EB Garamond;
-  font-style: italic;
-  src: url(./assets/fonts/EBGaramond12-Italic.otf) format('opentype');
-}
-@font-face {
-  font-family: EB Garamond SC;
-  src: url(./assets/fonts/EBGaramondSC12-Regular.otf) format('opentype');
+
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Noto Sans';
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  // font-family: 'EB Garamond', 'Times New Roman', Times, serif;
 }
 
 html {
@@ -30,12 +25,11 @@ html {
 }
 
 body {
-  color: white;
+  color: rgb(193, 193, 193);
   background: rgb(10, 10, 10);
 }
 
 .main-body {
-  padding: 10px 30px 10px 30px;
   width: 100%;
   margin-bottom: 5rem;
 }
@@ -43,10 +37,17 @@ body {
 .contents {
   width: 100%;
   margin: auto;
-  max-width: 800px;
+  max-width: 1000px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Define the fonts for the following components */
+h1,
+h2 {
+  color: white;
+}
+
 h1,
 h2,
 h3,
@@ -57,18 +58,24 @@ ul {
 }
 
 p {
+  font-size: 1.15em;
   font-style: normal;
   font-variant: normal;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 h1 {
-  font-variant: small-caps;
+  font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
-  font-variant: small-caps;
+  font-size: 2rem;
 }
 
 h3 {
@@ -84,9 +91,15 @@ h4 {
 }
 
 a {
-  color: white;
+  opacity: 0.75;
+  color: rgb(33, 156, 250);
   font-style: italic;
   text-decoration: underline;
+  transition: 100ms opacity;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 #app {
@@ -94,28 +107,60 @@ a {
   background-position: center;
   background-attachment: fixed;
   background-image: url(@/assets/stars.jpg);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
 
-footer {
-  margin-top: auto;
-  margin-bottom: 0;
-}
-footer > h1 {
-  margin: 0;
-}
-
-.toplink {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 15px;
-  padding-right: 15px;
+// Instead of <center>
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#logo-image {
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: middle;
-  width: 150px;
+// Call to action button (primary button)
+.cta {
+  all: unset;
+
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bold;
+  
+  width: fit-content;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+
+  margin: 2em 0;
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  
+  transition: 100ms all;
+}
+
+.cta:disabled {
+  cursor: unset;
+  opacity: 0.25;
+}
+
+.cta:not(:disabled):hover {
+  scale: 1.05;
+  background: rgb(28, 126, 161);
+  color: white;
+}
+
+// Show description of spex next to poster
+.image_and_desc {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 651px) {
+  .image_and_desc {
+    flex-direction: column;
+    align-items: center;
+  }
 }

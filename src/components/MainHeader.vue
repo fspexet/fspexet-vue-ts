@@ -1,51 +1,115 @@
+<script lang="ts">
+
+import { ref } from 'vue';
+
+let f = () => {};
+let last = 0;
+
+export default {
+  setup() {
+    const visible = ref(innerWidth > 650);
+
+    f = () => {
+      if (innerWidth <= 650 && last > 650) {
+        visible.value = false;
+      }
+      if (innerWidth > 650) {
+        visible.value = true;
+      }
+
+      last = innerWidth;
+    }
+
+    window.addEventListener("resize", f);
+
+    return {
+      visible
+    }
+  },
+
+  beforeDestroy() {
+    window.removeEventListener("resize", f);
+  }
+}
+
+</script>
+
 <template>
   <header>
-    <div class="menu">
-      <router-link class="menu_button" to="/">
-        PREMIÄR
-      </router-link>
-      <router-link class="menu_button" to="/tickets">
-        BILJETTER
-      </router-link>
-      <router-link class="menu_button" id="logo" to="/">
-        <img
-          id="logo-image"
-          src="@/assets/logga_default.png"
-          alt="F-spexets logga"
-        />
+    <router-link to="/">
+      <img
+        id="logo-image"
+        src="@/assets/logos/fspexet.png"
+        alt="F-spexets logga"
+      />
+    </router-link>
+
+    <button class="toggle" @click="visible = !visible">
+      <i class="pi pi-bars"></i>
+    </button>
+
+    <div class="menu" v-if="visible">
+      <router-link class="menu_button" to="/about-us/history">
+        Tidigare spex
       </router-link>
       <router-link class="menu_button" to="/about-us">
-        OM OSS
+        Om oss
       </router-link>
       <router-link class="menu_button" to="/contact">
-        KONTAKT
+        Kontakt
       </router-link>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/fspexet" title="Följ oss på Instagram">
+          <i class="pi pi-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/FSpexet" title="Följ oss på Facebook">
+          <i class="pi pi-facebook"></i>
+        </a>
+        <a href="mailto:styret@f-spexet.se" title="Kontakta oss via mejl">
+          <i class="pi pi-envelope"></i>
+        </a>
+      </div>
     </div>
   </header>
 </template>
 
 <style scoped>
 
-header {
-  width: max-content;
-  margin: 5px auto;
+a {
+  color: inherit;
 }
 
-.menu {
+header {
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.25rem 1rem;
+
+  background: black;
+  z-index: 200;
+}
+
+.menu,
+.socials {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.menu_button {
-  color: inherit;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: normal;
+.socials {
+  gap: 1rem;
 }
 
 .menu_button {
-  margin-right: 3px;
+  color: inherit;
+  font-weight: bold;
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -53,8 +117,56 @@ header {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 800px) {
-  header {
+#logo-image {
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.toggle {
+  all: unset;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+}
+
+@media screen and (max-width: 651px) {
+  .toggle {
+    display: flex;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 0;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+
+    background: white;
+    color: black;
+    box-shadow: 0 0 3rem rgba(0, 4, 26, 0.5);
+  }
+
+  .menu_button,
+  .socials {
+    padding: 1em;
+  }
+
+  .socials {
+    font-size: 1.5rem;
+    gap: 2rem;
+  }
+
+  /* header {
     overflow-x: hidden;
     width: 100%;
     margin-bottom: 3rem;
@@ -76,7 +188,7 @@ header {
     flex: 0 0 100%;
     width: 100%;
     order: 1;
-  }
+  } */
 }
 
 </style>
