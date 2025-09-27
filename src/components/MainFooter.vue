@@ -31,10 +31,12 @@
       </div>
     </div>
 
-    <div class="development_container">
-      <h2>Underhåll och utveckling</h2>
-      <p>F-spexet media</p>
-      <a href="mailto:media@f-spexet.se">media@f-spexet.se</a>
+    <div class="boxes_wrapper">
+      <div class="development_container">
+        <h2 style="text-align: center;">Underhåll och utveckling</h2>
+        <p>F-spexet media</p>
+        <a href="mailto:media@f-spexet.se">media@f-spexet.se</a>
+      </div>
     </div>
 
     <div class="logos">
@@ -108,12 +110,19 @@ footer,
   flex-direction: row;
   justify-content: center;
 
+  padding: 1rem;
   gap: 2rem;
 }
 
 .box {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   margin: 10px;
+}
+
+.development_container {
+  width: 100%;
+  max-width: 500px;
 }
 
 .vertical_divider {
@@ -123,7 +132,7 @@ footer,
   display: flex;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1140px) {
   .vertical_divider {
     display: none;
   }
