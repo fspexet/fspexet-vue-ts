@@ -127,8 +127,8 @@ header {
 .toggle {
   all: unset;
   cursor: pointer;
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
 
   justify-content: center;
   align-items: center;
@@ -156,14 +156,14 @@ header {
     box-shadow: 0 0 3rem rgba(0, 4, 26, 0.5);
   }
 
-  .menu_button,
-  .socials {
+  .menu_button {
     padding: 1em;
   }
 
   .socials {
     font-size: 1.5rem;
     gap: 2rem;
+    padding: 0.5em;
   }
 
   /* header {

@@ -39,7 +39,7 @@ import { spex_descriptions, spex_names } from '@/old-spex';
 <template>
   <div>
     <div class="front-picture">
-      <img class="front-picture__background" src="../assets/pictures/group_picture.JPG" />
+      <img alt="Gruppbild på f-spexet" class="front-picture__background" src="../assets/pictures/group_picture.JPG" />
       <div class="front-picture__content">
         <img
           class="logo"
@@ -74,8 +74,8 @@ import { spex_descriptions, spex_names } from '@/old-spex';
     </div>
 
     <div class="pictures-collection">
-      <img src="@/assets/pictures/DSC_0051.JPG" />
-      <img src="@/assets/pictures/DSC_4548.JPG" />
+      <img alt="Bild på ensemblen" src="@/assets/pictures/DSC_0051.JPG" />
+      <img alt="Två glada spexare" src="@/assets/pictures/DSC_4548.JPG" />
     </div>
 
     <div class="contents">
@@ -95,7 +95,7 @@ import { spex_descriptions, spex_names } from '@/old-spex';
       <h1>Senaste spexet</h1>
       <div class="card">
         <div class="image_and_desc">
-          <img :src="`/assets/posters/${latestSpexYear}.jpg`" width="250" />
+          <img alt="Affisch för senaste spexet" :src="`/assets/posters/${latestSpexYear}.jpg`" width="250" />
           <div>
             <h2 style="margin-top: 0;">{{ latestSpexName }} ({{ latestSpexYear }})</h2>
             <p>Det senaste spexet var "{{ latestSpexName }}". Du kan se våra gamla spex samlade under fliken <router-link to="/about-us/history">Tidigare spex</router-link>.</p>
