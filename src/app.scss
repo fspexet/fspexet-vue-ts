@@ -155,6 +155,7 @@ a:hover {
 // Show description of spex next to poster
 .image_and_desc {
   display: flex;
+  align-items: flex-start;
   gap: 2rem;
 }
 
