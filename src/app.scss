@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  color: black;
+  color: rgb(255, 255, 255);
   background: black;
 }
 
@@ -40,14 +40,24 @@ body {
 
 #mainpage {
   background: rgb(36,62,131);
-  background: linear-gradient(180deg, rgb(153 176 238) 2vh, rgba(220, 250, 255, 1) 100vh);
-
-  /* background: linear-gradient(180deg, rgb(20, 23, 31) 2vh, rgb(11, 15, 16) 100vh); */
+  background: linear-gradient(180deg, rgb(32, 21, 47), rgb(0,0,0))
 }
 
 .main-body {
   width: 100%;
   padding-bottom: 5em;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+
+  width: 5px;
+  height: 5px;
+  left: 10vw;
+  top: 50vh;
 }
 
 .contents {
@@ -103,7 +113,7 @@ hr {
 }
 
 a {
-  color: black;
+  color: rgb(255, 255, 255);
   font-style: italic;
   text-decoration: underline;
 }

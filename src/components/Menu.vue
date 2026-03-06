@@ -6,24 +6,26 @@
         <div class="menu_content">
             <div class="course">
                 <h3>Förrätt</h3>
-                <p>Havstoast med tångrom och gräddfil</p>
-                <img src="@/assets/food-pictures/forratt_small.JPG" alt="Förrätt" />
+                <p>Pryaniki med chévrekräm och rårörda lingon, fri från arsenik</p>
+            
             </div>
 
             <div class="course">
                 <h3>Varmrätt</h3>
-                <p>Pasta med svampsås</p>
-                <img src="@/assets/food-pictures/huvudratt_small.JPG" alt="Varmrätt" />
+                <p>Плов Ольги (Olgas Plov)</p>
+                
             </div>
 
             <div class="course">
                 <h3>Efterrätt</h3>
-                <p>Flädermousse med hallonkompott</p>
-                <img src="@/assets/food-pictures/efterratt_small.JPG" alt="Eferrätt" />
+                <p>Äppelpaj med vaniljsås</p>
+                
             </div>
         </div>
     </div>
 </template>
+
+
 
 <script lang="ts">
   export default {

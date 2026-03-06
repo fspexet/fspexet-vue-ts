@@ -2,26 +2,26 @@
   <header>
     <div class="menu">
       <router-link class="menu_button" to="/tickets">
-        <img class="board" src="@/assets/front-page-art/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
         <span>BILJETTER</span>
       </router-link>
       <router-link class="menu_button" to="/menu">
-        <img class="board" src="@/assets/front-page-art/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
         <span>MENY</span>
       </router-link>
       <router-link class="menu_logo_button" id="logo" to="/">
         <img
           id="logo-image"
           src="@/assets/logos/logga_hemsida.svg"
-          alt="F-spexets logga för 2025"
+          alt="F-spexets logga för 2026"
         />
       </router-link>
       <router-link class="menu_button" to="/about-us">
-        <img class="board" src="@/assets/front-page-art/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
         <span>OM OSS</span>
       </router-link>
       <router-link class="menu_button" to="/contact">
-        <img class="board" src="@/assets/front-page-art/planka.svg" />
+        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
         <span>KONTAKT</span>
       </router-link>
     </div>
@@ -41,6 +41,7 @@ header {
   position: relative;
   z-index: 100;
 }
+
 
 .menu {
   display: flex;
@@ -69,6 +70,7 @@ header {
 
 .menu_button .board {
   width: 150px;
+  top: -38px;
   position: absolute;
 }
 

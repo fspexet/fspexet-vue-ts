@@ -41,23 +41,22 @@
 
 <template>
   <div>
-    <div class="sky">
-      <h2>F-spexet 2025 presenterar</h2>
-      <h1>Ernest & Earharts<br>Äventyrsbyrå AB</h1>
+    <div class="earth">
+      <img src="@/assets/front-page-art/jorden.svg" class="earth_img">
     </div>
-    <div class="water-surface">
-      <img src="@/assets/front-page-art/boat.svg" class="boat" />
-      <div class="ice_container">
-        <img src="@/assets/front-page-art/isflak.svg" class="ice" />
-        <img src="@/assets/front-page-art/seal2.svg" class="seal" />
+    <div class="presentation">
+      <h3>F-spexet 2026 presenterar</h3>
+      <h1>Månlandningen</h1>
+    </div>
+    <div class="early_space">
+      <div class="rocket">
+        <img src="@/assets/front-page-art/raketen2.svg" class="rocket_img">
       </div>
     </div>
-    <div class="water">
-      <img src="@/assets/front-page-art/light-ray.png" class="light-ray" />
-      <img src="@/assets/front-page-art/seal1.svg" class="seal" />
-
+    
+    <div class="space">
       <div class="text-box">
-        <h1>Välkommen till F-spexet 2025</h1>
+        <h2>Välkommen till F-spexet 2026</h2>
         <p>
           {{ semester }} föreställningar kommer att framföras {{ EVENT.location.preposition ?? "i" }}
           <a :href="EVENT.location.maps" target="_blank">
@@ -88,7 +87,7 @@
         </a>
 
         <div class="countdown_clock_wrapper">
-          <h2>Premiär om</h2>
+          <h3>Premiär om</h3>
           <div class="countdown_clock">
             <span class="digit">{{ countdownLabel[0] }}</span>
             <span>:</span>
@@ -109,6 +108,9 @@
         </div>
       </div>
     </div>
+    <div class="moon">
+        <img src="@/assets/front-page-art/manen.svg" class="moon_img">
+      </div>
   </div>
 </template>
 
@@ -134,11 +136,16 @@
   }
 
   h1 {
-    font-size: min(9vw, 5em);
+    font-size: min(15vw, 7em);
     margin: 0.25em;
   }
 
   h2 {
+    font-size: min(9vw, 5em);
+    margin: 0.25em;
+  }
+
+  h3 {
     font-size: min(5vw, 2em);
     margin: 0;
   }
@@ -147,67 +154,82 @@
     text-decoration: line-through;
     color: #ff7474;
   }
+  .earth {
+    height: 70em;
 
-  .sky {
-    height: 30vw;
-    min-height: 40vh;
-  
+    position: relative;
+
+    top: -25em;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background: radial-gradient(circle at top, rgb(21, 177, 255) 30em, rgb(0, 0, 0, 0) 50em);
   }
+
+
+  .earth_img {
+    width: 70em;
+    position: relative;
+    top: -30em;
+
+    rotate: 100deg;
+
+    z-index: 20;
+  }
+  
+  .early_space {
+    width: 40em;
+
+    top: -50em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rocket{
+    position: relative;
+    
+    left: 60vw;
+
+    width: 5em;
+    top: -40em;
+   
+
+    rotate: 210deg;
+  }
+
+  .presentation {
+    height: 10em;
+    
+    position: relative;
+    top: -40em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    z-index: 20
+  } 
 
   .sky > * {
     z-index: 10;
   }
 
-  .water-surface {
-    height: 20vw;
-    min-height: 20vh;
-
-    position: relative;
-    background: linear-gradient(0deg, rgb(25, 32, 50) 0%, rgb(52, 58, 84) 100%);
-    /* border-bottom: 2vw solid white; */
-  }
-
-  .boat {
-    position: absolute;
-    width: 20vw;
-    right: 10vw;
-    bottom: 2vw;
-  }
-
-  .water-surface .ice_container {
-    position: absolute;
-    left: 8vw;
-    top: 2vw;
-  }
-
-  .ice_container > img {
-    position: absolute;
-  }
-
-  .ice_container .seal {
-    width: 8vw;
-    left: 7vw;
-    top: -4vw;
-  }
-
-  .ice_container .ice {
-    width: 20vw;
-  }
-
-  .water {
-    min-height: 100vw;
-    background: rgb(22,16,0);
-    background: linear-gradient(0deg, rgba(22, 16, 0, 1) 0%, rgb(26 57 62) 100%);
-    color: white;
+  .space {
     overflow: hidden;
     display: flex;
     justify-content: center;
     padding: 1em;
+
+    top: -40em;
 
     margin-bottom: -5em;
     padding-bottom: 5em;
@@ -215,27 +237,30 @@
     position: relative;
   }
 
-  .water .seal {
-    position: absolute;
-    filter: blur(2px) brightness(0.5);
-    right: 5vw;
-    top: 5vw;
-    width: 20vw;
+  .moon{
+    height: 80em;
+
+    position: relative;
+    top: -30em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    overflow: hidden;
   }
 
-  .light-ray {
-    width: 100%;
-    filter: blur(10px);
-    transform: translateY(-300px);
-    opacity: 0.1;
-
-    top: 0;
-    position: absolute;
+  .moon_img {
+    height: 80em;
   }
+
+
 
   .text-box {
     max-width: 800px;
-    z-index: 1;
+    z-index: 20;
   }
 
   .text-box h1 {
@@ -249,16 +274,6 @@
       padding-top: 5vh;
     }
   
-    .water-surface .ice_container {
-      display: none;
-    }
-
-    .boat {
-      width: 40vw;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 10vw;
-    }
   }
 
   .countdown_clock_wrapper {
