@@ -6,20 +6,20 @@
         <div class="menu_content">
             <div class="course">
                 <h3>Förrätt</h3>
-                <p>Pryaniki med chévrekräm och rårörda lingon, fri från arsenik</p>
-            
+                <p>Pryaniki med chévrekräm och rårörda lingon</p>
+                <img src="@/assets/food-pictures/forratt.jpg">
             </div>
 
             <div class="course">
                 <h3>Varmrätt</h3>
                 <p>Плов Ольги (Olgas Plov)</p>
-                
+                <img src="@/assets/food-pictures/huvudratt.jpg"> 
             </div>
 
             <div class="course">
                 <h3>Efterrätt</h3>
                 <p>Äppelpaj med vaniljsås</p>
-                
+                <img src="@/assets/food-pictures/efterratt.jpg">
             </div>
         </div>
     </div>

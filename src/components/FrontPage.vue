@@ -136,7 +136,7 @@
   }
 
   h1 {
-    font-size: min(15vw, 7em);
+    font-size: min(15vw, 6em);
     margin: 0.25em;
   }
 
@@ -169,6 +169,7 @@
 
     background: radial-gradient(circle at top, rgb(21, 177, 255) 30em, rgb(0, 0, 0, 0) 50em);
   }
+
 
 
   .earth_img {
@@ -268,12 +269,99 @@
     text-align: center;
   }
 
+  /* Settings for phones */
   @media screen and (max-width: 800px) {
-    .sky {
-      justify-content: start;
-      padding-top: 5vh;
+    h1 {
+      font-size: min(12vw, 7em);
     }
-  
+
+    .earth {
+      height: 60em;
+
+      position: relative;
+
+      top: -35em;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      background: radial-gradient(circle at top, rgb(21, 177, 255) 25em, rgb(0, 0, 0, 0) 45em);
+      overflow: hidden;
+    }
+    .presentation {
+      height: 5vw;
+    
+      position: relative;
+      top: -50em;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      z-index: 20
+    } 
+
+    .early_space {
+      width: 40vw;
+      height: 10vw;
+
+      top: -50em;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .rocket {
+      position: relative;
+
+      left: 50vw;
+
+      width: 10vw;
+      top: -42em;
+   
+
+      rotate: 210deg;
+    }
+    .space {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+
+      top: -40em;
+
+      margin-bottom: -5em;
+      padding-bottom: 5em;
+
+      position: relative;
+    }
+
+    .moon{
+      height: 50em;
+
+      position: relative;
+      top: -30em;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      overflow: hidden;
+    }
+
+    .moon_img {
+      height: 50em;
+    }
+
   }
 
   .countdown_clock_wrapper {
