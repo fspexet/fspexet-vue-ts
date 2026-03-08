@@ -2,11 +2,11 @@
   <header>
     <div class="menu">
       <router-link class="menu_button" to="/tickets">
-        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
+        <img class="board" src="@/assets/front-page-art/Asteroid_belt.svg" />
         <span>BILJETTER</span>
       </router-link>
       <router-link class="menu_button" to="/menu">
-        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
+        <img class="board" src="@/assets/front-page-art/Asteroid_belt.svg" />
         <span>MENY</span>
       </router-link>
       <router-link class="menu_logo_button" id="logo" to="/">
@@ -17,11 +17,11 @@
         />
       </router-link>
       <router-link class="menu_button" to="/about-us">
-        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
+        <img class="board" src="@/assets/front-page-art/Asteroid_belt.svg" />
         <span>OM OSS</span>
       </router-link>
       <router-link class="menu_button" to="/contact">
-        <img class="board" src="@/assets/front-page-art/UFObutton.svg" />
+        <img class="board" src="@/assets/front-page-art/Asteroid_belt.svg" />
         <span>KONTAKT</span>
       </router-link>
     </div>
@@ -70,7 +70,7 @@ header {
 
 .menu_button .board {
   width: 150px;
-  top: -38px;
+  top: -18px;
   position: absolute;
 }
 
