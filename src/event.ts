@@ -20,81 +20,38 @@ const FOCUS: SpexLocation = {
 // Året för nollan slår om typ 1 juli varje år (det är inte alltid 181 dagar från 1 jan till 1 juli men det stämmer typ)
 const nollanYear = new Date(new Date().valueOf() - 181 * 24 * 60 * 60 * 1000).getFullYear();
 
-// const AUTUMN_EVENT: SpexEvent = {
-//   semester: "autumn",
-//   tickets: {
-//     form_link: "https://docs.google.com/forms/d/e/1FAIpQLSclJ3yahpsin0XDOHUp1kQ0ewaYjjOgtKfbWTB7dtpTyiPsNw/viewform?usp=sharing&ouid=111267810821293790900"
-//   },
-//   location: FOCUS,
-//   performances: [
-//     {
-//       day: "2025-09-08",
-//       time: "67:00",
-//       note: "Nollanföreställning",
-//     },
-//     {
-//       day: "2025-09-09",
-//       time: "18:00",
-//     },
-//     {
-//       day: "2025-09-10",
-//       time: "18:00",
-//     }
-//   ],
-//   generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
-//   prices: [
-//     {
-//       name: "F-nollan (endast 8/9)",
-//       price: 50,
-//       note: `Gäller F-nollan år ${nollanYear}`,
-//     },
-//     {
-//       name: "Nollan (endast 8/9)",
-//       price: 100
-//     },
-//     {
-//       name: "Student",
-//       price: 150,
-//       note: "Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.",
-//     },
-//     {
-//       name: "Ordinarie",
-//       price: 275
-//     },
-//   ]
-// }
-const SPRING_EVENT: SpexEvent = {
-  semester: "spring",
+const AUTUMN_EVENT: SpexEvent = {
+  semester: "autumn",
   tickets: {
-    form_link: "https://forms.gle/PgsASsYTEa89Zudx8"
+    form_link: "https://forms.gle/TqGjhk5V7hqToiuq6"
   },
-  location: KALLE_GLADER,
+  location: FOCUS,
   performances: [
     {
-      day: "2026-04-14",
+      day: "2026-09-07",
       time: "18:00",
-      note: "Premiär!"
+      note: "Nollanföreställning",
     },
     {
-      day: "2026-04-15",
-      time: "18:00",
-    },
-    {
-      day: "2026-04-17",
+      day: "2026-09-08",
       time: "18:00",
     },
     {
-      day: "2026-04-18",
-      time: "17:00",
-    },
-    {
-      day: "2026-04-19",
-      time: "16:00",
-      note: "Buskföreställning"
+      day: "2026-09-09",
+      time: "18:00",
     }
   ],
-  // generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
+  generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
   prices: [
+    {
+      name: "F-nollan (endast 8/9)",
+      price: 50,
+      note: `Gäller F-nollan år ${nollanYear}`,
+    },
+    {
+      name: "Nollan (endast 8/9)",
+      price: 100
+    },
     {
       name: "Student",
       price: 150,
@@ -106,8 +63,51 @@ const SPRING_EVENT: SpexEvent = {
     },
   ]
 }
+// const SPRING_EVENT: SpexEvent = {
+//   semester: "spring",
+//   tickets: {
+//     form_link: "https://forms.gle/PgsASsYTEa89Zudx8"
+//   },
+//   location: KALLE_GLADER,
+//   performances: [
+//     {
+//       day: "2026-04-14",
+//       time: "18:00",
+//       note: "Premiär!"
+//     },
+//     {
+//       day: "2026-04-15",
+//       time: "18:00",
+//     },
+//     {
+//       day: "2026-04-17",
+//       time: "18:00",
+//     },
+//     {
+//       day: "2026-04-18",
+//       time: "17:00",
+//     },
+//     {
+//       day: "2026-04-19",
+//       time: "16:00",
+//       note: "Buskföreställning"
+//     }
+//   ],
+//   // generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
+//   prices: [
+//     {
+//       name: "Student",
+//       price: 150,
+//       note: "Som student räknas alla som är till och med 24 år och/eller som har ett giltigt student-id.",
+//     },
+//     {
+//       name: "Ordinarie",
+//       price: 275
+//     },
+//   ]
+// }
 
-const EVENT: SpexEvent = SPRING_EVENT;
+const EVENT: SpexEvent = AUTUMN_EVENT;
 
 export default EVENT;
 
