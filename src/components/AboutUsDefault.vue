@@ -38,6 +38,7 @@
       <li>Mer ordvitsar!</li>
       <li>På norska!</li>
       <li>I falsett!</li>
+      <li>Annat namn!</li>
       <li>Golvet är lava!</li>
       <li>Taket läcker!</li>
       <li>Korståg!</li>
