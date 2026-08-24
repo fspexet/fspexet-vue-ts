@@ -44,12 +44,12 @@ const AUTUMN_EVENT: SpexEvent = {
   generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
   prices: [
     {
-      name: "F-nollan (endast 8/9)",
+      name: "F-nollan (endast 7/9)",
       price: 50,
       note: `Gäller F-nollan år ${nollanYear}`,
     },
     {
-      name: "Nollan (endast 8/9)",
+      name: "Nollan (endast 7/9)",
       price: 100
     },
     {
