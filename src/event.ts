@@ -39,6 +39,7 @@ const AUTUMN_EVENT: SpexEvent = {
     {
       day: "2026-09-09",
       time: "18:00",
+      note: "Sing-Along"
     }
   ],
   generalPerformanceNote: "F-nollan har bokningsförtur till första föreställningen. Övriga gäster kan boka innan det för att läggas på en väntlista för att få biljett i mån av plats. Besked meddelas två dagar innan första föreställningen.",
@@ -49,8 +50,9 @@ const AUTUMN_EVENT: SpexEvent = {
       note: `Gäller F-nollan år ${nollanYear}`,
     },
     {
-      name: "Nollan (endast 7/9)",
-      price: 100
+      name: "Nollan",
+      price: 100,
+      note: `Gäller Chalmers-nollan år ${nollanYear}`,
     },
     {
       name: "Student",
